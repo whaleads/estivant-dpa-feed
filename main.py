@@ -72,7 +72,11 @@ EXTRACT_JS = r"""
       media.find(s => /estivant\.(nl|com)\/media/i.test(s) && /width=1440/.test(s)) ||
       media.find(s => /estivant\.(nl|com)\/media/i.test(s)) ||
       ogImg || '';
-  return { item, currency, metaDesc, canonical, hero };
+  // galerij: unieke estivant media-afbeeldingen (zonder query), voor additional_image_link
+  const gallery = [...new Set(
+      media.filter(s => /estivant\.(nl|com)\/media/i.test(s)).map(s => s.split('?')[0])
+  )];
+  return { item, currency, metaDesc, canonical, hero, gallery };
 }
 """
 
@@ -181,6 +185,15 @@ async def crawl():
             thema = item.get("thema") or ""
             place = clean_place(item.get("item_name"), slug)
             tags = [t.strip() for t in thema.split(",") if t.strip()]
+            age_groups = [
+                t for t in tags
+                if "km" not in t.lower()
+                and re.search(r"\d+\s*(?:-\s*\d+\s*)?jaar|\d+\s*(?:plus|\+)", t.lower())
+            ]
+            hero = data.get("hero") or ""
+            hero_base = hero.split("?")[0]
+            gallery = data.get("gallery") or []
+            additional_images = [g for g in gallery if g != hero_base][:10]
             listing = {
                 "destination_id": str(item.get("item_id") or "").strip(),
                 "name": (item.get("item_name") or place).strip(),
@@ -198,6 +211,8 @@ async def crawl():
                 "segment": "Eenoudervakantie" if seg == "eog" else "Singlereis",
                 "season": derive_season(thema),
                 "themes": tags,
+                "age_groups": ", ".join(age_groups),
+                "additional_images": additional_images,
                 "seg": seg,
             }
             if not listing["destination_id"]:
@@ -309,6 +324,8 @@ def _rss_item(d):
     p.append(f"    <g:price>{escape(d['price'])}</g:price>")
     p.append(f"    <g:link>{escape(d['url'])}</g:link>")
     p.append(f"    <g:image_link>{escape(d['image_url'])}</g:image_link>")
+    for img in d.get("additional_images", []):
+        p.append(f"    <g:additional_image_link>{escape(img)}</g:additional_image_link>")
     p.append("    <g:brand>Estivant</g:brand>")
     pt = _product_type(d)
     if pt:
@@ -319,6 +336,9 @@ def _rss_item(d):
     if d["season"]:
         p.append(f"    <g:custom_label_2>{escape(d['season'])}</g:custom_label_2>")
     p.append(f"    <g:custom_label_3>{escape(d['country'])}</g:custom_label_3>")
+    if d.get("age_groups"):
+        p.append(f"    <g:custom_label_4>{escape(d['age_groups'])}</g:custom_label_4>")
+    p.append(f"    <g:custom_number_0>{d['price_number']}</g:custom_number_0>")
     p.append("  </item>")
     return "\n".join(p)
 
@@ -342,16 +362,18 @@ def write_products_xml(path, title, rows):
 
 PRODUCTS_CSV_HEADERS = [
     "id", "title", "description", "availability", "condition", "price",
-    "link", "image_link", "brand", "product_type",
-    "custom_label_0", "custom_label_1", "custom_label_2", "custom_label_3",
+    "link", "image_link", "additional_image_link", "brand", "product_type",
+    "custom_label_0", "custom_label_1", "custom_label_2", "custom_label_3", "custom_label_4",
+    "custom_number_0",
 ]
 
 
 def _products_csv_row(d):
     return [
         d["destination_id"], d["name"], d["description"], "in stock", "new", d["price"],
-        d["url"], d["image_url"], "Estivant", _product_type(d),
-        d["segment"], d["type"], d["season"], d["country"],
+        d["url"], d["image_url"], ",".join(d.get("additional_images", [])), "Estivant", _product_type(d),
+        d["segment"], d["type"], d["season"], d["country"], d.get("age_groups", ""),
+        d["price_number"],
     ]
 
 

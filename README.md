@@ -19,6 +19,11 @@ https://raw.githubusercontent.com/whaleads/estivant-dpa-feed/main/output/feed_sn
 
 ---
 
+## Feed-velden (products)
+`id` (=item_id), `title`, `description`, `availability` (in stock), `condition` (new), `price` (EUR), `link`, `image_link`, **`additional_image_link` (tot 10 extra foto's/reis)**, `brand` (Estivant), `product_type` (segment > land > categorie), `custom_label_0` (EOG/SNG), `custom_label_1` (categorie), `custom_label_2` (seizoen), `custom_label_3` (land), **`custom_label_4` (leeftijdsgroepen)**, `custom_number_0` (prijs als getal).
+
+Nog toe te voegen zodra de **vertrekkalender** live is: reisduur (nachten), eerstvolgende vertrekdatum, en actuele beschikbaarheid (Beschikbaar/Bijna vol → out of stock). Van/voor-korting (`sale_price`) kan zodra de site strike-through prijzen toont.
+
 ## 1. Hoe het werkt
 
 1. **Bron van waarheid = `sitemap.xml`** → alle reis-URL's (patroon `/<sectie>/<land>/<slug>`).
