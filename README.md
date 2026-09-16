@@ -64,10 +64,12 @@ Daarna kun je **Advantage+ catalog-campagnes (DPA)** draaien op destination-sets
 
 ## 4. Pixel-audit & vereiste GTM-controle
 
-Bevindingen van de live site (03-09-2026):
+Bevindingen van de live site (geverifieerd 16-09-2026, read-only — niets gewijzigd):
 
-- **Meta-pixel `555359731496980`** is aanwezig, maar **consent-gated via Cookiebot** — vuurt pas ná marketing-toestemming (correct AVG-gedrag).
-- Events lopen via **Google Tag Manager** vanuit een GA4 `dataLayer.view_item` met o.a. `item_id`, `price`, `item_country`, `item_category`.
+- **Meta-pixel `555359731496980`**, **consent-gated via Cookiebot** (`cbid 1b197912-c29b-45e8-9473-8f71a5aa3615`, marketing standaard uit).
+- **Server-side tracking via Taggrs** op eigen subdomein `sst.estivant.nl` (loader `tg=5GMTGBH4`). Meta-events lopen via **server-side GTM + Conversions API** — `fbevents.js` wordt client-side niet geladen. Ook Datatrics (personalisatie) aanwezig.
+- Client-side voeding = GA4 `dataLayer.view_item` met `item_id`, `price`, `item_country`, `item_category`, `thema`.
+- **`content_type` / `content_ids` worden in de Taggrs sGTM-container bepaald.** Die config is alleen zichtbaar met Taggrs/GTM-login (niet read-only vanaf de site te lezen). **Nog te bevestigen** in Taggrs of Meta Events Manager (zie tabel) — dit is bewust NIET aangepast.
 
 **Actiepunt — verifieer/pas de Meta-tag in GTM aan** zodat destination-DPA werkt:
 
@@ -83,9 +85,15 @@ Bevindingen van de live site (03-09-2026):
 
 ---
 
-## 5. Optioneel: ook naar Google Sheets schrijven
+## 5. Google Sheet (mirror)
 
-De crawler kan de feeds ook naar twee tabs (`EOG`, `SNG`) van een Google Sheet schrijven.
+Er is al een gevulde Google Sheet aangemaakt met twee tabs (`EOG`, `SNG`), kolommen volgens de Meta destinations-conventie:
+
+- **Sheet:** `Estivant DPA Feed — destinations (EOG + SNG)`
+- **ID:** `1Vn9KwvySYEH0HOYtffg9aaiDCfhwRvR1AmP1qrsDP0A`
+- **URL:** https://docs.google.com/spreadsheets/d/1Vn9KwvySYEH0HOYtffg9aaiDCfhwRvR1AmP1qrsDP0A/edit
+
+Wil je de Sheet **dagelijks automatisch** laten bijwerken door de crawler (i.p.v. de XML-feeds), zet dan een service account op:
 
 1. Maak in Google Cloud (gratis) een **service account** + JSON-key; zet de **Google Sheets API** aan.
 2. Deel de Google Sheet met het service-account-e-mailadres (Bewerker).
