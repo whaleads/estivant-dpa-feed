@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<listings>
+  <title>Estivant Singlereizen</title>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/sohhuaje/istock-2222337572-2.jpg?width=1440&amp;height=775&amp;v=1dd410ab25a6590</url>
+      <tag>Stedentrips</tag>
+    </image>
+    <destination_id>371</destination_id>
+    <url>https://www.estivant.nl/singlereizen/belgie/antwerpen-feestdagen</url>
+    <name>Singlereis Antwerpen</name>
+    <description>Ga mee op singlereis naar Antwerpen en vier de feestdagen bij onze zuiderburen! Te boeken voor zowel een gezellige kerst als een feestelijk oud &amp; nieuw!</description>
+    <price>649.00 EUR</price>
+    <address format="simple">
+      <component name="city">Antwerpen</component>
+      <component name="region">België</component>
+      <component name="country">België</component>
+    </address>
+    <neighborhood>Antwerpen</neighborhood>
+    <type>Stedentrips</type>
+    <type>Singlereis</type>
+    <custom_number_0>649</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Stedentrips</custom_label_1>
+    <custom_label_3>België</custom_label_3>
+    <product_tags>Stedentrips</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>50-69 jaar</product_tags>
+    <product_tags>Feestdagen</product_tags>
+    <product_tags>België</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/2r5hsu0a/pexels-dylan-chan-2880813-30427221-1.jpg?width=1440&amp;height=775&amp;v=1dd2503ced75110</url>
+      <tag>Stedentrips</tag>
+    </image>
+    <destination_id>370</destination_id>
+    <url>https://www.estivant.nl/singlereizen/belgie/gent-feestdagen</url>
+    <name>Singlereis Gent</name>
+    <description>Vier de feestdagen in Gent tijdens onze singlereis. Ontdek de kerstmarkt, vele biercafe's en de ijsbaan. Kies voor een gezellige kerst of knallend oud &amp; nieuw!</description>
+    <price>639.00 EUR</price>
+    <address format="simple">
+      <component name="city">Gent</component>
+      <component name="region">België</component>
+      <component name="country">België</component>
+    </address>
+    <neighborhood>Gent</neighborhood>
+    <type>Stedentrips</type>
+    <type>Singlereis</type>
+    <custom_number_0>639</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Stedentrips</custom_label_1>
+    <custom_label_3>België</custom_label_3>
+    <product_tags>Stedentrips</product_tags>
+    <product_tags>30-49 jaar</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>Feestdagen</product_tags>
+    <product_tags>België</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/fgfnzjm4/berliner_weihnachtszeit18_c_visitberlin_foto_dagmar_schwelle.jpg?rxy=0.4824561403508772,0.5163562895951391&amp;width=1440&amp;height=775&amp;v=1dd24bba3180e90</url>
+      <tag>Stedentrips</tag>
+    </image>
+    <destination_id>372</destination_id>
+    <url>https://www.estivant.nl/singlereizen/duitsland/berlijn-feestdagen</url>
+    <name>Singlereis Berlijn</name>
+    <description>Ga mee op singlereis naar Berlijn en vier de feestdagen in deze bruisende stad. Kies je voor een gezellige kerst of knallend oud &amp; nieuw?</description>
+    <price>639.00 EUR</price>
+    <address format="simple">
+      <component name="city">Berlijn</component>
+      <component name="region">Duitsland</component>
+      <component name="country">Duitsland</component>
+    </address>
+    <neighborhood>Berlijn</neighborhood>
+    <type>Stedentrips</type>
+    <type>Singlereis</type>
+    <custom_number_0>639</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Stedentrips</custom_label_1>
+    <custom_label_3>Duitsland</custom_label_3>
+    <product_tags>Stedentrips</product_tags>
+    <product_tags>30-49 jaar</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>Feestdagen</product_tags>
+    <product_tags>Duitsland</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/h3kpbdp3/pexels-darku-1176844802-31311805.jpg?width=1440&amp;height=775&amp;v=1dd24c0da22fdf0</url>
+      <tag>Stedentrips</tag>
+    </image>
+    <destination_id>432</destination_id>
+    <url>https://www.estivant.nl/singlereizen/duitsland/keulen-feestdagen</url>
+    <name>Singlereis Keulen</name>
+    <description>Ga mee op singlereis naar Keulen en vier de feestdagen op echt Duitse wijze. De kerstmarkten van Keulen behoren tot de bekendste ter wereld!</description>
+    <price>599.00 EUR</price>
+    <address format="simple">
+      <component name="city">Keulen</component>
+      <component name="region">Duitsland</component>
+      <component name="country">Duitsland</component>
+    </address>
+    <neighborhood>Keulen</neighborhood>
+    <type>Stedentrips</type>
+    <type>Singlereis</type>
+    <custom_number_0>599</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Stedentrips</custom_label_1>
+    <custom_label_3>Duitsland</custom_label_3>
+    <product_tags>Stedentrips</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>50-69 jaar</product_tags>
+    <product_tags>Feestdagen</product_tags>
+    <product_tags>Duitsland</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/1ikgzv0u/istock-1320488659-1.jpg?width=1440&amp;height=775&amp;v=1dd1e89fda4c610</url>
+      <tag>Winterzon</tag>
+    </image>
+    <destination_id>380</destination_id>
+    <url>https://www.estivant.nl/singlereizen/egypte/el-gouna</url>
+    <name>Singlereis El Gouna</name>
+    <description>Ga mee op singlereis naar El Gouna in Egypte. Ontsnap aan de winterkou in Nederland en geniet van deze winterzon vakantie!</description>
+    <price>1319.00 EUR</price>
+    <address format="simple">
+      <component name="city">El Gouna</component>
+      <component name="region">Egypte</component>
+      <component name="country">Egypte</component>
+    </address>
+    <neighborhood>El Gouna</neighborhood>
+    <type>Winterzon</type>
+    <type>Singlereis</type>
+    <custom_number_0>1319</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Winterzon</custom_label_1>
+    <custom_label_2>Winter</custom_label_2>
+    <custom_label_3>Egypte</custom_label_3>
+    <product_tags>30-49 jaar</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>Hotel</product_tags>
+    <product_tags>Winter</product_tags>
+    <product_tags>Strand</product_tags>
+    <product_tags>50-69 jaar</product_tags>
+    <product_tags>Winterzon</product_tags>
+    <product_tags>Egypte</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/mcpovx5l/istock-171321191.jpg?rxy=0.6741854636591479,0.5547169811320755&amp;width=1440&amp;height=775&amp;v=1dcc746f25272c0</url>
+      <tag>Strand</tag>
+    </image>
+    <destination_id>429</destination_id>
+    <url>https://www.estivant.nl/singlereizen/griekenland/corfu</url>
+    <name>Singlereis Corfu</name>
+    <description>Ga mee op singlereis naar Corfu, en ontdek dit prachtige groene eiland samen met je reisgenoten. Combineer strand, natuur en cultuur. Bekijk deze groepsreis!</description>
+    <price>1719.00 EUR</price>
+    <address format="simple">
+      <component name="city">Corfu</component>
+      <component name="region">Griekenland</component>
+      <component name="country">Griekenland</component>
+    </address>
+    <neighborhood>Corfu</neighborhood>
+    <type>Strand</type>
+    <type>Singlereis</type>
+    <custom_number_0>1719</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Strand</custom_label_1>
+    <custom_label_2>Zomer</custom_label_2>
+    <custom_label_3>Griekenland</custom_label_3>
+    <product_tags>Strand</product_tags>
+    <product_tags>30-49 jaar</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>50-69 jaar</product_tags>
+    <product_tags>Hotel</product_tags>
+    <product_tags>Zomer</product_tags>
+    <product_tags>Griekenland</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/u0ybilbb/istock-1419953437.jpg?rxy=0.5050125313283208,0.4413050862417121&amp;width=1440&amp;height=775&amp;v=1dcbac49a7ad5d0</url>
+      <tag>Strand</tag>
+    </image>
+    <destination_id>430</destination_id>
+    <url>https://www.estivant.nl/singlereizen/griekenland/samos</url>
+    <name>Singlereis Samos</name>
+    <description>Ga mee op singlereis naar Samos. Een Grieks eiland zonder massatoerisme. Verken het eiland en strijk neer op de mooiste bounty-stranden. Bekijk deze groepsreis!</description>
+    <price>1499.00 EUR</price>
+    <address format="simple">
+      <component name="city">Samos</component>
+      <component name="region">Griekenland</component>
+      <component name="country">Griekenland</component>
+    </address>
+    <neighborhood>Samos</neighborhood>
+    <type>Strand</type>
+    <type>Singlereis</type>
+    <custom_number_0>1499</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Strand</custom_label_1>
+    <custom_label_2>Zomer</custom_label_2>
+    <custom_label_3>Griekenland</custom_label_3>
+    <product_tags>Strand</product_tags>
+    <product_tags>30-49 jaar</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>50-69 jaar</product_tags>
+    <product_tags>Hotel</product_tags>
+    <product_tags>Zomer</product_tags>
+    <product_tags>Griekenland</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/gu4d5rpm/istock-105929310.jpg?rxy=0.7243107769423559,0.5079200570844566&amp;width=1440&amp;height=775&amp;v=1dcc74a981f55d0</url>
+      <tag>Rondreizen</tag>
+    </image>
+    <destination_id>436</destination_id>
+    <url>https://www.estivant.nl/singlereizen/griekenland/thessaloniki-olympus</url>
+    <name>Singlereis Thessaloniki &amp; Litochoro</name>
+    <description>Ontdek Thessaloniki en de Mount Olympus - de berg van de goden! Combineer stad, cultuur en natuur tijdens een georganiseerde reis door Noord-Griekenland.</description>
+    <price>1569.00 EUR</price>
+    <address format="simple">
+      <component name="city">Thessaloniki &amp; Litochoro</component>
+      <component name="region">Griekenland</component>
+      <component name="country">Griekenland</component>
+    </address>
+    <neighborhood>Thessaloniki &amp; Litochoro</neighborhood>
+    <type>Rondreizen</type>
+    <type>Singlereis</type>
+    <custom_number_0>1569</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Rondreizen</custom_label_1>
+    <custom_label_2>Zomer</custom_label_2>
+    <custom_label_3>Griekenland</custom_label_3>
+    <product_tags>Cultuur</product_tags>
+    <product_tags>Strand</product_tags>
+    <product_tags>30-49 jaar</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>Hotel</product_tags>
+    <product_tags>Zomer</product_tags>
+    <product_tags>Griekenland</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/qmrbbvbi/istock-692310004-2.jpg?width=1440&amp;height=775&amp;v=1dd3081b3eed0b0</url>
+      <tag>Cultuur</tag>
+    </image>
+    <destination_id>444</destination_id>
+    <url>https://www.estivant.nl/singlereizen/italie/glamping-gardameer</url>
+    <name>Singlereis Gardameer</name>
+    <description>Ga mee op singlereis naar onze glamping aan het Gardameer. Verken de omgeving per e-bike, breng een bezoek aan Verona, Sirmione en meer. Bekijk deze groepsreis!</description>
+    <price>949.00 EUR</price>
+    <address format="simple">
+      <component name="city">Gardameer</component>
+      <component name="region">Italië</component>
+      <component name="country">Italië</component>
+    </address>
+    <neighborhood>Gardameer</neighborhood>
+    <type>Cultuur</type>
+    <type>Singlereis</type>
+    <custom_number_0>949</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Cultuur</custom_label_1>
+    <custom_label_2>Zomer</custom_label_2>
+    <custom_label_3>Italië</custom_label_3>
+    <product_tags>Cultuur</product_tags>
+    <product_tags>30-49 jaar</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>Glamping</product_tags>
+    <product_tags>Zomer</product_tags>
+    <product_tags>Italië</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/whwpgee0/marilleva-424-1.jpg?rxy=0.5050125313283208,0.5456781649866458&amp;width=1440&amp;height=775&amp;v=1dd2f00f1ac0170</url>
+      <tag>Wintersport</tag>
+    </image>
+    <destination_id>376</destination_id>
+    <url>https://www.estivant.nl/singlereizen/italie/marilleva</url>
+    <name>Singlereis Marilleva</name>
+    <description>Ga met andere singles op wintersport in Marilleva. Ontdek Val di Sole en Trentino en geniet samen van skiën, sneeuw en gezelligheid.</description>
+    <price>1199.00 EUR</price>
+    <address format="simple">
+      <component name="city">Marilleva</component>
+      <component name="region">Italië</component>
+      <component name="country">Italië</component>
+    </address>
+    <neighborhood>Marilleva</neighborhood>
+    <type>Wintersport</type>
+    <type>Singlereis</type>
+    <custom_number_0>1199</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Wintersport</custom_label_1>
+    <custom_label_2>Wintersport</custom_label_2>
+    <custom_label_3>Italië</custom_label_3>
+    <product_tags>Winter</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>50-69 jaar</product_tags>
+    <product_tags>Wintersport</product_tags>
+    <product_tags>Italië</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/xqjbdvkg/estivant-single-vakantie-reizen-itali%C3%AB-toscane-zomer-2024-kathedraal-florence.jpg?rxy=0.474937343358396,0.8349385010309512&amp;width=1440&amp;height=775&amp;v=1dcc0eaf60141b0</url>
+      <tag>Rondreizen</tag>
+    </image>
+    <destination_id>431</destination_id>
+    <url>https://www.estivant.nl/singlereizen/italie/toscane</url>
+    <name>Singlereis Toscane</name>
+    <description>Ga mee op singlereis naar Toscane. Ontdek de steden Siena, Lucca, Florence én Cinque Terre. Inclusief diner bij een Toscaanse wijnboer. Bekijk deze groepsreis!</description>
+    <price>1529.00 EUR</price>
+    <address format="simple">
+      <component name="city">Toscane</component>
+      <component name="region">Italië</component>
+      <component name="country">Italië</component>
+    </address>
+    <neighborhood>Toscane</neighborhood>
+    <type>Rondreizen</type>
+    <type>Singlereis</type>
+    <custom_number_0>1529</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Rondreizen</custom_label_1>
+    <custom_label_2>Zomer</custom_label_2>
+    <custom_label_3>Italië</custom_label_3>
+    <product_tags>Cultuur</product_tags>
+    <product_tags>30-49 jaar</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>55-75 jaar</product_tags>
+    <product_tags>50-69 jaar</product_tags>
+    <product_tags>Hotel</product_tags>
+    <product_tags>Zomer</product_tags>
+    <product_tags>Italië</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/pn1iqz24/1-sng-fotoslider-745-x-400-groenlo.jpg?rxy=0.48872743197576796,0.7100122313755539&amp;width=1440&amp;height=775&amp;v=1db2eba39de5b30</url>
+      <tag>Wandelen</tag>
+    </image>
+    <destination_id>369</destination_id>
+    <url>https://www.estivant.nl/singlereizen/nederland/kerst-in-groenlo</url>
+    <name>Singlereis Groenlo</name>
+    <description>Ga mee op singlereis naar Groenlo en vier kerst in de Achterhoek. Inclusief halfpension én een feestelijk 5-gangendiner op eerste kerstdag. Altijd je eigen kamer!</description>
+    <price>699.00 EUR</price>
+    <address format="simple">
+      <component name="city">Groenlo</component>
+      <component name="region">Nederland</component>
+      <component name="country">Nederland</component>
+    </address>
+    <neighborhood>Groenlo</neighborhood>
+    <type>Wandelen</type>
+    <type>Singlereis</type>
+    <custom_number_0>699</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Wandelen</custom_label_1>
+    <custom_label_3>Nederland</custom_label_3>
+    <product_tags>50-69 jaar</product_tags>
+    <product_tags>Feestdagen</product_tags>
+    <product_tags>Nederland</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/vupbzupg/14-carindeben-photography_13.jpg?rxy=0.40726817042606517,0.4793233082706767&amp;width=1440&amp;height=775&amp;v=1dd2a5216a04530</url>
+      <tag>Wintersport</tag>
+    </image>
+    <destination_id>381</destination_id>
+    <url>https://www.estivant.nl/singlereizen/oostenrijk/mittersill</url>
+    <name>Singlereis Mittersill</name>
+    <description>Ga mee op single wintersport naar Mittersill. Wissel verschillende skigebieden af vanuit ons gezellige hotel mét eigen bierbrouwerij! Bekijk deze groepsreis!</description>
+    <price>1499.00 EUR</price>
+    <address format="simple">
+      <component name="city">Mittersill</component>
+      <component name="region">Oostenrijk</component>
+      <component name="country">Oostenrijk</component>
+    </address>
+    <neighborhood>Mittersill</neighborhood>
+    <type>Wintersport</type>
+    <type>Singlereis</type>
+    <custom_number_0>1499</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Wintersport</custom_label_1>
+    <custom_label_2>Wintersport</custom_label_2>
+    <custom_label_3>Oostenrijk</custom_label_3>
+    <product_tags>Winter</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>50-69 jaar</product_tags>
+    <product_tags>Wintersport</product_tags>
+    <product_tags>Oostenrijk</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/1ycpsgb2/marilleva-292.jpg?rxy=0.47619047619047616,0.37941684909227713&amp;width=1440&amp;height=775&amp;v=1dd2ee365fe4740</url>
+      <tag>Wintersport</tag>
+    </image>
+    <destination_id>424</destination_id>
+    <url>https://www.estivant.nl/singlereizen/oostenrijk/wagrain</url>
+    <name>Singlereis Wagrain</name>
+    <description>Ga mee op single wintersport naar Wagrain. Uitgebreid skigebied, hotel vlakbij de skilift en bruisende apres-ski om de hoek!</description>
+    <price>1399.00 EUR</price>
+    <address format="simple">
+      <component name="city">Wagrain</component>
+      <component name="region">Oostenrijk</component>
+      <component name="country">Oostenrijk</component>
+    </address>
+    <neighborhood>Wagrain</neighborhood>
+    <type>Wintersport</type>
+    <type>Singlereis</type>
+    <custom_number_0>1399</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Wintersport</custom_label_1>
+    <custom_label_2>Wintersport</custom_label_2>
+    <custom_label_3>Oostenrijk</custom_label_3>
+    <product_tags>25-39 jaar</product_tags>
+    <product_tags>30-49 jaar</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>Winter</product_tags>
+    <product_tags>Wintersport</product_tags>
+    <product_tags>Oostenrijk</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/3eghwnwe/istock-1276761128.jpg?width=1440&amp;height=775&amp;v=1dcc04826be8270</url>
+      <tag>Wandelen</tag>
+    </image>
+    <destination_id>441</destination_id>
+    <url>https://www.estivant.nl/singlereizen/portugal/wandelvakantie-algarve</url>
+    <name>Singlereis Algarve</name>
+    <description>Ga mee op wandelvakantie in de Algarve. Vanuit het gezellige Portimao ontdekken we kustpaden en bijzondere uitzichtpunten. Heerlijk eten én cultuur inclusief!</description>
+    <price>1554.00 EUR</price>
+    <address format="simple">
+      <component name="city">Algarve</component>
+      <component name="region">Portugal</component>
+      <component name="country">Portugal</component>
+    </address>
+    <neighborhood>Algarve</neighborhood>
+    <type>Wandelen</type>
+    <type>Singlereis</type>
+    <custom_number_0>1554</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Wandelen</custom_label_1>
+    <custom_label_2>Zomer</custom_label_2>
+    <custom_label_3>Portugal</custom_label_3>
+    <product_tags>Wandelen</product_tags>
+    <product_tags>Cultuur</product_tags>
+    <product_tags>Strand</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>50-69 jaar</product_tags>
+    <product_tags>Hotel</product_tags>
+    <product_tags>Zomer</product_tags>
+    <product_tags>Portugal</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/5bxph15i/mick-waanders-mwjzbdl1er8-unsplash.jpg?rxy=0.4824561403508772,0.6917293233082706&amp;width=1440&amp;height=775&amp;v=1dd34a1fcb96390</url>
+      <tag>Wandelen</tag>
+    </image>
+    <destination_id>443</destination_id>
+    <url>https://www.estivant.nl/singlereizen/portugal/madeira</url>
+    <name>Singlereis Madeira</name>
+    <description>Tijdens deze singlereis maken we vrijwel elke dag een nieuwe adembenemende hike over de mooiste paden van Madeira. Bekijk deze wandelreis hier!</description>
+    <price>1769.00 EUR</price>
+    <address format="simple">
+      <component name="city">Madeira</component>
+      <component name="region">Portugal</component>
+      <component name="country">Portugal</component>
+    </address>
+    <neighborhood>Madeira</neighborhood>
+    <type>Wandelen</type>
+    <type>Singlereis</type>
+    <custom_number_0>1769</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Wandelen</custom_label_1>
+    <custom_label_2>Winter</custom_label_2>
+    <custom_label_3>Portugal</custom_label_3>
+    <product_tags>Wandelen</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>Hotel</product_tags>
+    <product_tags>30-49 jaar</product_tags>
+    <product_tags>Winter</product_tags>
+    <product_tags>Winterzon</product_tags>
+    <product_tags>Portugal</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/jlholrj0/istock-1166974662.jpg?width=1440&amp;height=775&amp;v=1dd410945b7d6d0</url>
+      <tag>Strand</tag>
+    </image>
+    <destination_id>433</destination_id>
+    <url>https://www.estivant.nl/singlereizen/spanje/mallorca</url>
+    <name>Singlereis Mallorca</name>
+    <description>Ga mee op singlereis naar Mallorca. Ontdek samen met een groep leeftijdsgenoten het eiland vanuit de kleine badplaats Ca’n Pastilla. Bekijk deze groepsreis!</description>
+    <price>1729.00 EUR</price>
+    <address format="simple">
+      <component name="city">Mallorca</component>
+      <component name="region">Spanje</component>
+      <component name="country">Spanje</component>
+    </address>
+    <neighborhood>Mallorca</neighborhood>
+    <type>Strand</type>
+    <type>Singlereis</type>
+    <custom_number_0>1729</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Strand</custom_label_1>
+    <custom_label_2>Zomer</custom_label_2>
+    <custom_label_3>Spanje</custom_label_3>
+    <product_tags>Strand</product_tags>
+    <product_tags>30-49 jaar</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>55-75 jaar</product_tags>
+    <product_tags>Hotel</product_tags>
+    <product_tags>Zomer</product_tags>
+    <product_tags>Spanje</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/e00jmiof/estivant-singlevakantie-winterzon-wandelvakantie-andalusi%C3%AB-nerja-zonsondergang-2.jpg?width=1440&amp;height=775&amp;v=1dcc6847a025c30</url>
+      <tag>Wandelen</tag>
+    </image>
+    <destination_id>442</destination_id>
+    <url>https://www.estivant.nl/singlereizen/spanje/wandelen-andalusie</url>
+    <name>Singlereis Andalusië Herfstzon</name>
+    <description>Ontsnap aan de herfst met onze singlevakantie naar Andalusië! Wandel over de beroemde Caminito del Rey en bezoek Malaga. Bekijk deze groepsreis!</description>
+    <price>1246.00 EUR</price>
+    <address format="simple">
+      <component name="city">Andalusië Herfstzon</component>
+      <component name="region">Spanje</component>
+      <component name="country">Spanje</component>
+    </address>
+    <neighborhood>Andalusië Herfstzon</neighborhood>
+    <type>Wandelen</type>
+    <type>Singlereis</type>
+    <custom_number_0>1246</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Wandelen</custom_label_1>
+    <custom_label_2>Winter</custom_label_2>
+    <custom_label_3>Spanje</custom_label_3>
+    <product_tags>Wandelen</product_tags>
+    <product_tags>Cultuur</product_tags>
+    <product_tags>Winterzon</product_tags>
+    <product_tags>Strand</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>50-69 jaar</product_tags>
+    <product_tags>Hotel</product_tags>
+    <product_tags>Winter</product_tags>
+    <product_tags>Spanje</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/rhxbyxuw/istock-1124834050-2.jpg?rxy=0.4912343137557996,0.5457646284756823&amp;width=1440&amp;height=775&amp;v=1dad78ecadf2340</url>
+      <tag>Actief</tag>
+    </image>
+    <destination_id>378</destination_id>
+    <url>https://www.estivant.nl/singlereizen/zweden/lapland</url>
+    <name>Singlereis Lapland</name>
+    <description>Ga mee op singlereis naar Lapland. Maak een sneeuwscooter- en huskysledetocht, wandel door de sneeuw én spot het noorderlicht. Bekijk deze groepsreis!</description>
+    <price>2074.00 EUR</price>
+    <address format="simple">
+      <component name="city">Lapland</component>
+      <component name="region">Zweden</component>
+      <component name="country">Zweden</component>
+    </address>
+    <neighborhood>Lapland</neighborhood>
+    <type>Actief</type>
+    <type>Singlereis</type>
+    <custom_number_0>2074</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Actief</custom_label_1>
+    <custom_label_2>Winter</custom_label_2>
+    <custom_label_3>Zweden</custom_label_3>
+    <product_tags>Actief</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>50-69 jaar</product_tags>
+    <product_tags>Winter</product_tags>
+    <product_tags>Zweden</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+</listings>

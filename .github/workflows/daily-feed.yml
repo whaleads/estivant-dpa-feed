@@ -1,0 +1,57 @@
+name: Estivant DPA feed (daily)
+
+on:
+  schedule:
+    # 05:10 UTC = 07:10 NL (zomertijd) / 06:10 (wintertijd). Pas aan naar wens.
+    - cron: "10 5 * * *"
+  workflow_dispatch: {}   # handmatig starten via de Actions-tab
+
+permissions:
+  contents: write          # nodig om de gegenereerde feeds terug te committen
+
+concurrency:
+  group: estivant-feed
+  cancel-in-progress: false
+
+jobs:
+  build-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Build feeds
+        env:
+          # Optioneel — alleen zetten als je ook naar Google Sheets schrijft:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
+        run: python main.py
+
+      - name: Commit updated feeds
+        run: |
+          git config user.name  "estivant-feed-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add output/
+          if git diff --staged --quiet; then
+            echo "Geen wijzigingen in de feeds."
+          else
+            git commit -m "chore: update Estivant feeds ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+      - name: Upload feeds as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: estivant-feeds
+          path: output/
+          retention-days: 14

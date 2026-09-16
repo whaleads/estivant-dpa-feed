@@ -1,0 +1,352 @@
+#!/usr/bin/env python3
+"""
+Estivant DPA feed crawler
+=========================
+Crawlt dagelijks estivant.nl en bouwt twee Meta 'destinations'-catalogusfeeds:
+  - EOG  (eenoudervakanties)  -> output/feed_eog.xml  + output/feed_eog.csv
+  - SNG  (singlereizen)       -> output/feed_sng.xml  + output/feed_sng.csv
+
+Bron van waarheid:
+  1. /sitemap.xml  -> lijst met alle reis-URL's  (patroon /<sectie>/<land>/<slug>)
+  2. per reis: de GA4 `dataLayer` view_item  (item_id, naam, land, categorie, thema, prijs)
+     + <meta name=description> + <link rel=canonical> + hero-afbeelding
+
+Een pagina telt alleen als boekbare reis wanneer er een view_item is MET price > 0.
+Zo vallen land-/thema-/overzichtspagina's (price 0) automatisch af.
+
+BELANGRIJK (pixel-matching): destination_id == item_id uit de dataLayer, want dat is
+de waarde die de Meta-pixel als content_ids meestuurt. Niet aanpassen/prefixen.
+
+Optioneel: als GOOGLE_SERVICE_ACCOUNT_JSON + SPREADSHEET_ID gezet zijn, worden de
+feeds ook naar twee Google Sheet-tabs (EOG / SNG) geschreven.
+"""
+
+import asyncio
+import csv
+import os
+import re
+import sys
+import urllib.request
+from datetime import datetime, timezone
+from xml.sax.saxutils import escape
+
+from playwright.async_api import async_playwright
+
+BASE = "https://www.estivant.nl"
+SITEMAP_URL = f"{BASE}/sitemap.xml"
+OUT_DIR = os.path.join(os.path.dirname(__file__), "output")
+
+# Dutch country slugs used in trip URLs (segment[1]). Vul aan als er landen bijkomen.
+COUNTRY_NAME = {
+    "belgie": "België", "denemarken": "Denemarken", "duitsland": "Duitsland",
+    "frankrijk": "Frankrijk", "griekenland": "Griekenland", "italie": "Italië",
+    "kroatie": "Kroatië", "nederland": "Nederland", "oostenrijk": "Oostenrijk",
+    "albanie": "Albanië", "egypte": "Egypte", "georgie": "Georgië",
+    "portugal": "Portugal", "slovenie": "Slovenië", "spanje": "Spanje",
+    "zweden": "Zweden", "turkije": "Turkije", "marokko": "Marokko",
+    "malta": "Malta", "cyprus": "Cyprus", "montenegro": "Montenegro",
+    "noorwegen": "Noorwegen", "finland": "Finland", "ijsland": "IJsland",
+    "zwitserland": "Zwitserland", "tsjechie": "Tsjechië", "polen": "Polen",
+    "hongarije": "Hongarije", "roemenie": "Roemenië", "bulgarije": "Bulgarije",
+    "kaapverdie": "Kaapverdië", "tunesie": "Tunesië",
+}
+
+SEASON_KEYWORDS = [
+    "Wintersport", "Voorjaarsvakantie", "Kerstvakantie", "Herfstvakantie",
+    "Meivakantie", "Zomervakantie", "Zomer", "Winter", "Hemelvaart", "Pinksteren",
+]
+
+# JS die in de gerenderde pagina de feed-velden ophaalt.
+EXTRACT_JS = r"""
+() => {
+  const dl = window.dataLayer || [];
+  const vi = dl.find(e => e && e.event === 'view_item' && e.ecommerce && e.ecommerce.items && e.ecommerce.items.length);
+  const item = vi ? vi.ecommerce.items[0] : null;
+  const currency = vi && vi.ecommerce ? (vi.ecommerce.currency || 'EUR') : 'EUR';
+  const metaDesc = (document.querySelector('meta[name="description"]') || {}).content || '';
+  const canonical = (document.querySelector('link[rel="canonical"]') || {}).href || location.href;
+  const ogImg = (document.querySelector('meta[property="og:image"]') || {}).content || '';
+  // hero: liefst een estivant media-afbeelding op 1440px, anders eerste media-afbeelding, anders og:image
+  const media = [...document.querySelectorAll('img')].map(i => i.currentSrc || i.src).filter(Boolean);
+  const hero =
+      media.find(s => /estivant\.(nl|com)\/media/i.test(s) && /width=1440/.test(s)) ||
+      media.find(s => /estivant\.(nl|com)\/media/i.test(s)) ||
+      ogImg || '';
+  return { item, currency, metaDesc, canonical, hero };
+}
+"""
+
+
+def fetch_sitemap_paths():
+    req = urllib.request.Request(SITEMAP_URL, headers={"User-Agent": "EstivantFeedBot/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        xml = r.read().decode("utf-8", "replace")
+    locs = re.findall(r"<loc>([^<]+)</loc>", xml)
+    paths = []
+    for u in locs:
+        m = re.match(r"https?://[^/]+(/.*)$", u)
+        paths.append(m.group(1) if m else u)
+    return paths
+
+
+def is_trip_path(path):
+    """Reis-detailpagina = /<sectie>/<land>/<slug> met land in COUNTRY_NAME."""
+    segs = [s for s in path.split("/") if s]
+    return (
+        len(segs) == 3
+        and segs[0] in ("eenoudervakanties", "singlereizen")
+        and segs[1] in COUNTRY_NAME
+    )
+
+
+def segment_of(path):
+    return "eog" if path.startswith("/eenoudervakanties/") else "sng"
+
+
+def clean_place(item_name, slug):
+    """Zuivere bestemming (stad) afleiden: prefix + seizoenswoorden eraf."""
+    if item_name:
+        name = re.sub(r"^(Eenoudervakantie|Singlereis|Singlevakantie)\s*", "", item_name).strip()
+    else:
+        name = slug.replace("-", " ").title()
+    # seizoen/periode-achtervoegsels uit de stadsnaam halen (bv. "Vielsalm Herfst" -> "Vielsalm")
+    suffixes = SEASON_KEYWORDS + [
+        "Herfst", "Kerst", "Voorjaar", "Zomer", "Winter", "Pasen",
+        "Feestdagen", "Meivakantie", "Wintersport",
+    ]
+    changed = True
+    while changed:
+        changed = False
+        for kw in suffixes:
+            new = re.sub(rf"\s*\b{re.escape(kw)}\b\s*$", "", name, flags=re.IGNORECASE).strip()
+            if new != name and new:
+                name, changed = new, True
+    return name or slug.replace("-", " ").title()
+
+
+def derive_season(thema):
+    for kw in SEASON_KEYWORDS:
+        if kw.lower() in (thema or "").lower():
+            return kw
+    return ""
+
+
+async def crawl():
+    paths = fetch_sitemap_paths()
+    trips = [p for p in paths if is_trip_path(p)]
+    print(f"[sitemap] {len(paths)} URL's, {len(trips)} kandidaat-reizen", flush=True)
+
+    listings, skipped = [], []
+
+    async with async_playwright() as pw:
+        browser = await pw.chromium.launch(args=["--no-sandbox"])
+        ctx = await browser.new_context(
+            user_agent="Mozilla/5.0 (compatible; EstivantFeedBot/1.0)",
+            viewport={"width": 1440, "height": 900},
+        )
+        page = await ctx.new_page()
+
+        for path in trips:
+            url = BASE + path
+            slug = path.split("/")[-1]
+            seg = segment_of(path)
+            country = COUNTRY_NAME.get(path.split("/")[2], "")
+            try:
+                await page.goto(url, wait_until="domcontentloaded", timeout=45000)
+                try:
+                    await page.wait_for_function(
+                        "() => (window.dataLayer||[]).some(e => e && e.event==='view_item')",
+                        timeout=8000,
+                    )
+                except Exception:
+                    pass
+                data = await page.evaluate(EXTRACT_JS)
+            except Exception as e:
+                skipped.append((path, f"error: {e}"))
+                print(f"  ! {path} -> {e}", flush=True)
+                continue
+
+            item = data.get("item")
+            if not item:
+                skipped.append((path, "geen view_item"))
+                continue
+            try:
+                price = float(item.get("price") or 0)
+            except (TypeError, ValueError):
+                price = 0.0
+            if price <= 0:
+                skipped.append((path, "price 0 (overzichts-/landingpagina)"))
+                continue
+
+            thema = item.get("thema") or ""
+            place = clean_place(item.get("item_name"), slug)
+            tags = [t.strip() for t in thema.split(",") if t.strip()]
+            listing = {
+                "destination_id": str(item.get("item_id") or "").strip(),
+                "name": (item.get("item_name") or place).strip(),
+                "description": (data.get("metaDesc") or "").strip(),
+                "url": data.get("canonical") or url,
+                "price": f"{price:.2f} {data.get('currency', 'EUR')}",
+                "price_number": int(round(price)),
+                "image_url": data.get("hero") or "",
+                "image_tag": (item.get("item_category") or "").strip(),
+                "city": place,
+                "region": country,
+                "country": country,
+                "neighborhood": place,
+                "type": (item.get("item_category") or "").strip(),
+                "segment": "Eenoudervakantie" if seg == "eog" else "Singlereis",
+                "season": derive_season(thema),
+                "themes": tags,
+                "seg": seg,
+            }
+            if not listing["destination_id"]:
+                skipped.append((path, "geen item_id"))
+                continue
+            listings.append(listing)
+            print(f"  + [{seg}] {listing['destination_id']:>5}  {listing['name']}  ({listing['price']})", flush=True)
+
+        await browser.close()
+
+    return listings, skipped
+
+
+# ---------- feed-writers ----------
+
+def _xml_listing(d):
+    themes = d["themes"] + [d["country"], d["segment"]]
+    themes = [t for t in dict.fromkeys(themes) if t]  # dedup, non-empty
+    parts = ["  <listing>"]
+    parts.append("    <image>")
+    parts.append(f"      <url>{escape(d['image_url'])}</url>")
+    if d["image_tag"]:
+        parts.append(f"      <tag>{escape(d['image_tag'])}</tag>")
+    parts.append("    </image>")
+    parts.append(f"    <destination_id>{escape(d['destination_id'])}</destination_id>")
+    parts.append(f"    <url>{escape(d['url'])}</url>")
+    parts.append(f"    <name>{escape(d['name'])}</name>")
+    parts.append(f"    <description>{escape(d['description'])}</description>")
+    parts.append(f"    <price>{escape(d['price'])}</price>")
+    parts.append('    <address format="simple">')
+    parts.append(f"      <component name=\"city\">{escape(d['city'])}</component>")
+    parts.append(f"      <component name=\"region\">{escape(d['region'])}</component>")
+    parts.append(f"      <component name=\"country\">{escape(d['country'])}</component>")
+    parts.append("    </address>")
+    parts.append(f"    <neighborhood>{escape(d['neighborhood'])}</neighborhood>")
+    if d["type"]:
+        parts.append(f"    <type>{escape(d['type'])}</type>")
+    parts.append(f"    <type>{escape(d['segment'])}</type>")
+    parts.append(f"    <custom_number_0>{d['price_number']}</custom_number_0>")
+    parts.append(f"    <custom_label_0>{escape(d['segment'])}</custom_label_0>")
+    if d["type"]:
+        parts.append(f"    <custom_label_1>{escape(d['type'])}</custom_label_1>")
+    if d["season"]:
+        parts.append(f"    <custom_label_2>{escape(d['season'])}</custom_label_2>")
+    parts.append(f"    <custom_label_3>{escape(d['country'])}</custom_label_3>")
+    for t in themes:
+        parts.append(f"    <product_tags>{escape(t)}</product_tags>")
+    parts.append("  </listing>")
+    return "\n".join(parts)
+
+
+def write_xml(path, title, rows):
+    body = "\n".join(_xml_listing(d) for d in rows)
+    xml = (
+        '<?xml version="1.0" encoding="utf-8"?>\n'
+        "<listings>\n"
+        f"  <title>{escape(title)}</title>\n"
+        f"{body}\n"
+        "</listings>\n"
+    )
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(xml)
+
+
+CSV_HEADERS = [
+    "destination_id", "name", "description", "url", "price",
+    "image[0].url", "image[0].tag",
+    "address.city", "address.region", "address.country",
+    "neighborhood", "types",
+    "custom_label_0", "custom_label_1", "custom_label_2", "custom_label_3",
+    "custom_number_0", "product_tags",
+]
+
+
+def _csv_row(d):
+    themes = [t for t in dict.fromkeys(d["themes"] + [d["country"], d["segment"]]) if t]
+    types = ",".join([t for t in [d["type"], d["segment"]] if t])
+    return [
+        d["destination_id"], d["name"], d["description"], d["url"], d["price"],
+        d["image_url"], d["image_tag"],
+        d["city"], d["region"], d["country"],
+        d["neighborhood"], types,
+        d["segment"], d["type"], d["season"], d["country"],
+        d["price_number"], ",".join(themes),
+    ]
+
+
+def write_csv(path, rows):
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(CSV_HEADERS)
+        for d in rows:
+            w.writerow(_csv_row(d))
+
+
+def push_to_sheets(eog, sng):
+    """Optioneel: schrijf naar Google Sheet-tabs als creds aanwezig zijn."""
+    creds_json = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON")
+    spreadsheet_id = os.environ.get("SPREADSHEET_ID")
+    if not creds_json or not spreadsheet_id:
+        print("[sheets] overgeslagen (GOOGLE_SERVICE_ACCOUNT_JSON / SPREADSHEET_ID niet gezet)", flush=True)
+        return
+    import json
+    import gspread
+    from google.oauth2.service_account import Credentials
+
+    scopes = ["https://www.googleapis.com/auth/spreadsheets"]
+    creds = Credentials.from_service_account_info(json.loads(creds_json), scopes=scopes)
+    gc = gspread.authorize(creds)
+    sh = gc.open_by_key(spreadsheet_id)
+    for tab, rows in (("EOG", eog), ("SNG", sng)):
+        try:
+            ws = sh.worksheet(tab)
+            ws.clear()
+        except gspread.WorksheetNotFound:
+            ws = sh.add_worksheet(title=tab, rows=max(10, len(rows) + 5), cols=len(CSV_HEADERS))
+        values = [CSV_HEADERS] + [_csv_row(d) for d in rows]
+        ws.update(values, "A1")
+        print(f"[sheets] tab {tab}: {len(rows)} reizen geschreven", flush=True)
+
+
+def main():
+    os.makedirs(OUT_DIR, exist_ok=True)
+    listings, skipped = asyncio.run(crawl())
+    eog = [d for d in listings if d["seg"] == "eog"]
+    sng = [d for d in listings if d["seg"] == "sng"]
+
+    write_xml(os.path.join(OUT_DIR, "feed_eog.xml"), "Estivant Eenoudervakanties", eog)
+    write_xml(os.path.join(OUT_DIR, "feed_sng.xml"), "Estivant Singlereizen", sng)
+    write_csv(os.path.join(OUT_DIR, "feed_eog.csv"), eog)
+    write_csv(os.path.join(OUT_DIR, "feed_sng.csv"), sng)
+
+    stamp = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    with open(os.path.join(OUT_DIR, "last_run.txt"), "w") as f:
+        f.write(f"{stamp}\nEOG: {len(eog)}\nSNG: {len(sng)}\nSkipped: {len(skipped)}\n")
+
+    try:
+        push_to_sheets(eog, sng)
+    except Exception as e:
+        print(f"[sheets] fout: {e}", flush=True)
+
+    print(f"\nKLAAR — EOG: {len(eog)} reizen, SNG: {len(sng)} reizen, overgeslagen: {len(skipped)}", flush=True)
+    if skipped:
+        print("Overgeslagen (eerste 20):", flush=True)
+        for p, why in skipped[:20]:
+            print(f"  - {p}: {why}", flush=True)
+    if not listings:
+        sys.exit("FOUT: geen reizen gevonden — site-structuur mogelijk gewijzigd.")
+
+
+if __name__ == "__main__":
+    main()
