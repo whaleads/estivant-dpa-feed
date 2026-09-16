@@ -1,13 +1,21 @@
 # Estivant — Dynamic Product Ads feed (Meta destinations)
 
-Dagelijkse crawler die `estivant.nl` uitleest en twee Meta **destinations**-catalogusfeeds bouwt:
+Dagelijkse crawler die `estivant.nl` uitleest en Meta-catalogusfeeds bouwt, gesplitst EOG/SNG.
 
-| Segment | Bestand | Reizen (nu) |
+**Primair = products-catalogus** (RSS 2.0). Reden: de Estivant-pixel stuurt `content_type: product` met `content_ids = interne item_id`; een products-catalogus matcht daar direct mee (geen tracking-wijziging nodig). De destinations-feeds blijven als fallback bestaan (vereisen `content_type: destination` in de pixel).
+
+| Segment | Products-feed (primair) | Destinations-feed (fallback) |
 |---|---|---|
-| Eenoudervakanties (EOG) | `output/feed_eog.xml` / `.csv` | 10 boekbaar |
-| Singlereizen (SNG) | `output/feed_sng.xml` / `.csv` | 20 boekbaar |
+| Eenoudervakanties (EOG) | `output/feed_eog_products.xml` / `.csv` | `output/feed_eog.xml` / `.csv` |
+| Singlereizen (SNG) | `output/feed_sng_products.xml` / `.csv` | `output/feed_sng.xml` / `.csv` |
 
-De feeds voldoen aan het meegeleverde Meta destinations-XML-template. 100% gratis stack: **GitHub Actions** (dagelijkse cron) + **Playwright** + feeds als bestand in de repo (Meta haalt ze op via de raw-URL). Google Sheets-export is optioneel.
+Feed-URL's voor Meta (scheduled feed):
+```
+https://raw.githubusercontent.com/whaleads/estivant-dpa-feed/main/output/feed_eog_products.xml
+https://raw.githubusercontent.com/whaleads/estivant-dpa-feed/main/output/feed_sng_products.xml
+```
+
+100% gratis stack: **GitHub Actions** (dagelijkse cron) + **Playwright** + feeds als bestand in de repo (Meta haalt ze op via de raw-URL). Google Sheets = leesbare mirror.
 
 ---
 
@@ -50,13 +58,24 @@ De cron staat op **05:10 UTC** (`.github/workflows/daily-feed.yml`) — pas aan 
 
 ---
 
+## 3b. Verificatie-checklist vóór DPA-launch (products-catalogus)
+Bevestigd door specialisten tegen Meta-docs. Grootste risico = id-formaat.
+1. [ ] Elke reis in de catalogus heeft `id` = exact de interne item_id (bv. `440`), als **string**.
+2. [ ] Pixel én CAPI sturen `content_ids` in exact hetzelfde formaat (`'440'`, string — **geen getal**, geen prefix/spatie/case-verschil). ← #1 valkuil (Taggrs kan een getal sturen).
+3. [ ] `content_type='product'` op ViewContent, AddToCart én Purchase.
+4. [ ] Params compleet: `content_ids` + `content_type` + `value` + `currency` (Purchase: array + `num_items`).
+5. [ ] Pixel/dataset gekoppeld aan de catalogus (Commerce Manager → Catalog → Data sources).
+6. [ ] `availability=in stock` voor actieve reizen (out-of-stock verschijnt niet in DPA; onze crawler laat niet-boekbare reizen weg).
+7. [ ] `event_id`-dedup tussen browser-pixel en CAPI.
+8. [ ] Na koppeling: **Events Manager → Diagnostics → Catalog match rate** checken (streef >80-90%; ~7 dagen rolling window).
+
 ## 3. Koppelen in Meta Commerce Manager
 
-1. **Commerce Manager → Catalogs → Create catalog → Type: `Destinations` (Reizen)**. Maak er **twee**: `Estivant EOG` en `Estivant SNG` (of één catalogus met twee feeds — maar aparte catalogi houdt EOG/SNG-rapportage en product sets het schoonst).
+1. **Commerce Manager → Catalogs → Create catalog → Type: `E-commerce` (Producten)**. Eén catalogus (bv. `Estivant reizen`) met twee feeds, of twee catalogi `Estivant EOG` / `Estivant SNG`. Split EOG/SNG bij voorkeur via **product sets** op `custom_label_0`.
 2. In de catalogus: **Data sources → Add items → Use bulk upload → Scheduled feed**.
-3. Plak de bijbehorende raw/Pages-URL, stel **dagelijks** in (net ná de crawl, bv. 06:00 NL), currency **EUR**.
-4. Herhaal voor de tweede catalogus/feed.
-5. Koppel elke catalogus aan de **Meta-pixel `555359731496980`** (Catalog → Settings → Connect data sources / events).
+3. Plak de products-URL (`feed_eog_products.xml`), stel **dagelijks** in (net ná de crawl, bv. 08:00 NL), currency **EUR**.
+4. Herhaal voor `feed_sng_products.xml`.
+5. Koppel de catalogus aan de **Meta-pixel `555359731496980`** (Catalog → Settings → Connected data sources) en doorloop §3b.
 
 Daarna kun je **Advantage+ catalog-campagnes (DPA)** draaien op destination-sets, gesplitst per EOG/SNG.
 

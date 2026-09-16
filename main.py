@@ -293,6 +293,76 @@ def write_csv(path, rows):
             w.writerow(_csv_row(d))
 
 
+# ---------- products-feed (Meta e-commerce catalogus, RSS 2.0 + g: namespace) ----------
+
+def _product_type(d):
+    return " > ".join([x for x in [d["segment"], d["country"], d["type"]] if x])
+
+
+def _rss_item(d):
+    p = ["  <item>"]
+    p.append(f"    <g:id>{escape(d['destination_id'])}</g:id>")
+    p.append(f"    <g:title>{escape(d['name'])}</g:title>")
+    p.append(f"    <g:description>{escape(d['description'])}</g:description>")
+    p.append("    <g:availability>in stock</g:availability>")
+    p.append("    <g:condition>new</g:condition>")
+    p.append(f"    <g:price>{escape(d['price'])}</g:price>")
+    p.append(f"    <g:link>{escape(d['url'])}</g:link>")
+    p.append(f"    <g:image_link>{escape(d['image_url'])}</g:image_link>")
+    p.append("    <g:brand>Estivant</g:brand>")
+    pt = _product_type(d)
+    if pt:
+        p.append(f"    <g:product_type>{escape(pt)}</g:product_type>")
+    p.append(f"    <g:custom_label_0>{escape(d['segment'])}</g:custom_label_0>")
+    if d["type"]:
+        p.append(f"    <g:custom_label_1>{escape(d['type'])}</g:custom_label_1>")
+    if d["season"]:
+        p.append(f"    <g:custom_label_2>{escape(d['season'])}</g:custom_label_2>")
+    p.append(f"    <g:custom_label_3>{escape(d['country'])}</g:custom_label_3>")
+    p.append("  </item>")
+    return "\n".join(p)
+
+
+def write_products_xml(path, title, rows):
+    body = "\n".join(_rss_item(d) for d in rows)
+    xml = (
+        '<?xml version="1.0" encoding="utf-8"?>\n'
+        '<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">\n'
+        "  <channel>\n"
+        f"    <title>{escape(title)}</title>\n"
+        f"    <link>{escape(BASE)}</link>\n"
+        "    <description>Boekbare Estivant-reizen (dagelijks bijgewerkt)</description>\n"
+        f"{body}\n"
+        "  </channel>\n"
+        "</rss>\n"
+    )
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(xml)
+
+
+PRODUCTS_CSV_HEADERS = [
+    "id", "title", "description", "availability", "condition", "price",
+    "link", "image_link", "brand", "product_type",
+    "custom_label_0", "custom_label_1", "custom_label_2", "custom_label_3",
+]
+
+
+def _products_csv_row(d):
+    return [
+        d["destination_id"], d["name"], d["description"], "in stock", "new", d["price"],
+        d["url"], d["image_url"], "Estivant", _product_type(d),
+        d["segment"], d["type"], d["season"], d["country"],
+    ]
+
+
+def write_products_csv(path, rows):
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(PRODUCTS_CSV_HEADERS)
+        for d in rows:
+            w.writerow(_products_csv_row(d))
+
+
 def push_to_sheets(eog, sng):
     """Optioneel: schrijf naar Google Sheet-tabs als creds aanwezig zijn."""
     creds_json = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON")
@@ -325,6 +395,13 @@ def main():
     eog = [d for d in listings if d["seg"] == "eog"]
     sng = [d for d in listings if d["seg"] == "sng"]
 
+    # Products-catalogus (primair — matcht huidige pixel content_type=product + content_ids=item_id)
+    write_products_xml(os.path.join(OUT_DIR, "feed_eog_products.xml"), "Estivant Eenoudervakanties", eog)
+    write_products_xml(os.path.join(OUT_DIR, "feed_sng_products.xml"), "Estivant Singlereizen", sng)
+    write_products_csv(os.path.join(OUT_DIR, "feed_eog_products.csv"), eog)
+    write_products_csv(os.path.join(OUT_DIR, "feed_sng_products.csv"), sng)
+
+    # Destinations-catalogus (behouden als fallback; vereist content_type=destination in de pixel)
     write_xml(os.path.join(OUT_DIR, "feed_eog.xml"), "Estivant Eenoudervakanties", eog)
     write_xml(os.path.join(OUT_DIR, "feed_sng.xml"), "Estivant Singlereizen", sng)
     write_csv(os.path.join(OUT_DIR, "feed_eog.csv"), eog)
