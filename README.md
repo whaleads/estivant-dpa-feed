@@ -1,5 +1,7 @@
 # Estivant — Dynamic Product Ads feed (Meta destinations)
 
+![Feed status](https://github.com/whaleads/estivant-dpa-feed/actions/workflows/daily-feed.yml/badge.svg)
+
 Dagelijkse crawler die `estivant.nl` uitleest en Meta-catalogusfeeds bouwt, gesplitst EOG/SNG.
 
 **Primair = products-catalogus** (RSS 2.0). Reden: de Estivant-pixel stuurt `content_type: product` met `content_ids = interne item_id`; een products-catalogus matcht daar direct mee (geen tracking-wijziging nodig). De destinations-feeds blijven als fallback bestaan (vereisen `content_type: destination` in de pixel).
@@ -22,7 +24,9 @@ https://raw.githubusercontent.com/whaleads/estivant-dpa-feed/main/output/feed_sn
 ## Feed-velden (products)
 `id` (=item_id), `title`, `description`, `availability` (in stock), `condition` (new), `price` (EUR), `link`, `image_link`, **`additional_image_link` (tot 10 extra foto's/reis)**, `brand` (Estivant), `product_type` (segment > land > categorie), `custom_label_0` (EOG/SNG), `custom_label_1` (categorie), `custom_label_2` (seizoen), `custom_label_3` (land), **`custom_label_4` (leeftijdsgroepen)**, `custom_number_0` (prijs als getal).
 
-Nog toe te voegen zodra de **vertrekkalender** live is: reisduur (nachten), eerstvolgende vertrekdatum, en actuele beschikbaarheid (Beschikbaar/Bijna vol → out of stock). Van/voor-korting (`sale_price`) kan zodra de site strike-through prijzen toont.
+**Vertrekkalender-verrijking staat klaar** (`fetch_calendar`/`parse_calendar_rows` in `main.py`) en activeert **automatisch** zodra de kalender live gaat. Zolang die "in aanbouw" is, no-opt de crawler netjes (feed ongewijzigd). Zodra live voegt hij toe: `custom_number_1` = reisduur (nachten), `custom_number_2` = aantal vertrekken, `next_departure` (CSV/Sheet), en zet `availability` op **out of stock** voor uitverkochte/volgeboekte reizen. ⚠️ De kalender-DOM is nu onbekend (pagina leeg) → doe één snelle validatie van de parsing zodra de kalender écht data toont.
+
+Van/voor-korting (`sale_price`) kan zodra de site strike-through prijzen toont.
 
 ## 1. Hoe het werkt
 
@@ -139,6 +143,16 @@ python -m playwright install chromium
 python main.py
 # resultaat in output/
 ```
+
+## Monitoring — heeft de cron vannacht gedraaid?
+Vier manieren, van snel naar grondig:
+1. **Status-badge** (bovenaan deze README): groen = laatste run geslaagd, rood = gefaald.
+2. **Actions-tab:** https://github.com/whaleads/estivant-dpa-feed/actions — elke nachtelijke run staat er met datum/tijd + groen/rood vinkje.
+3. **Commit-historie:** elke geslaagde run commit `chore: update Estivant feeds (JJJJ-MM-DD)`. `output/last_run.txt` bevat het exacte UTC-tijdstip + aantallen (EOG/SNG/overgeslagen) — verandert élke run, dus er is altijd een dagelijkse commit als bewijs.
+4. **E-mail bij falen:** GitHub mailt de repo-owner automatisch zodra een scheduled run faalt (geen setup nodig).
+5. **Meta-kant:** in Commerce Manager toont de data source "Last updated" + eventuele fetch-fouten.
+
+Snelle CLI-check: `gh run list --workflow=daily-feed.yml --limit 5` (geslaagd/gefaald per dag), of open `output/last_run.txt` in de repo.
 
 ## 7. Onderhoud
 - Komt er een nieuw land bij in de URL's? Voeg de slug toe aan `COUNTRY_NAME` in `main.py`.

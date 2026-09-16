@@ -81,6 +81,99 @@ EXTRACT_JS = r"""
 """
 
 
+# JS die de vertrekkalender uitleest. Robuust tegen onbekende layout: pak elke link
+# naar een reis-detailpagina en lees de tekst van de omliggende rij-container.
+CALENDAR_JS = r"""
+() => {
+  const body = document.body.innerText || '';
+  if (/aan deze pagina wordt gewerkt|nog even geduld|in aanbouw/i.test(body)) {
+    return { underConstruction: true, rows: [] };
+  }
+  const tripRe = /\/(eenoudervakanties|singlereizen)\/[^\/]+\/[^\/]+\/?$/;
+  const rows = [];
+  const anchors = [...document.querySelectorAll('a[href]')].filter(a => {
+    try { return tripRe.test(new URL(a.href, location.origin).pathname); } catch (e) { return false; }
+  });
+  for (const a of anchors) {
+    const path = new URL(a.href, location.origin).pathname.replace(/\/$/, '');
+    // loop omhoog naar een rij-achtige container (tabelrij of element met row/rij/vertrek in class)
+    let el = a, cont = a;
+    for (let i = 0; i < 6 && el; i++) {
+      el = el.parentElement;
+      if (!el) break;
+      const cls = (el.className && el.className.toString ? el.className.toString() : '');
+      if (el.tagName === 'TR' || el.getAttribute('role') === 'row' || /row|rij|vertrek|departure|kalender|listing|card/i.test(cls)) { cont = el; break; }
+      cont = el;
+    }
+    rows.push({ path, text: (cont.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 300) });
+  }
+  return { underConstruction: false, rows };
+}
+"""
+
+_MONTHS = "jan|feb|mrt|maa|apr|mei|jun|jul|aug|sep|okt|nov|dec"
+
+
+def parse_calendar_rows(raw_rows):
+    """Bouw map: detail-path -> {duration, next_departure, availability, departures}."""
+    cal = {}
+    for r in raw_rows:
+        path = (r.get("path") or "").rstrip("/")
+        text = r.get("text") or ""
+        if not path:
+            continue
+        date_m = re.search(rf"\b(\d{{1,2}}\s+(?:{_MONTHS})[a-z]*)\b", text, re.IGNORECASE)
+        dur_m = re.search(r"(\d+)\s*(?:dg|dgn|dagen|nachten)", text, re.IGNORECASE)
+        avail_bookable = bool(re.search(r"beschikbaar|bijna vol|boek", text, re.IGNORECASE))
+        avail_sold = bool(re.search(r"uitverkocht|\bvol\b|geen beschikbaarheid", text, re.IGNORECASE))
+        entry = cal.setdefault(path, {
+            "next_departure": "", "duration": 0, "departures": 0,
+            "any_bookable": False, "any_sold": False,
+        })
+        entry["departures"] += 1
+        if not entry["next_departure"] and date_m:
+            entry["next_departure"] = date_m.group(1)   # kalender is chronologisch: eerste = eerstvolgende
+        if not entry["duration"] and dur_m:
+            entry["duration"] = int(dur_m.group(1))
+        entry["any_bookable"] = entry["any_bookable"] or avail_bookable
+        entry["any_sold"] = entry["any_sold"] or avail_sold
+    # availability afleiden
+    for e in cal.values():
+        if e["any_bookable"]:
+            e["availability"] = "in stock"
+        elif e["any_sold"]:
+            e["availability"] = "out of stock"
+        else:
+            e["availability"] = ""   # onbekend -> laat feed-default staan
+    return cal
+
+
+async def fetch_calendar(page, seg):
+    """Laad de vertrekkalender voor een segment en geef de geparste map terug (leeg = niet live)."""
+    url = f"{BASE}/{'eenoudervakanties' if seg == 'eog' else 'singlereizen'}/vertrekkalender"
+    try:
+        await page.goto(url, wait_until="domcontentloaded", timeout=45000)
+        try:
+            await page.wait_for_function(
+                "() => { const b=document.body.innerText||''; "
+                "return /aan deze pagina wordt gewerkt|nog even geduld|in aanbouw/i.test(b) "
+                "|| [...document.querySelectorAll('a[href]')].some(a => /\\/(eenoudervakanties|singlereizen)\\/[^/]+\\/[^/]+/.test(a.getAttribute('href')||'')); }",
+                timeout=8000,
+            )
+        except Exception:
+            pass
+        data = await page.evaluate(CALENDAR_JS)
+    except Exception as e:
+        print(f"[vertrekkalender] {seg}: fout bij laden ({e}) — overgeslagen", flush=True)
+        return {}
+    if data.get("underConstruction"):
+        print(f"[vertrekkalender] {seg}: nog in aanbouw — enrichment overgeslagen", flush=True)
+        return {}
+    cal = parse_calendar_rows(data.get("rows") or [])
+    print(f"[vertrekkalender] {seg}: {len(cal)} reizen met vertrekdata", flush=True)
+    return cal
+
+
 def fetch_sitemap_paths():
     req = urllib.request.Request(SITEMAP_URL, headers={"User-Agent": "EstivantFeedBot/1.0"})
     with urllib.request.urlopen(req, timeout=30) as r:
@@ -150,6 +243,11 @@ async def crawl():
         )
         page = await ctx.new_page()
 
+        # Vertrekkalender-verrijking (no-op zolang de kalender in aanbouw is)
+        calendar = {}
+        for seg in ("eog", "sng"):
+            calendar.update(await fetch_calendar(page, seg))
+
         for path in trips:
             url = BASE + path
             slug = path.split("/")[-1]
@@ -194,6 +292,7 @@ async def crawl():
             hero_base = hero.split("?")[0]
             gallery = data.get("gallery") or []
             additional_images = [g for g in gallery if g != hero_base][:10]
+            cal = calendar.get(path.rstrip("/"), {})
             listing = {
                 "destination_id": str(item.get("item_id") or "").strip(),
                 "name": (item.get("item_name") or place).strip(),
@@ -213,6 +312,11 @@ async def crawl():
                 "themes": tags,
                 "age_groups": ", ".join(age_groups),
                 "additional_images": additional_images,
+                # vertrekkalender-verrijking (leeg zolang kalender in aanbouw is)
+                "duration_nights": cal.get("duration", 0),
+                "next_departure": cal.get("next_departure", ""),
+                "departures": cal.get("departures", 0),
+                "cal_availability": cal.get("availability", ""),
                 "seg": seg,
             }
             if not listing["destination_id"]:
@@ -314,12 +418,17 @@ def _product_type(d):
     return " > ".join([x for x in [d["segment"], d["country"], d["type"]] if x])
 
 
+def _availability(d):
+    # kalender wint zodra die live is; anders "in stock" (reis staat alleen in feed bij price>0)
+    return d.get("cal_availability") or "in stock"
+
+
 def _rss_item(d):
     p = ["  <item>"]
     p.append(f"    <g:id>{escape(d['destination_id'])}</g:id>")
     p.append(f"    <g:title>{escape(d['name'])}</g:title>")
     p.append(f"    <g:description>{escape(d['description'])}</g:description>")
-    p.append("    <g:availability>in stock</g:availability>")
+    p.append(f"    <g:availability>{_availability(d)}</g:availability>")
     p.append("    <g:condition>new</g:condition>")
     p.append(f"    <g:price>{escape(d['price'])}</g:price>")
     p.append(f"    <g:link>{escape(d['url'])}</g:link>")
@@ -339,6 +448,10 @@ def _rss_item(d):
     if d.get("age_groups"):
         p.append(f"    <g:custom_label_4>{escape(d['age_groups'])}</g:custom_label_4>")
     p.append(f"    <g:custom_number_0>{d['price_number']}</g:custom_number_0>")
+    if d.get("duration_nights"):
+        p.append(f"    <g:custom_number_1>{d['duration_nights']}</g:custom_number_1>")
+    if d.get("departures"):
+        p.append(f"    <g:custom_number_2>{d['departures']}</g:custom_number_2>")
     p.append("  </item>")
     return "\n".join(p)
 
@@ -364,16 +477,17 @@ PRODUCTS_CSV_HEADERS = [
     "id", "title", "description", "availability", "condition", "price",
     "link", "image_link", "additional_image_link", "brand", "product_type",
     "custom_label_0", "custom_label_1", "custom_label_2", "custom_label_3", "custom_label_4",
-    "custom_number_0",
+    "custom_number_0", "custom_number_1", "custom_number_2", "next_departure",
 ]
 
 
 def _products_csv_row(d):
     return [
-        d["destination_id"], d["name"], d["description"], "in stock", "new", d["price"],
+        d["destination_id"], d["name"], d["description"], _availability(d), "new", d["price"],
         d["url"], d["image_url"], ",".join(d.get("additional_images", [])), "Estivant", _product_type(d),
         d["segment"], d["type"], d["season"], d["country"], d.get("age_groups", ""),
-        d["price_number"],
+        d["price_number"], d.get("duration_nights", "") or "", d.get("departures", "") or "",
+        d.get("next_departure", ""),
     ]
 
 
