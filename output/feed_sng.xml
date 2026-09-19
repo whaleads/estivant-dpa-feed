@@ -7,7 +7,7 @@
       <tag>Stedentrips</tag>
     </image>
     <destination_id>371</destination_id>
-    <url>https://www.estivant.nl/singlereizen/belgie/antwerpen-feestdagen</url>
+    <url>https://www.estivant.nl/singlereizen/belgie/antwerpen-feestdagen/</url>
     <name>Singlereis Antwerpen</name>
     <description>Ga mee op singlereis naar Antwerpen en vier de feestdagen bij onze zuiderburen! Te boeken voor zowel een gezellige kerst als een feestelijk oud &amp; nieuw!</description>
     <price>649.00 EUR</price>
@@ -36,7 +36,7 @@
       <tag>Stedentrips</tag>
     </image>
     <destination_id>370</destination_id>
-    <url>https://www.estivant.nl/singlereizen/belgie/gent-feestdagen</url>
+    <url>https://www.estivant.nl/singlereizen/belgie/gent-feestdagen/</url>
     <name>Singlereis Gent</name>
     <description>Vier de feestdagen in Gent tijdens onze singlereis. Ontdek de kerstmarkt, vele biercafe's en de ijsbaan. Kies voor een gezellige kerst of knallend oud &amp; nieuw!</description>
     <price>639.00 EUR</price>
@@ -65,7 +65,7 @@
       <tag>Stedentrips</tag>
     </image>
     <destination_id>372</destination_id>
-    <url>https://www.estivant.nl/singlereizen/duitsland/berlijn-feestdagen</url>
+    <url>https://www.estivant.nl/singlereizen/duitsland/berlijn-feestdagen/</url>
     <name>Singlereis Berlijn</name>
     <description>Ga mee op singlereis naar Berlijn en vier de feestdagen in deze bruisende stad. Kies je voor een gezellige kerst of knallend oud &amp; nieuw?</description>
     <price>639.00 EUR</price>
@@ -94,7 +94,7 @@
       <tag>Stedentrips</tag>
     </image>
     <destination_id>432</destination_id>
-    <url>https://www.estivant.nl/singlereizen/duitsland/keulen-feestdagen</url>
+    <url>https://www.estivant.nl/singlereizen/duitsland/keulen-feestdagen/</url>
     <name>Singlereis Keulen</name>
     <description>Ga mee op singlereis naar Keulen en vier de feestdagen op echt Duitse wijze. De kerstmarkten van Keulen behoren tot de bekendste ter wereld!</description>
     <price>599.00 EUR</price>
@@ -123,7 +123,7 @@
       <tag>Winterzon</tag>
     </image>
     <destination_id>380</destination_id>
-    <url>https://www.estivant.nl/singlereizen/egypte/el-gouna</url>
+    <url>https://www.estivant.nl/singlereizen/egypte/el-gouna/</url>
     <name>Singlereis El Gouna</name>
     <description>Ga mee op singlereis naar El Gouna in Egypte. Ontsnap aan de winterkou in Nederland en geniet van deze winterzon vakantie!</description>
     <price>1319.00 EUR</price>
@@ -156,7 +156,7 @@
       <tag>Strand</tag>
     </image>
     <destination_id>429</destination_id>
-    <url>https://www.estivant.nl/singlereizen/griekenland/corfu</url>
+    <url>https://www.estivant.nl/singlereizen/griekenland/corfu/</url>
     <name>Singlereis Corfu</name>
     <description>Ga mee op singlereis naar Corfu, en ontdek dit prachtige groene eiland samen met je reisgenoten. Combineer strand, natuur en cultuur. Bekijk deze groepsreis!</description>
     <price>1719.00 EUR</price>
@@ -188,7 +188,7 @@
       <tag>Strand</tag>
     </image>
     <destination_id>430</destination_id>
-    <url>https://www.estivant.nl/singlereizen/griekenland/samos</url>
+    <url>https://www.estivant.nl/singlereizen/griekenland/samos/</url>
     <name>Singlereis Samos</name>
     <description>Ga mee op singlereis naar Samos. Een Grieks eiland zonder massatoerisme. Verken het eiland en strijk neer op de mooiste bounty-stranden. Bekijk deze groepsreis!</description>
     <price>1499.00 EUR</price>
@@ -220,7 +220,7 @@
       <tag>Rondreizen</tag>
     </image>
     <destination_id>436</destination_id>
-    <url>https://www.estivant.nl/singlereizen/griekenland/thessaloniki-olympus</url>
+    <url>https://www.estivant.nl/singlereizen/griekenland/thessaloniki-olympus/</url>
     <name>Singlereis Thessaloniki &amp; Litochoro</name>
     <description>Ontdek Thessaloniki en de Mount Olympus - de berg van de goden! Combineer stad, cultuur en natuur tijdens een georganiseerde reis door Noord-Griekenland.</description>
     <price>1569.00 EUR</price>
@@ -252,7 +252,7 @@
       <tag>Cultuur</tag>
     </image>
     <destination_id>444</destination_id>
-    <url>https://www.estivant.nl/singlereizen/italie/glamping-gardameer</url>
+    <url>https://www.estivant.nl/singlereizen/italie/glamping-gardameer/</url>
     <name>Singlereis Gardameer</name>
     <description>Ga mee op singlereis naar onze glamping aan het Gardameer. Verken de omgeving per e-bike, breng een bezoek aan Verona, Sirmione en meer. Bekijk deze groepsreis!</description>
     <price>949.00 EUR</price>
@@ -283,7 +283,7 @@
       <tag>Wintersport</tag>
     </image>
     <destination_id>376</destination_id>
-    <url>https://www.estivant.nl/singlereizen/italie/marilleva</url>
+    <url>https://www.estivant.nl/singlereizen/italie/marilleva/</url>
     <name>Singlereis Marilleva</name>
     <description>Ga met andere singles op wintersport in Marilleva. Ontdek Val di Sole en Trentino en geniet samen van skiën, sneeuw en gezelligheid.</description>
     <price>1199.00 EUR</price>
@@ -313,7 +313,7 @@
       <tag>Rondreizen</tag>
     </image>
     <destination_id>431</destination_id>
-    <url>https://www.estivant.nl/singlereizen/italie/toscane</url>
+    <url>https://www.estivant.nl/singlereizen/italie/toscane/</url>
     <name>Singlereis Toscane</name>
     <description>Ga mee op singlereis naar Toscane. Ontdek de steden Siena, Lucca, Florence én Cinque Terre. Inclusief diner bij een Toscaanse wijnboer. Bekijk deze groepsreis!</description>
     <price>1529.00 EUR</price>
@@ -346,7 +346,7 @@
       <tag>Wandelen</tag>
     </image>
     <destination_id>369</destination_id>
-    <url>https://www.estivant.nl/singlereizen/nederland/kerst-in-groenlo</url>
+    <url>https://www.estivant.nl/singlereizen/nederland/kerst-in-groenlo/</url>
     <name>Singlereis Groenlo</name>
     <description>Ga mee op singlereis naar Groenlo en vier kerst in de Achterhoek. Inclusief halfpension én een feestelijk 5-gangendiner op eerste kerstdag. Altijd je eigen kamer!</description>
     <price>699.00 EUR</price>
@@ -373,7 +373,7 @@
       <tag>Wintersport</tag>
     </image>
     <destination_id>381</destination_id>
-    <url>https://www.estivant.nl/singlereizen/oostenrijk/mittersill</url>
+    <url>https://www.estivant.nl/singlereizen/oostenrijk/mittersill/</url>
     <name>Singlereis Mittersill</name>
     <description>Ga mee op single wintersport naar Mittersill. Wissel verschillende skigebieden af vanuit ons gezellige hotel mét eigen bierbrouwerij! Bekijk deze groepsreis!</description>
     <price>1499.00 EUR</price>
@@ -403,7 +403,7 @@
       <tag>Wintersport</tag>
     </image>
     <destination_id>424</destination_id>
-    <url>https://www.estivant.nl/singlereizen/oostenrijk/wagrain</url>
+    <url>https://www.estivant.nl/singlereizen/oostenrijk/wagrain/</url>
     <name>Singlereis Wagrain</name>
     <description>Ga mee op single wintersport naar Wagrain. Uitgebreid skigebied, hotel vlakbij de skilift en bruisende apres-ski om de hoek!</description>
     <price>1399.00 EUR</price>
@@ -434,7 +434,7 @@
       <tag>Wandelen</tag>
     </image>
     <destination_id>441</destination_id>
-    <url>https://www.estivant.nl/singlereizen/portugal/wandelvakantie-algarve</url>
+    <url>https://www.estivant.nl/singlereizen/portugal/wandelvakantie-algarve/</url>
     <name>Singlereis Algarve</name>
     <description>Ga mee op wandelvakantie in de Algarve. Vanuit het gezellige Portimao ontdekken we kustpaden en bijzondere uitzichtpunten. Heerlijk eten én cultuur inclusief!</description>
     <price>1554.00 EUR</price>
@@ -467,7 +467,7 @@
       <tag>Wandelen</tag>
     </image>
     <destination_id>443</destination_id>
-    <url>https://www.estivant.nl/singlereizen/portugal/madeira</url>
+    <url>https://www.estivant.nl/singlereizen/portugal/madeira/</url>
     <name>Singlereis Madeira</name>
     <description>Tijdens deze singlereis maken we vrijwel elke dag een nieuwe adembenemende hike over de mooiste paden van Madeira. Bekijk deze wandelreis hier!</description>
     <price>1769.00 EUR</price>
@@ -499,7 +499,7 @@
       <tag>Strand</tag>
     </image>
     <destination_id>433</destination_id>
-    <url>https://www.estivant.nl/singlereizen/spanje/mallorca</url>
+    <url>https://www.estivant.nl/singlereizen/spanje/mallorca/</url>
     <name>Singlereis Mallorca</name>
     <description>Ga mee op singlereis naar Mallorca. Ontdek samen met een groep leeftijdsgenoten het eiland vanuit de kleine badplaats Ca’n Pastilla. Bekijk deze groepsreis!</description>
     <price>1729.00 EUR</price>
@@ -531,7 +531,7 @@
       <tag>Wandelen</tag>
     </image>
     <destination_id>442</destination_id>
-    <url>https://www.estivant.nl/singlereizen/spanje/wandelen-andalusie</url>
+    <url>https://www.estivant.nl/singlereizen/spanje/wandelen-andalusie/</url>
     <name>Singlereis Andalusië Herfstzon</name>
     <description>Ontsnap aan de herfst met onze singlevakantie naar Andalusië! Wandel over de beroemde Caminito del Rey en bezoek Malaga. Bekijk deze groepsreis!</description>
     <price>1246.00 EUR</price>
@@ -565,7 +565,7 @@
       <tag>Actief</tag>
     </image>
     <destination_id>378</destination_id>
-    <url>https://www.estivant.nl/singlereizen/zweden/lapland</url>
+    <url>https://www.estivant.nl/singlereizen/zweden/lapland/</url>
     <name>Singlereis Lapland</name>
     <description>Ga mee op singlereis naar Lapland. Maak een sneeuwscooter- en huskysledetocht, wandel door de sneeuw én spot het noorderlicht. Bekijk deze groepsreis!</description>
     <price>2074.00 EUR</price>
