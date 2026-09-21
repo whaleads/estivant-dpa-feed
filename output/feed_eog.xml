@@ -3,6 +3,40 @@
   <title>Estivant Eenoudervakanties</title>
   <listing>
     <image>
+      <url>https://www.estivant.nl/media/kfrjrzn1/carindeben-estivantzomer2026_298.jpg?rxy=0.2756892230576441,0.618421052631579&amp;width=1440&amp;height=775&amp;v=1dd3eb6421930a0</url>
+      <tag>Actief</tag>
+    </image>
+    <destination_id>386</destination_id>
+    <url>https://www.estivant.nl/eenoudervakanties/belgie/la-roche-en-ardenne/</url>
+    <name>Eenoudervakantie La Roche-en-Ardenne</name>
+    <description>Ontdek de Ardennen met je kinderen en andere eenoudergezinnen. Volop natuur, leuke activiteiten en gezellige dorpjes om de hoek. Bekijk onze eenoudervakanties!</description>
+    <price>232.00 EUR</price>
+    <address format="simple">
+      <component name="city">La Roche-en-Ardenne</component>
+      <component name="region">België</component>
+      <component name="country">België</component>
+    </address>
+    <neighborhood>La Roche-en-Ardenne</neighborhood>
+    <type>Actief</type>
+    <type>Eenoudervakantie</type>
+    <custom_number_0>232</custom_number_0>
+    <custom_label_0>Eenoudervakantie</custom_label_0>
+    <custom_label_1>Actief</custom_label_1>
+    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_3>België</custom_label_3>
+    <product_tags>Actief</product_tags>
+    <product_tags>Zomervakantie</product_tags>
+    <product_tags>200 tot 500 km</product_tags>
+    <product_tags>Camping</product_tags>
+    <product_tags>8-11 jaar</product_tags>
+    <product_tags>12-14 jaar</product_tags>
+    <product_tags>15 plus</product_tags>
+    <product_tags>Kamperen</product_tags>
+    <product_tags>België</product_tags>
+    <product_tags>Eenoudervakantie</product_tags>
+  </listing>
+  <listing>
+    <image>
       <url>https://www.estivant.nl/media/o5dd1ioo/bos-kinderen.jpg?rxy=0.5,0.43621813915358637&amp;width=1440&amp;height=775&amp;v=1dd4130e2b066b0</url>
       <tag>Ontspanning</tag>
     </image>
@@ -103,6 +137,149 @@
   </listing>
   <listing>
     <image>
+      <url>https://www.estivant.nl/media/rbvgo0cc/istock-1124253037.jpg?rxy=0.5025062656641605,0.6151487055131588&amp;width=1440&amp;height=775&amp;v=1dd44e7f17936d0</url>
+      <tag>Actief</tag>
+    </image>
+    <destination_id>395</destination_id>
+    <url>https://www.estivant.nl/eenoudervakanties/duitsland/prum-eifel/</url>
+    <name>Eenoudervakantie Eifel</name>
+    <description>Vier vakantie met andere eenoudergezinnen in Prüm-Eifel. Spelen in de natuur en het zwembad. Perfect voor jonge kinderen. Bekijk deze eenoudervakantie!</description>
+    <price>265.00 EUR</price>
+    <address format="simple">
+      <component name="city">Eifel</component>
+      <component name="region">Duitsland</component>
+      <component name="country">Duitsland</component>
+    </address>
+    <neighborhood>Eifel</neighborhood>
+    <type>Actief</type>
+    <type>Eenoudervakantie</type>
+    <custom_number_0>265</custom_number_0>
+    <custom_label_0>Eenoudervakantie</custom_label_0>
+    <custom_label_1>Actief</custom_label_1>
+    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_3>Duitsland</custom_label_3>
+    <product_tags>Actief</product_tags>
+    <product_tags>Zomervakantie</product_tags>
+    <product_tags>200 tot 500 km</product_tags>
+    <product_tags>Camping</product_tags>
+    <product_tags>0-3 jaar</product_tags>
+    <product_tags>4-7 jaar</product_tags>
+    <product_tags>8-11 jaar</product_tags>
+    <product_tags>Kamperen</product_tags>
+    <product_tags>Duitsland</product_tags>
+    <product_tags>Eenoudervakantie</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/jc3iqut2/istock-468425064.jpg?width=1440&amp;height=775&amp;v=1dcab16e88c95f0</url>
+      <tag>Glamping</tag>
+    </image>
+    <destination_id>403</destination_id>
+    <url>https://www.estivant.nl/eenoudervakanties/frankrijk/ardeche/</url>
+    <name>Eenoudervakantie Ardèche</name>
+    <description>Vier vakantie met andere eenoudergezinnen in de Ardèche. Camping in de natuur met veel sportieve activiteiten in de buurt. Bekijk deze eenoudervakantie!</description>
+    <price>232.00 EUR</price>
+    <address format="simple">
+      <component name="city">Ardèche</component>
+      <component name="region">Frankrijk</component>
+      <component name="country">Frankrijk</component>
+    </address>
+    <neighborhood>Ardèche</neighborhood>
+    <type>Glamping</type>
+    <type>Eenoudervakantie</type>
+    <custom_number_0>232</custom_number_0>
+    <custom_label_0>Eenoudervakantie</custom_label_0>
+    <custom_label_1>Glamping</custom_label_1>
+    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_3>Frankrijk</custom_label_3>
+    <product_tags>Glamping</product_tags>
+    <product_tags>Kamperen</product_tags>
+    <product_tags>Cultuur</product_tags>
+    <product_tags>Ontspanning</product_tags>
+    <product_tags>Zomervakantie</product_tags>
+    <product_tags>1000 plus km</product_tags>
+    <product_tags>Camping</product_tags>
+    <product_tags>Glamping (1)</product_tags>
+    <product_tags>8-11 jaar</product_tags>
+    <product_tags>12-14 jaar</product_tags>
+    <product_tags>Frankrijk</product_tags>
+    <product_tags>Eenoudervakantie</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/3dnmga3h/20120812_2737.jpg?rxy=0.48872180451127817,0.4192958837553869&amp;width=1440&amp;height=775&amp;v=1dd450865260bb0</url>
+      <tag>Watersport</tag>
+    </image>
+    <destination_id>400</destination_id>
+    <url>https://www.estivant.nl/eenoudervakanties/frankrijk/lacanau/</url>
+    <name>Eenoudervakantie Lacanau Océan</name>
+    <description>Vier vakantie met je kinderen in Frans surfdorp Lacanau. Geniet van strand, surfen en campingplezier aan de Franse kust met andere eenoudergezinnen.</description>
+    <price>498.00 EUR</price>
+    <address format="simple">
+      <component name="city">Lacanau Océan</component>
+      <component name="region">Frankrijk</component>
+      <component name="country">Frankrijk</component>
+    </address>
+    <neighborhood>Lacanau Océan</neighborhood>
+    <type>Watersport</type>
+    <type>Eenoudervakantie</type>
+    <custom_number_0>498</custom_number_0>
+    <custom_label_0>Eenoudervakantie</custom_label_0>
+    <custom_label_1>Watersport</custom_label_1>
+    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_3>Frankrijk</custom_label_3>
+    <product_tags>Strand</product_tags>
+    <product_tags>Watersport</product_tags>
+    <product_tags>Actief</product_tags>
+    <product_tags>Kamperen</product_tags>
+    <product_tags>Zomervakantie</product_tags>
+    <product_tags>1000 plus km</product_tags>
+    <product_tags>Camping</product_tags>
+    <product_tags>12-14 jaar</product_tags>
+    <product_tags>15 plus</product_tags>
+    <product_tags>Frankrijk</product_tags>
+    <product_tags>Eenoudervakantie</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/bizd3mk1/istock-1361397795-1.jpg?rxy=0.4849624060150376,0.413643465655371&amp;width=1440&amp;height=775&amp;v=1dd4500bbabd4e0</url>
+      <tag>Actief</tag>
+    </image>
+    <destination_id>401</destination_id>
+    <url>https://www.estivant.nl/eenoudervakanties/frankrijk/st-gilles-croix-de-vie/</url>
+    <name>Eenoudervakantie St Gilles Croix de Vie</name>
+    <description>Vier vakantie aan de Franse westkust met je kinderen. Ontdek Saint-Gilles-Croix-de-Vie, surfen, strand en gezelligheid met eenoudergezinnen.</description>
+    <price>232.00 EUR</price>
+    <address format="simple">
+      <component name="city">St Gilles Croix de Vie</component>
+      <component name="region">Frankrijk</component>
+      <component name="country">Frankrijk</component>
+    </address>
+    <neighborhood>St Gilles Croix de Vie</neighborhood>
+    <type>Actief</type>
+    <type>Eenoudervakantie</type>
+    <custom_number_0>232</custom_number_0>
+    <custom_label_0>Eenoudervakantie</custom_label_0>
+    <custom_label_1>Actief</custom_label_1>
+    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_3>Frankrijk</custom_label_3>
+    <product_tags>Actief</product_tags>
+    <product_tags>Strand</product_tags>
+    <product_tags>Cultuur</product_tags>
+    <product_tags>Watersport</product_tags>
+    <product_tags>Kamperen</product_tags>
+    <product_tags>Glamping</product_tags>
+    <product_tags>Zomervakantie</product_tags>
+    <product_tags>500 tot 1000 km</product_tags>
+    <product_tags>Camping</product_tags>
+    <product_tags>4-7 jaar</product_tags>
+    <product_tags>8-11 jaar</product_tags>
+    <product_tags>12-14 jaar</product_tags>
+    <product_tags>Frankrijk</product_tags>
+    <product_tags>Eenoudervakantie</product_tags>
+  </listing>
+  <listing>
+    <image>
       <url>https://www.estivant.nl/media/teeln5ye/csm_dp110324006_1458fec6e3.webp?width=1440&amp;height=775&amp;v=1dd30749c33e850</url>
       <tag>Wintersport</tag>
     </image>
@@ -134,6 +311,113 @@
     <product_tags>12-14 jaar</product_tags>
     <product_tags>15 plus</product_tags>
     <product_tags>Italië</product_tags>
+    <product_tags>Eenoudervakantie</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/vwko5wh4/estivant-eenouder-vakantie-reizen-nederland-ameland-zomer-duinen-zee.jpg?rxy=0.5025062656641605,0.8954166694509226&amp;width=1440&amp;height=775&amp;v=1db198cc8fe0c90</url>
+      <tag>Strand</tag>
+    </image>
+    <destination_id>414</destination_id>
+    <url>https://www.estivant.nl/eenoudervakanties/nederland/ameland/</url>
+    <name>Eenoudervakantie Ameland</name>
+    <description>Vier vakantie met andere eenoudergezinnen op Ameland. Camping met zwembad en toplocatie achter de duinen. De hele dag buiten! Bekijk deze eenoudervakantie.</description>
+    <price>299.00 EUR</price>
+    <address format="simple">
+      <component name="city">Ameland</component>
+      <component name="region">Nederland</component>
+      <component name="country">Nederland</component>
+    </address>
+    <neighborhood>Ameland</neighborhood>
+    <type>Strand</type>
+    <type>Eenoudervakantie</type>
+    <custom_number_0>299</custom_number_0>
+    <custom_label_0>Eenoudervakantie</custom_label_0>
+    <custom_label_1>Strand</custom_label_1>
+    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_3>Nederland</custom_label_3>
+    <product_tags>Strand</product_tags>
+    <product_tags>Watersport</product_tags>
+    <product_tags>Actief</product_tags>
+    <product_tags>Kamperen</product_tags>
+    <product_tags>Zomervakantie</product_tags>
+    <product_tags>200 tot 500 km</product_tags>
+    <product_tags>Camping</product_tags>
+    <product_tags>8-11 jaar</product_tags>
+    <product_tags>12-14 jaar</product_tags>
+    <product_tags>Nederland</product_tags>
+    <product_tags>Eenoudervakantie</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/torplnb1/carindeben-estivantzomer2026_374.jpg?rxy=0.3508771929824561,0.4849624060150376&amp;width=1440&amp;height=775&amp;v=1dd444df8c7d800</url>
+      <tag>Watersport</tag>
+    </image>
+    <destination_id>416</destination_id>
+    <url>https://www.estivant.nl/eenoudervakanties/nederland/burgh-haamstede/</url>
+    <name>Eenoudervakantie Burgh-Haamstede</name>
+    <description>Vier vakantie in Zeeland met je kinderen in Burgh-Haamstede. Geniet van strand, duinen, activiteiten en gezelligheid met eenoudergezinnen.</description>
+    <price>199.00 EUR</price>
+    <address format="simple">
+      <component name="city">Burgh-Haamstede</component>
+      <component name="region">Nederland</component>
+      <component name="country">Nederland</component>
+    </address>
+    <neighborhood>Burgh-Haamstede</neighborhood>
+    <type>Watersport</type>
+    <type>Eenoudervakantie</type>
+    <custom_number_0>199</custom_number_0>
+    <custom_label_0>Eenoudervakantie</custom_label_0>
+    <custom_label_1>Watersport</custom_label_1>
+    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_3>Nederland</custom_label_3>
+    <product_tags>Strand</product_tags>
+    <product_tags>Actief</product_tags>
+    <product_tags>Watersport</product_tags>
+    <product_tags>Kamperen</product_tags>
+    <product_tags>Zomervakantie</product_tags>
+    <product_tags>tot-200-km</product_tags>
+    <product_tags>Camping</product_tags>
+    <product_tags>8-11 jaar</product_tags>
+    <product_tags>12-14 jaar</product_tags>
+    <product_tags>Nederland</product_tags>
+    <product_tags>Eenoudervakantie</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/w3pjd5xk/drenthe1-1.jpg?rxy=0.6641604010025063,0.5626323186678289&amp;width=1440&amp;height=775&amp;v=1dc9513161f2790</url>
+      <tag>Ontspanning</tag>
+    </image>
+    <destination_id>417</destination_id>
+    <url>https://www.estivant.nl/eenoudervakanties/nederland/kuierpad/</url>
+    <name>Eenoudervakantie Kuierpad</name>
+    <description>Vier vakantie met andere eenoudergezinnen op het Kuierpad in Drenthe. Populaire camping met binnen- en buitenzwembad en zwemvijver. Bekijk deze eenoudervakantie!</description>
+    <price>99.00 EUR</price>
+    <address format="simple">
+      <component name="city">Kuierpad</component>
+      <component name="region">Nederland</component>
+      <component name="country">Nederland</component>
+    </address>
+    <neighborhood>Kuierpad</neighborhood>
+    <type>Ontspanning</type>
+    <type>Eenoudervakantie</type>
+    <custom_number_0>99</custom_number_0>
+    <custom_label_0>Eenoudervakantie</custom_label_0>
+    <custom_label_1>Ontspanning</custom_label_1>
+    <custom_label_2>Meivakantie</custom_label_2>
+    <custom_label_3>Nederland</custom_label_3>
+    <product_tags>Ontspanning</product_tags>
+    <product_tags>Meivakantie</product_tags>
+    <product_tags>Hemelvaart</product_tags>
+    <product_tags>Pinksteren</product_tags>
+    <product_tags>Zomervakantie</product_tags>
+    <product_tags>tot-200-km</product_tags>
+    <product_tags>Camping</product_tags>
+    <product_tags>Kamperen</product_tags>
+    <product_tags>4-7 jaar</product_tags>
+    <product_tags>8-11 jaar</product_tags>
+    <product_tags>12-14 jaar</product_tags>
+    <product_tags>Nederland</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
@@ -344,6 +628,73 @@
     <product_tags>12-14 jaar</product_tags>
     <product_tags>15 plus</product_tags>
     <product_tags>Oostenrijk</product_tags>
+    <product_tags>Eenoudervakantie</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/ul3hw432/istock-1424973892.jpg?rxy=0.4949874686716792,0.35509628933771725&amp;width=1440&amp;height=775&amp;v=1dd45267a6a17f0</url>
+      <tag>Actief</tag>
+    </image>
+    <destination_id>418</destination_id>
+    <url>https://www.estivant.nl/eenoudervakanties/oostenrijk/wildschonau/</url>
+    <name>Eenoudervakantie Wildschönau</name>
+    <description>Ontdek het Oostenrijkse Wildschönau in de zomer met je kinderen. Geniet van frisse berglucht, buitenactiviteiten en gezelligheid met andere eenoudergezinnen.</description>
+    <price>662.00 EUR</price>
+    <address format="simple">
+      <component name="city">Wildschönau</component>
+      <component name="region">Oostenrijk</component>
+      <component name="country">Oostenrijk</component>
+    </address>
+    <neighborhood>Wildschönau</neighborhood>
+    <type>Actief</type>
+    <type>Eenoudervakantie</type>
+    <custom_number_0>662</custom_number_0>
+    <custom_label_0>Eenoudervakantie</custom_label_0>
+    <custom_label_1>Actief</custom_label_1>
+    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_3>Oostenrijk</custom_label_3>
+    <product_tags>Actief</product_tags>
+    <product_tags>Cultuur</product_tags>
+    <product_tags>Zomervakantie</product_tags>
+    <product_tags>500 tot 1000 km</product_tags>
+    <product_tags>Hotel</product_tags>
+    <product_tags>8-11 jaar</product_tags>
+    <product_tags>12-14 jaar</product_tags>
+    <product_tags>Oostenrijk</product_tags>
+    <product_tags>Eenoudervakantie</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/44wpbxwo/estivant-eenouder-vakantie-reizen-spanje-cambrils-zomer-torre-del-sol-strand-boulevard-luchtfoto-1.jpg?rxy=0.5,0.6437077566784679&amp;width=1440&amp;height=775&amp;v=1dd4512e2f9c310</url>
+      <tag>Strand</tag>
+    </image>
+    <destination_id>391</destination_id>
+    <url>https://www.estivant.nl/eenoudervakanties/spanje/cambrils/</url>
+    <name>Eenoudervakantie Cambrils</name>
+    <description>Vier vakantie met andere eenoudergezinnen in Cambrils. Camping aan zee met een groot zwemparadijs, disco en bioscoop. Bekijk deze eenoudervakantie!</description>
+    <price>298.00 EUR</price>
+    <address format="simple">
+      <component name="city">Cambrils</component>
+      <component name="region">Spanje</component>
+      <component name="country">Spanje</component>
+    </address>
+    <neighborhood>Cambrils</neighborhood>
+    <type>Strand</type>
+    <type>Eenoudervakantie</type>
+    <custom_number_0>298</custom_number_0>
+    <custom_label_0>Eenoudervakantie</custom_label_0>
+    <custom_label_1>Strand</custom_label_1>
+    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_3>Spanje</custom_label_3>
+    <product_tags>Strand</product_tags>
+    <product_tags>Ontspanning</product_tags>
+    <product_tags>Kamperen</product_tags>
+    <product_tags>Zomervakantie</product_tags>
+    <product_tags>1000 plus km</product_tags>
+    <product_tags>Camping</product_tags>
+    <product_tags>12-14 jaar</product_tags>
+    <product_tags>15 plus</product_tags>
+    <product_tags>Spanje</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
 </listings>

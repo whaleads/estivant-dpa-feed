@@ -184,38 +184,6 @@
   </listing>
   <listing>
     <image>
-      <url>https://www.estivant.nl/media/u0ybilbb/istock-1419953437.jpg?rxy=0.5050125313283208,0.4413050862417121&amp;width=1440&amp;height=775&amp;v=1dcbac49a7ad5d0</url>
-      <tag>Strand</tag>
-    </image>
-    <destination_id>430</destination_id>
-    <url>https://www.estivant.nl/singlereizen/griekenland/samos/</url>
-    <name>Singlereis Samos</name>
-    <description>Ga mee op singlereis naar Samos. Een Grieks eiland zonder massatoerisme. Verken het eiland en strijk neer op de mooiste bounty-stranden. Bekijk deze groepsreis!</description>
-    <price>1499.00 EUR</price>
-    <address format="simple">
-      <component name="city">Samos</component>
-      <component name="region">Griekenland</component>
-      <component name="country">Griekenland</component>
-    </address>
-    <neighborhood>Samos</neighborhood>
-    <type>Strand</type>
-    <type>Singlereis</type>
-    <custom_number_0>1499</custom_number_0>
-    <custom_label_0>Singlereis</custom_label_0>
-    <custom_label_1>Strand</custom_label_1>
-    <custom_label_2>Zomer</custom_label_2>
-    <custom_label_3>Griekenland</custom_label_3>
-    <product_tags>Strand</product_tags>
-    <product_tags>30-49 jaar</product_tags>
-    <product_tags>40-59 jaar</product_tags>
-    <product_tags>50-69 jaar</product_tags>
-    <product_tags>Hotel</product_tags>
-    <product_tags>Zomer</product_tags>
-    <product_tags>Griekenland</product_tags>
-    <product_tags>Singlereis</product_tags>
-  </listing>
-  <listing>
-    <image>
       <url>https://www.estivant.nl/media/gu4d5rpm/istock-105929310.jpg?rxy=0.7243107769423559,0.5079200570844566&amp;width=1440&amp;height=775&amp;v=1dcc74a981f55d0</url>
       <tag>Rondreizen</tag>
     </image>
@@ -244,37 +212,6 @@
     <product_tags>Hotel</product_tags>
     <product_tags>Zomer</product_tags>
     <product_tags>Griekenland</product_tags>
-    <product_tags>Singlereis</product_tags>
-  </listing>
-  <listing>
-    <image>
-      <url>https://www.estivant.nl/media/qmrbbvbi/istock-692310004-2.jpg?width=1440&amp;height=775&amp;v=1dd3081b3eed0b0</url>
-      <tag>Cultuur</tag>
-    </image>
-    <destination_id>444</destination_id>
-    <url>https://www.estivant.nl/singlereizen/italie/glamping-gardameer/</url>
-    <name>Singlereis Gardameer</name>
-    <description>Ga mee op singlereis naar onze glamping aan het Gardameer. Verken de omgeving per e-bike, breng een bezoek aan Verona, Sirmione en meer. Bekijk deze groepsreis!</description>
-    <price>949.00 EUR</price>
-    <address format="simple">
-      <component name="city">Gardameer</component>
-      <component name="region">Italië</component>
-      <component name="country">Italië</component>
-    </address>
-    <neighborhood>Gardameer</neighborhood>
-    <type>Cultuur</type>
-    <type>Singlereis</type>
-    <custom_number_0>949</custom_number_0>
-    <custom_label_0>Singlereis</custom_label_0>
-    <custom_label_1>Cultuur</custom_label_1>
-    <custom_label_2>Zomer</custom_label_2>
-    <custom_label_3>Italië</custom_label_3>
-    <product_tags>Cultuur</product_tags>
-    <product_tags>30-49 jaar</product_tags>
-    <product_tags>40-59 jaar</product_tags>
-    <product_tags>Glamping</product_tags>
-    <product_tags>Zomer</product_tags>
-    <product_tags>Italië</product_tags>
     <product_tags>Singlereis</product_tags>
   </listing>
   <listing>
