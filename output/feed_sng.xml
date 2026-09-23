@@ -306,6 +306,34 @@
   </listing>
   <listing>
     <image>
+      <url>https://www.estivant.nl/media/wwilhhgi/img-20191206-wa0002.jpg?rxy=0.6227454680479122,0.4916499564069546&amp;width=1440&amp;height=775&amp;v=1db31e9a89a7f40</url>
+      <tag>Wintersport</tag>
+    </image>
+    <destination_id>379</destination_id>
+    <url>https://www.estivant.nl/singlereizen/oostenrijk/kaprun-zell-am-see/</url>
+    <name>Singlereis Kaprun - Zell am See</name>
+    <description>Ga mee op single wintersport naar Kaprun. Geschikt voor alle skiniveau's. Gegarandeerd: bruisende après-ski en sneeuw (gletsjer). Bekijk deze groepsreis!</description>
+    <price>1479.00 EUR</price>
+    <address format="simple">
+      <component name="city">Kaprun - Zell am See</component>
+      <component name="region">Oostenrijk</component>
+      <component name="country">Oostenrijk</component>
+    </address>
+    <neighborhood>Kaprun - Zell am See</neighborhood>
+    <type>Wintersport</type>
+    <type>Singlereis</type>
+    <custom_number_0>1479</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Wintersport</custom_label_1>
+    <custom_label_2>Wintersport</custom_label_2>
+    <custom_label_3>Oostenrijk</custom_label_3>
+    <product_tags>Winter</product_tags>
+    <product_tags>Wintersport</product_tags>
+    <product_tags>Oostenrijk</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
       <url>https://www.estivant.nl/media/vupbzupg/14-carindeben-photography_13.jpg?rxy=0.40726817042606517,0.4793233082706767&amp;width=1440&amp;height=775&amp;v=1dd2a5216a04530</url>
       <tag>Wintersport</tag>
     </image>
@@ -331,6 +359,36 @@
     <product_tags>40-59 jaar</product_tags>
     <product_tags>50-69 jaar</product_tags>
     <product_tags>Wintersport</product_tags>
+    <product_tags>Oostenrijk</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/zaxmgeef/2-skifahrer_blick_auf_alpbach_-ski_juwel_alpbachtal_wildschoenau.jpg?width=1440&amp;height=775&amp;v=1dd35f47a274830</url>
+      <tag>Wintersport</tag>
+    </image>
+    <destination_id>377</destination_id>
+    <url>https://www.estivant.nl/singlereizen/oostenrijk/niederau/</url>
+    <name>Singlereis Niederau</name>
+    <description>Ga mee op single wintersport naar Niederau. Skigebied voor alle niveaus en een gezellig hotel inclusief halfpension. Bekijk deze singlereis naar Oostenrijk!</description>
+    <price>1099.00 EUR</price>
+    <address format="simple">
+      <component name="city">Niederau</component>
+      <component name="region">Oostenrijk</component>
+      <component name="country">Oostenrijk</component>
+    </address>
+    <neighborhood>Niederau</neighborhood>
+    <type>Wintersport</type>
+    <type>Singlereis</type>
+    <custom_number_0>1099</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Wintersport</custom_label_1>
+    <custom_label_2>Wintersport</custom_label_2>
+    <custom_label_3>Oostenrijk</custom_label_3>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>Winter</product_tags>
+    <product_tags>Wintersport</product_tags>
+    <product_tags>55-75 jaar</product_tags>
     <product_tags>Oostenrijk</product_tags>
     <product_tags>Singlereis</product_tags>
   </listing>
@@ -428,38 +486,6 @@
     <product_tags>Winter</product_tags>
     <product_tags>Winterzon</product_tags>
     <product_tags>Portugal</product_tags>
-    <product_tags>Singlereis</product_tags>
-  </listing>
-  <listing>
-    <image>
-      <url>https://www.estivant.nl/media/jlholrj0/istock-1166974662.jpg?width=1440&amp;height=775&amp;v=1dd410945b7d6d0</url>
-      <tag>Strand</tag>
-    </image>
-    <destination_id>433</destination_id>
-    <url>https://www.estivant.nl/singlereizen/spanje/mallorca/</url>
-    <name>Singlereis Mallorca</name>
-    <description>Ga mee op singlereis naar Mallorca. Ontdek samen met een groep leeftijdsgenoten het eiland vanuit de kleine badplaats Ca’n Pastilla. Bekijk deze groepsreis!</description>
-    <price>1729.00 EUR</price>
-    <address format="simple">
-      <component name="city">Mallorca</component>
-      <component name="region">Spanje</component>
-      <component name="country">Spanje</component>
-    </address>
-    <neighborhood>Mallorca</neighborhood>
-    <type>Strand</type>
-    <type>Singlereis</type>
-    <custom_number_0>1729</custom_number_0>
-    <custom_label_0>Singlereis</custom_label_0>
-    <custom_label_1>Strand</custom_label_1>
-    <custom_label_2>Zomer</custom_label_2>
-    <custom_label_3>Spanje</custom_label_3>
-    <product_tags>Strand</product_tags>
-    <product_tags>30-49 jaar</product_tags>
-    <product_tags>40-59 jaar</product_tags>
-    <product_tags>55-75 jaar</product_tags>
-    <product_tags>Hotel</product_tags>
-    <product_tags>Zomer</product_tags>
-    <product_tags>Spanje</product_tags>
     <product_tags>Singlereis</product_tags>
   </listing>
   <listing>
