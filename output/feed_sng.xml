@@ -10,7 +10,7 @@
     <url>https://www.estivant.nl/singlereizen/belgie/antwerpen-feestdagen/</url>
     <name>Singlereis Antwerpen</name>
     <description>Ga mee op singlereis naar Antwerpen en vier de feestdagen bij onze zuiderburen! Te boeken voor zowel een gezellige kerst als een feestelijk oud &amp; nieuw!</description>
-    <price>649.00 EUR</price>
+    <price>679.00 EUR</price>
     <address format="simple">
       <component name="city">Antwerpen</component>
       <component name="region">België</component>
@@ -19,7 +19,7 @@
     <neighborhood>Antwerpen</neighborhood>
     <type>Stedentrips</type>
     <type>Singlereis</type>
-    <custom_number_0>649</custom_number_0>
+    <custom_number_0>679</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
     <custom_label_1>Stedentrips</custom_label_1>
     <custom_label_3>België</custom_label_3>
@@ -39,7 +39,7 @@
     <url>https://www.estivant.nl/singlereizen/belgie/gent-feestdagen/</url>
     <name>Singlereis Gent</name>
     <description>Vier de feestdagen in Gent tijdens onze singlereis. Ontdek de kerstmarkt, vele biercafe's en de ijsbaan. Kies voor een gezellige kerst of knallend oud &amp; nieuw!</description>
-    <price>639.00 EUR</price>
+    <price>669.00 EUR</price>
     <address format="simple">
       <component name="city">Gent</component>
       <component name="region">België</component>
@@ -48,7 +48,7 @@
     <neighborhood>Gent</neighborhood>
     <type>Stedentrips</type>
     <type>Singlereis</type>
-    <custom_number_0>639</custom_number_0>
+    <custom_number_0>669</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
     <custom_label_1>Stedentrips</custom_label_1>
     <custom_label_3>België</custom_label_3>
@@ -68,7 +68,7 @@
     <url>https://www.estivant.nl/singlereizen/duitsland/berlijn-feestdagen/</url>
     <name>Singlereis Berlijn</name>
     <description>Ga mee op singlereis naar Berlijn en vier de feestdagen in deze bruisende stad. Kies je voor een gezellige kerst of knallend oud &amp; nieuw?</description>
-    <price>639.00 EUR</price>
+    <price>669.00 EUR</price>
     <address format="simple">
       <component name="city">Berlijn</component>
       <component name="region">Duitsland</component>
@@ -77,7 +77,7 @@
     <neighborhood>Berlijn</neighborhood>
     <type>Stedentrips</type>
     <type>Singlereis</type>
-    <custom_number_0>639</custom_number_0>
+    <custom_number_0>669</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
     <custom_label_1>Stedentrips</custom_label_1>
     <custom_label_3>Duitsland</custom_label_3>
@@ -97,7 +97,7 @@
     <url>https://www.estivant.nl/singlereizen/duitsland/keulen-feestdagen/</url>
     <name>Singlereis Keulen</name>
     <description>Ga mee op singlereis naar Keulen en vier de feestdagen op echt Duitse wijze. De kerstmarkten van Keulen behoren tot de bekendste ter wereld!</description>
-    <price>599.00 EUR</price>
+    <price>629.00 EUR</price>
     <address format="simple">
       <component name="city">Keulen</component>
       <component name="region">Duitsland</component>
@@ -106,7 +106,7 @@
     <neighborhood>Keulen</neighborhood>
     <type>Stedentrips</type>
     <type>Singlereis</type>
-    <custom_number_0>599</custom_number_0>
+    <custom_number_0>629</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
     <custom_label_1>Stedentrips</custom_label_1>
     <custom_label_3>Duitsland</custom_label_3>
@@ -216,7 +216,7 @@
   </listing>
   <listing>
     <image>
-      <url>https://www.estivant.nl/media/whwpgee0/marilleva-424-1.jpg?rxy=0.5050125313283208,0.5456781649866458&amp;width=1440&amp;height=775&amp;v=1dd2f00f1ac0170</url>
+      <url>https://www.estivant.nl/media/whwpgee0/marilleva-424-1.jpg?rxy=0.5012531328320802,0.5797830502983111&amp;width=1440&amp;height=775&amp;v=1dd4b5449e826b0</url>
       <tag>Wintersport</tag>
     </image>
     <destination_id>376</destination_id>
@@ -497,7 +497,7 @@
     <url>https://www.estivant.nl/singlereizen/spanje/wandelen-andalusie/</url>
     <name>Singlereis Andalusië Herfstzon</name>
     <description>Ontsnap aan de herfst met onze singlevakantie naar Andalusië! Wandel over de beroemde Caminito del Rey en bezoek Malaga. Bekijk deze groepsreis!</description>
-    <price>1246.00 EUR</price>
+    <price>999.00 EUR</price>
     <address format="simple">
       <component name="city">Andalusië Herfstzon</component>
       <component name="region">Spanje</component>
@@ -506,7 +506,7 @@
     <neighborhood>Andalusië Herfstzon</neighborhood>
     <type>Wandelen</type>
     <type>Singlereis</type>
-    <custom_number_0>1246</custom_number_0>
+    <custom_number_0>999</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
     <custom_label_1>Wandelen</custom_label_1>
     <custom_label_2>Winter</custom_label_2>
