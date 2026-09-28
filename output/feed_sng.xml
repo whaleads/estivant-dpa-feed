@@ -152,38 +152,6 @@
   </listing>
   <listing>
     <image>
-      <url>https://www.estivant.nl/media/mcpovx5l/istock-171321191.jpg?rxy=0.6741854636591479,0.5547169811320755&amp;width=1440&amp;height=775&amp;v=1dcc746f25272c0</url>
-      <tag>Strand</tag>
-    </image>
-    <destination_id>429</destination_id>
-    <url>https://www.estivant.nl/singlereizen/griekenland/corfu/</url>
-    <name>Singlereis Corfu</name>
-    <description>Ga mee op singlereis naar Corfu, en ontdek dit prachtige groene eiland samen met je reisgenoten. Combineer strand, natuur en cultuur. Bekijk deze groepsreis!</description>
-    <price>1719.00 EUR</price>
-    <address format="simple">
-      <component name="city">Corfu</component>
-      <component name="region">Griekenland</component>
-      <component name="country">Griekenland</component>
-    </address>
-    <neighborhood>Corfu</neighborhood>
-    <type>Strand</type>
-    <type>Singlereis</type>
-    <custom_number_0>1719</custom_number_0>
-    <custom_label_0>Singlereis</custom_label_0>
-    <custom_label_1>Strand</custom_label_1>
-    <custom_label_2>Zomer</custom_label_2>
-    <custom_label_3>Griekenland</custom_label_3>
-    <product_tags>Strand</product_tags>
-    <product_tags>30-49 jaar</product_tags>
-    <product_tags>40-59 jaar</product_tags>
-    <product_tags>50-69 jaar</product_tags>
-    <product_tags>Hotel</product_tags>
-    <product_tags>Zomer</product_tags>
-    <product_tags>Griekenland</product_tags>
-    <product_tags>Singlereis</product_tags>
-  </listing>
-  <listing>
-    <image>
       <url>https://www.estivant.nl/media/whwpgee0/marilleva-424-1.jpg?rxy=0.5012531328320802,0.5797830502983111&amp;width=1440&amp;height=775&amp;v=1dd4b5449e826b0</url>
       <tag>Wintersport</tag>
     </image>
@@ -221,7 +189,7 @@
     <url>https://www.estivant.nl/singlereizen/italie/toscane/</url>
     <name>Singlereis Toscane</name>
     <description>Ga mee op singlereis naar Toscane. Ontdek de steden Siena, Lucca, Florence én Cinque Terre. Inclusief diner bij een Toscaanse wijnboer. Bekijk deze groepsreis!</description>
-    <price>1529.00 EUR</price>
+    <price>1599.00 EUR</price>
     <address format="simple">
       <component name="city">Toscane</component>
       <component name="region">Italië</component>
@@ -230,7 +198,7 @@
     <neighborhood>Toscane</neighborhood>
     <type>Rondreizen</type>
     <type>Singlereis</type>
-    <custom_number_0>1529</custom_number_0>
+    <custom_number_0>1599</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
     <custom_label_1>Rondreizen</custom_label_1>
     <custom_label_2>Zomer</custom_label_2>
