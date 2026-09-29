@@ -77,7 +77,7 @@
     <url>https://www.estivant.nl/eenoudervakanties/belgie/vielsalm-kerst/</url>
     <name>Eenoudervakantie Vielsalm Kerst</name>
     <description>Vier kerst met je kinderen en andere eenoudergezinnen in Vielsalm, de Belgische Ardennen. Een luxe landhuis, ultieme gezelligheid en de ultieme kerstsfeer.</description>
-    <price>597.00 EUR</price>
+    <price>926.00 EUR</price>
     <address format="simple">
       <component name="city">Vielsalm</component>
       <component name="region">België</component>
@@ -86,7 +86,7 @@
     <neighborhood>Vielsalm</neighborhood>
     <type>Ontspanning</type>
     <type>Eenoudervakantie</type>
-    <custom_number_0>597</custom_number_0>
+    <custom_number_0>926</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
     <custom_label_1>Ontspanning</custom_label_1>
     <custom_label_2>Kerstvakantie</custom_label_2>
