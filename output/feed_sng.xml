@@ -189,7 +189,7 @@
     <url>https://www.estivant.nl/singlereizen/italie/toscane/</url>
     <name>Singlereis Toscane</name>
     <description>Ga mee op singlereis naar Toscane. Ontdek de steden Siena, Lucca, Florence én Cinque Terre. Inclusief diner bij een Toscaanse wijnboer. Bekijk deze groepsreis!</description>
-    <price>1599.00 EUR</price>
+    <price>1619.00 EUR</price>
     <address format="simple">
       <component name="city">Toscane</component>
       <component name="region">Italië</component>
@@ -198,7 +198,7 @@
     <neighborhood>Toscane</neighborhood>
     <type>Rondreizen</type>
     <type>Singlereis</type>
-    <custom_number_0>1599</custom_number_0>
+    <custom_number_0>1619</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
     <custom_label_1>Rondreizen</custom_label_1>
     <custom_label_2>Zomer</custom_label_2>
