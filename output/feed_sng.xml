@@ -222,7 +222,7 @@
     <url>https://www.estivant.nl/singlereizen/nederland/kerst-in-groenlo/</url>
     <name>Singlereis Groenlo</name>
     <description>Ga mee op singlereis naar Groenlo en vier kerst in de Achterhoek. Inclusief halfpension én een feestelijk 5-gangendiner op eerste kerstdag. Altijd je eigen kamer!</description>
-    <price>699.00 EUR</price>
+    <price>696.00 EUR</price>
     <address format="simple">
       <component name="city">Groenlo</component>
       <component name="region">Nederland</component>
@@ -231,7 +231,7 @@
     <neighborhood>Groenlo</neighborhood>
     <type>Wandelen</type>
     <type>Singlereis</type>
-    <custom_number_0>699</custom_number_0>
+    <custom_number_0>696</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
     <custom_label_1>Wandelen</custom_label_1>
     <custom_label_3>Nederland</custom_label_3>

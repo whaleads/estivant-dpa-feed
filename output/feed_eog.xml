@@ -498,7 +498,7 @@
     <url>https://www.estivant.nl/eenoudervakanties/oostenrijk/maria-alm/</url>
     <name>Eenoudervakantie Maria Alm</name>
     <description>Ga op wintersport met andere eenoudergezinnen in Maria Alm. Hotel exclusief voor Estivant-gasten in het skigebied Hochkönig. Bekijk deze eenoudervakantie!</description>
-    <price>1299.00 EUR</price>
+    <price>1297.00 EUR</price>
     <address format="simple">
       <component name="city">Maria Alm</component>
       <component name="region">Oostenrijk</component>
@@ -507,7 +507,7 @@
     <neighborhood>Maria Alm</neighborhood>
     <type>Wintersport</type>
     <type>Eenoudervakantie</type>
-    <custom_number_0>1299</custom_number_0>
+    <custom_number_0>1297</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
     <custom_label_1>Wintersport</custom_label_1>
     <custom_label_2>Wintersport</custom_label_2>
