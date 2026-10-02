@@ -41,7 +41,7 @@
     <g:price>557.00 EUR</g:price>
     <g:link>https://www.estivant.nl/eenoudervakanties/belgie/vielsalm-herfst/</g:link>
     <g:image_link>https://www.estivant.nl/media/o5dd1ioo/bos-kinderen.jpg?rxy=0.5,0.43621813915358637&amp;width=1440&amp;height=775&amp;v=1dd4130e2b066b0</g:image_link>
-    <g:additional_image_link>https://www.estivant.nl/media/veepmabq/estivant-eenoudervakantie-belgie-vielsalm-herfst-3.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/ckxjt12f/estivant-eenoudervakantie-belgie-vielsalm-herfst-3-1.jpg</g:additional_image_link>
     <g:additional_image_link>https://www.estivant.nl/media/bnqkzm3f/facebookbericht-eog.jpg</g:additional_image_link>
     <g:additional_image_link>https://www.estivant.nl/media/vsld0iat/pexels-helen1-14449804.jpg</g:additional_image_link>
     <g:additional_image_link>https://www.estivant.nl/media/40mba3gf/40-246538_lsr_2023060934228758529.jpg</g:additional_image_link>
@@ -87,6 +87,34 @@
     <g:custom_label_3>België</g:custom_label_3>
     <g:custom_label_4>4-7 jaar, 8-11 jaar, 12-14 jaar</g:custom_label_4>
     <g:custom_number_0>926</g:custom_number_0>
+  </item>
+  <item>
+    <g:id>394</g:id>
+    <g:title>Eenoudervakantie Deense Westkust</g:title>
+    <g:description>Vier vakantie met andere eenoudergezinnen aan de Deense Westkust, vlakbij het strand. Ontdek Legoland en het Vikingcentrum. Bekijk deze eenoudervakantie!</g:description>
+    <g:availability>in stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:price>199.00 EUR</g:price>
+    <g:link>https://www.estivant.nl/eenoudervakanties/denemarken/deense-westkust/</g:link>
+    <g:image_link>https://www.estivant.nl/media/gmyk4npf/istock-1877268735.jpg?width=1440&amp;height=775&amp;v=1dd4f1e5b5197b0</g:image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/1aibxcli/estivant-2025-162.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/v20l1mjd/estivant-eenouder-vakantie-reizen-denemarken-deense-westkust-zomer-vliegeren.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/fajbyvb1/estivant-eenouder-vakantie-reizen-denemarken-westkust-denemarken-2023-spelen-strand.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/k4fb52jc/karl-hornfeldt-i5-_f600jbg-unsplash.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/rpnfngrv/estivant-eenouder-vakantie-reizen-zomer-denemarken-westkust-2024-bork-vikingehavn.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/ispn2xku/estivant-eenouder-vakantie-reizen-denemarken-westkust-denemarken-2023-activiteit-meisje.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/o0ohkosj/legoland.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/kcun1ixw/estivant-eenouder-vakantie-reizen-zomer-denemarken-westkust-2024-lyngvig-fyr-2.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/1mfpy5oj/estivant-eenouder-vakantie-reizen-zomer-denemarken-westkust-2024-lyngvig-fyr-5.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/f5elliyb/estivant-eenouder-vakantie-reizen-zomer-denemarken-westkust-2024-lyngvig-fyr-3.jpg</g:additional_image_link>
+    <g:brand>Estivant</g:brand>
+    <g:product_type>Eenoudervakantie &gt; Denemarken &gt; Watersport</g:product_type>
+    <g:custom_label_0>Eenoudervakantie</g:custom_label_0>
+    <g:custom_label_1>Watersport</g:custom_label_1>
+    <g:custom_label_2>Zomervakantie</g:custom_label_2>
+    <g:custom_label_3>Denemarken</g:custom_label_3>
+    <g:custom_label_4>4-7 jaar, 8-11 jaar, 12-14 jaar</g:custom_label_4>
+    <g:custom_number_0>199</g:custom_number_0>
   </item>
   <item>
     <g:id>356</g:id>
@@ -229,6 +257,62 @@
     <g:custom_number_0>232</g:custom_number_0>
   </item>
   <item>
+    <g:id>410</g:id>
+    <g:title>Eenoudervakantie Gardameer - Pacengo di Lazise</g:title>
+    <g:description>Vier vakantie met andere eenoudergezinnen aan het Gardameer. Camping met groot zwembad vlakbij attractiepark en Sirmione. Bekijk deze eenoudervakantie!</g:description>
+    <g:availability>in stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:price>199.00 EUR</g:price>
+    <g:link>https://www.estivant.nl/eenoudervakanties/italie/gardameer-pacengo-di-lazise/</g:link>
+    <g:image_link>https://www.estivant.nl/media/oirl0ufu/19-dsc00070-e621821a.jpg?rxy=0.46867167919799496,0.5618568711900843&amp;width=1440&amp;height=775&amp;v=1dafde52cbf65d0</g:image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/2xqnxkbe/9-dsc09887-901308f6.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/dbgn1kow/fb6af893-d3f9-4ad1-b1ae-f1c5b1a9016b.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/qx5h3544/eb34254a-7640-4124-95d6-b163f39fbcc2.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/wurflsk3/estivant-eenouder-vakantie-reizen-itali%C3%AB-gardameer-oostkant-zomer-diner-ouders-proost.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/5zanasvn/13-dji_0530.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/bhvbuwhi/b5f1bfae-4786-4a3e-857e-282a32f305b5.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/ondfz2vo/echo_gym_1.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/d2ufwbgd/estivant-eenouder-vakantie-reizen-zomer-italie-gardameer-oostkant-2023-uiteten-ouders.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/404dqg55/estivant-eenouder-vakantie-reizen-itali%C3%AB-gardameer-oostkant-zomer-camping-zwembad-buitenbad-glijbaan.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/on5cxe2t/dsc00355-a4095d0b.jpg</g:additional_image_link>
+    <g:brand>Estivant</g:brand>
+    <g:product_type>Eenoudervakantie &gt; Italië &gt; Ontspanning</g:product_type>
+    <g:custom_label_0>Eenoudervakantie</g:custom_label_0>
+    <g:custom_label_1>Ontspanning</g:custom_label_1>
+    <g:custom_label_2>Zomervakantie</g:custom_label_2>
+    <g:custom_label_3>Italië</g:custom_label_3>
+    <g:custom_label_4>8-11 jaar, 12-14 jaar, 15 plus</g:custom_label_4>
+    <g:custom_number_0>199</g:custom_number_0>
+  </item>
+  <item>
+    <g:id>412</g:id>
+    <g:title>Eenoudervakantie Glamping Gardameer</g:title>
+    <g:description>Ga naar een glamping aan het Gardameer met je kinderen. Geniet van comfort, leuke activiteiten en gezelligheid met andere eenoudergezinnen.</g:description>
+    <g:availability>in stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:price>299.00 EUR</g:price>
+    <g:link>https://www.estivant.nl/eenoudervakanties/italie/glamping-gardameer/</g:link>
+    <g:image_link>https://www.estivant.nl/media/0fgh2zyo/istock-1809258852-2.jpg?rxy=0.49373433583959897,0.8176691729323309&amp;width=1440&amp;height=775&amp;v=1dd4f34bb121100</g:image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/ayiogsoj/dsc00004-f83bea18-1.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/cttlzm1o/img_7514-1.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/hb4c30c5/istock-1237975615-1.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/4zfnxnm0/497761444_1008448294750335_6560414409346400300_n.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/d3ljcvon/img_7417.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/vlqfpvyp/img_7109.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/wyedsb1k/643928475_1228176779444151_3940291921476738296_n.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/mxworxf1/sirmione-garda_-visitbrescia-e1592578665478.jpeg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/poifcdqc/92ababbc-5ef0-43d8-8a84-71e4283f9751.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/vpfksgfe/estivant-eenouder-vakantie-reizen-itali%C3%AB-gardameer-oostkant-zomer-wijn-schenken.jpg</g:additional_image_link>
+    <g:brand>Estivant</g:brand>
+    <g:product_type>Eenoudervakantie &gt; Italië &gt; Glamping</g:product_type>
+    <g:custom_label_0>Eenoudervakantie</g:custom_label_0>
+    <g:custom_label_1>Glamping</g:custom_label_1>
+    <g:custom_label_2>Meivakantie</g:custom_label_2>
+    <g:custom_label_3>Italië</g:custom_label_3>
+    <g:custom_label_4>4-7 jaar, 8-11 jaar, 12-14 jaar</g:custom_label_4>
+    <g:custom_number_0>299</g:custom_number_0>
+  </item>
+  <item>
     <g:id>440</g:id>
     <g:title>Eenoudervakantie Marilleva</g:title>
     <g:description>De meest luxe skivakantie met je kinderen beleef je in Marilleva. Een viersterrenhotel op toplocatie, met 2 spa's, 3 zwembaden, een speelkamer én heerlijk eten.</g:description>
@@ -255,6 +339,34 @@
     <g:custom_label_3>Italië</g:custom_label_3>
     <g:custom_label_4>4-7 jaar, 8-11 jaar, 12-14 jaar, 15 plus</g:custom_label_4>
     <g:custom_number_0>1659</g:custom_number_0>
+  </item>
+  <item>
+    <g:id>413</g:id>
+    <g:title>Eenoudervakantie Medulin</g:title>
+    <g:description>Vier vakantie met andere eenoudergezinnen in Medulin-Istrië. Luxe camping met twee zwembaden en veel watersportactiviteiten. Bekijk deze eenoudervakantie!</g:description>
+    <g:availability>in stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:price>332.00 EUR</g:price>
+    <g:link>https://www.estivant.nl/eenoudervakanties/kroatie/medulin/</g:link>
+    <g:image_link>https://www.estivant.nl/media/4oodwl01/estivant-eenoudervakantie-kroatie-medulin-2024-strand.jpg?width=1440&amp;height=775&amp;v=1dc9a895fab4850</g:image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/tfcfocvq/chatgpt-image-24-sep-2026-15_05_16.png</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/k1glw34s/estivant-eenouder-vakantie-reizen-zomer-kroatie-medulin-2024-gisella-banaan-6.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/5onheurv/estivant-eenouder-vakantie-reizen-zomer-kroatie-medulin-2024-gisella-camping-3-2.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/m5yjhi2p/e3168714.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/agcd4nh4/estivant-eenouder-vakantie-reizen-zomer-kroatie-medulin-2024-gisella-kajakken-38.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/keaa0qx5/estivant-eenouder-vakantie-reizen-zomer-kroatie-medulin-2024-gisella-camping-1.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/i1fj4jn2/dsc07138-abd7cd7f.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/np2d0i40/estivant-eenouder-vakantie-reizen-zomer-kroatie-medulin-2024-gisella-familiechallenge-9.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/ka5nsihs/istock-1134963396.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/tmfl0joe/estivant-eenouder-vakantie-reizen-zomer-kroatie-medulin-2024-gisella-familiechallenge-14.jpg</g:additional_image_link>
+    <g:brand>Estivant</g:brand>
+    <g:product_type>Eenoudervakantie &gt; Kroatië &gt; Strand</g:product_type>
+    <g:custom_label_0>Eenoudervakantie</g:custom_label_0>
+    <g:custom_label_1>Strand</g:custom_label_1>
+    <g:custom_label_2>Zomervakantie</g:custom_label_2>
+    <g:custom_label_3>Kroatië</g:custom_label_3>
+    <g:custom_label_4>8-11 jaar, 12-14 jaar, 15 plus</g:custom_label_4>
+    <g:custom_number_0>332</g:custom_number_0>
   </item>
   <item>
     <g:id>414</g:id>
@@ -348,7 +460,7 @@
     <g:condition>new</g:condition>
     <g:price>1197.00 EUR</g:price>
     <g:link>https://www.estivant.nl/eenoudervakanties/oostenrijk/flachau/</g:link>
-    <g:image_link>https://www.estivant.nl/media/ms2fmlcn/4-estivant-eenoudervakantie-oostenrijk-flachau-wintersport-groep-kinderen-kikkerperspectief-2025.jpg?width=1440&amp;height=775&amp;v=1dcf3637ed9ff40</g:image_link>
+    <g:image_link>https://www.estivant.nl/media/0jtkarx2/estivant-eenoudervakantie-oostenrijk-flachau-wintersport-groep-kinderen-kikkerperspectief-2025-2.jpg?width=1440&amp;height=775&amp;v=1dd51a60b6062b0</g:image_link>
     <g:additional_image_link>https://www.estivant.nl/media/qsmdp2xu/293-carindeben-photography_292.jpg</g:additional_image_link>
     <g:additional_image_link>https://www.estivant.nl/media/nooo4xvs/129-carindeben-photography_128.jpg</g:additional_image_link>
     <g:additional_image_link>https://www.estivant.nl/media/asbbujl5/3-estivant-eenoudervakantie-oostenrijk-flachau-wintersport-groep-skiers-treintje-2025.jpg</g:additional_image_link>
@@ -535,6 +647,34 @@
     <g:custom_label_3>Oostenrijk</g:custom_label_3>
     <g:custom_label_4>8-11 jaar, 12-14 jaar</g:custom_label_4>
     <g:custom_number_0>662</g:custom_number_0>
+  </item>
+  <item>
+    <g:id>420</g:id>
+    <g:title>Eenoudervakantie Bled</g:title>
+    <g:description>Vier vakantie met andere eenoudergezinnen in Bled. Kampeervakantie met veel outdoor activiteiten. Populair onder tieners. Bekijk deze eenoudervakantie!</g:description>
+    <g:availability>in stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:price>332.00 EUR</g:price>
+    <g:link>https://www.estivant.nl/eenoudervakanties/slovenie/bled/</g:link>
+    <g:image_link>https://www.estivant.nl/media/l1edqtn3/eog_bled_2021_midas_gopr4187.jpg?rxy=0.47869674185463656,0.5614035087719298&amp;width=1440&amp;height=775&amp;v=1dc9699e9aaf490</g:image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/fjepzvol/eog_bled_2021_midas_gopr4163-canyoning.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/3mzo5ecs/eog_bled_2021_midas_dsc05501.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/cbpkr20o/eog_bled_2022_10.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/wdgpdf4g/eog_bled_2021_midas_gopr4169-groepsfoto-raften.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/dgfjha0q/estivant-eenouder-vakantie-reizen-zomer-frankrijk-presle-canyoning.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/1jhjkcnl/estivant-eenouder-vakantie-reizen-zomer-sloveni%C3%AB-bled-2024-niels-602.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/0gljtali/eog_bled_2021_midas_gopr4273-lachen-canyoning.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/kbud1v11/eog_bled_2022_1.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/2l1egoyc/eog_bled_2022_12-mountainbiken-omgeving-rivier.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/dhohwn4f/estivant-eenouder-vakantie-reizen-zomer-sloveni%C3%AB-bled-2024-niels-184.jpg</g:additional_image_link>
+    <g:brand>Estivant</g:brand>
+    <g:product_type>Eenoudervakantie &gt; Slovenië &gt; Actief</g:product_type>
+    <g:custom_label_0>Eenoudervakantie</g:custom_label_0>
+    <g:custom_label_1>Actief</g:custom_label_1>
+    <g:custom_label_2>Zomervakantie</g:custom_label_2>
+    <g:custom_label_3>Slovenië</g:custom_label_3>
+    <g:custom_label_4>8-11 jaar, 12-14 jaar, 15 plus</g:custom_label_4>
+    <g:custom_number_0>332</g:custom_number_0>
   </item>
   <item>
     <g:id>391</g:id>

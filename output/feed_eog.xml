@@ -103,6 +103,43 @@
   </listing>
   <listing>
     <image>
+      <url>https://www.estivant.nl/media/gmyk4npf/istock-1877268735.jpg?width=1440&amp;height=775&amp;v=1dd4f1e5b5197b0</url>
+      <tag>Watersport</tag>
+    </image>
+    <destination_id>394</destination_id>
+    <url>https://www.estivant.nl/eenoudervakanties/denemarken/deense-westkust/</url>
+    <name>Eenoudervakantie Deense Westkust</name>
+    <description>Vier vakantie met andere eenoudergezinnen aan de Deense Westkust, vlakbij het strand. Ontdek Legoland en het Vikingcentrum. Bekijk deze eenoudervakantie!</description>
+    <price>199.00 EUR</price>
+    <address format="simple">
+      <component name="city">Deense Westkust</component>
+      <component name="region">Denemarken</component>
+      <component name="country">Denemarken</component>
+    </address>
+    <neighborhood>Deense Westkust</neighborhood>
+    <type>Watersport</type>
+    <type>Eenoudervakantie</type>
+    <custom_number_0>199</custom_number_0>
+    <custom_label_0>Eenoudervakantie</custom_label_0>
+    <custom_label_1>Watersport</custom_label_1>
+    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_3>Denemarken</custom_label_3>
+    <product_tags>Actief</product_tags>
+    <product_tags>Watersport</product_tags>
+    <product_tags>Strand</product_tags>
+    <product_tags>Zomervakantie</product_tags>
+    <product_tags>Camping</product_tags>
+    <product_tags>4-7 jaar</product_tags>
+    <product_tags>8-11 jaar</product_tags>
+    <product_tags>12-14 jaar</product_tags>
+    <product_tags>Kamperen</product_tags>
+    <product_tags>Cultuur</product_tags>
+    <product_tags>500 tot 1000 km</product_tags>
+    <product_tags>Denemarken</product_tags>
+    <product_tags>Eenoudervakantie</product_tags>
+  </listing>
+  <listing>
+    <image>
       <url>https://www.estivant.nl/media/bizho1c4/estivant-eenoudervakantie-oostenrijk-flachau-wintersport-groep-skiers-3-2025-1.jpg?rxy=0.5463659147869674,0.6552129912920687&amp;width=1440&amp;height=775&amp;v=1dcf349b091a750</url>
       <tag>Wintersport</tag>
     </image>
@@ -280,6 +317,79 @@
   </listing>
   <listing>
     <image>
+      <url>https://www.estivant.nl/media/oirl0ufu/19-dsc00070-e621821a.jpg?rxy=0.46867167919799496,0.5618568711900843&amp;width=1440&amp;height=775&amp;v=1dafde52cbf65d0</url>
+      <tag>Ontspanning</tag>
+    </image>
+    <destination_id>410</destination_id>
+    <url>https://www.estivant.nl/eenoudervakanties/italie/gardameer-pacengo-di-lazise/</url>
+    <name>Eenoudervakantie Gardameer - Pacengo di Lazise</name>
+    <description>Vier vakantie met andere eenoudergezinnen aan het Gardameer. Camping met groot zwembad vlakbij attractiepark en Sirmione. Bekijk deze eenoudervakantie!</description>
+    <price>199.00 EUR</price>
+    <address format="simple">
+      <component name="city">Gardameer - Pacengo di Lazise</component>
+      <component name="region">Italië</component>
+      <component name="country">Italië</component>
+    </address>
+    <neighborhood>Gardameer - Pacengo di Lazise</neighborhood>
+    <type>Ontspanning</type>
+    <type>Eenoudervakantie</type>
+    <custom_number_0>199</custom_number_0>
+    <custom_label_0>Eenoudervakantie</custom_label_0>
+    <custom_label_1>Ontspanning</custom_label_1>
+    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_3>Italië</custom_label_3>
+    <product_tags>Ontspanning</product_tags>
+    <product_tags>Watersport</product_tags>
+    <product_tags>Kamperen</product_tags>
+    <product_tags>Zomervakantie</product_tags>
+    <product_tags>1000 plus km</product_tags>
+    <product_tags>Camping</product_tags>
+    <product_tags>8-11 jaar</product_tags>
+    <product_tags>12-14 jaar</product_tags>
+    <product_tags>15 plus</product_tags>
+    <product_tags>Italië</product_tags>
+    <product_tags>Eenoudervakantie</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/0fgh2zyo/istock-1809258852-2.jpg?rxy=0.49373433583959897,0.8176691729323309&amp;width=1440&amp;height=775&amp;v=1dd4f34bb121100</url>
+      <tag>Glamping</tag>
+    </image>
+    <destination_id>412</destination_id>
+    <url>https://www.estivant.nl/eenoudervakanties/italie/glamping-gardameer/</url>
+    <name>Eenoudervakantie Glamping Gardameer</name>
+    <description>Ga naar een glamping aan het Gardameer met je kinderen. Geniet van comfort, leuke activiteiten en gezelligheid met andere eenoudergezinnen.</description>
+    <price>299.00 EUR</price>
+    <address format="simple">
+      <component name="city">Glamping Gardameer</component>
+      <component name="region">Italië</component>
+      <component name="country">Italië</component>
+    </address>
+    <neighborhood>Glamping Gardameer</neighborhood>
+    <type>Glamping</type>
+    <type>Eenoudervakantie</type>
+    <custom_number_0>299</custom_number_0>
+    <custom_label_0>Eenoudervakantie</custom_label_0>
+    <custom_label_1>Glamping</custom_label_1>
+    <custom_label_2>Meivakantie</custom_label_2>
+    <custom_label_3>Italië</custom_label_3>
+    <product_tags>Glamping</product_tags>
+    <product_tags>Cultuur</product_tags>
+    <product_tags>Watersport</product_tags>
+    <product_tags>Kamperen</product_tags>
+    <product_tags>Meivakantie</product_tags>
+    <product_tags>Zomervakantie</product_tags>
+    <product_tags>1000 plus km</product_tags>
+    <product_tags>Camping</product_tags>
+    <product_tags>Glamping (1)</product_tags>
+    <product_tags>4-7 jaar</product_tags>
+    <product_tags>8-11 jaar</product_tags>
+    <product_tags>12-14 jaar</product_tags>
+    <product_tags>Italië</product_tags>
+    <product_tags>Eenoudervakantie</product_tags>
+  </listing>
+  <listing>
+    <image>
       <url>https://www.estivant.nl/media/teeln5ye/csm_dp110324006_1458fec6e3.webp?width=1440&amp;height=775&amp;v=1dd30749c33e850</url>
       <tag>Wintersport</tag>
     </image>
@@ -311,6 +421,42 @@
     <product_tags>12-14 jaar</product_tags>
     <product_tags>15 plus</product_tags>
     <product_tags>Italië</product_tags>
+    <product_tags>Eenoudervakantie</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/4oodwl01/estivant-eenoudervakantie-kroatie-medulin-2024-strand.jpg?width=1440&amp;height=775&amp;v=1dc9a895fab4850</url>
+      <tag>Strand</tag>
+    </image>
+    <destination_id>413</destination_id>
+    <url>https://www.estivant.nl/eenoudervakanties/kroatie/medulin/</url>
+    <name>Eenoudervakantie Medulin</name>
+    <description>Vier vakantie met andere eenoudergezinnen in Medulin-Istrië. Luxe camping met twee zwembaden en veel watersportactiviteiten. Bekijk deze eenoudervakantie!</description>
+    <price>332.00 EUR</price>
+    <address format="simple">
+      <component name="city">Medulin</component>
+      <component name="region">Kroatië</component>
+      <component name="country">Kroatië</component>
+    </address>
+    <neighborhood>Medulin</neighborhood>
+    <type>Strand</type>
+    <type>Eenoudervakantie</type>
+    <custom_number_0>332</custom_number_0>
+    <custom_label_0>Eenoudervakantie</custom_label_0>
+    <custom_label_1>Strand</custom_label_1>
+    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_3>Kroatië</custom_label_3>
+    <product_tags>Strand</product_tags>
+    <product_tags>Watersport</product_tags>
+    <product_tags>Ontspanning</product_tags>
+    <product_tags>Kamperen</product_tags>
+    <product_tags>Zomervakantie</product_tags>
+    <product_tags>1000 plus km</product_tags>
+    <product_tags>Camping</product_tags>
+    <product_tags>8-11 jaar</product_tags>
+    <product_tags>12-14 jaar</product_tags>
+    <product_tags>15 plus</product_tags>
+    <product_tags>Kroatië</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
@@ -422,7 +568,7 @@
   </listing>
   <listing>
     <image>
-      <url>https://www.estivant.nl/media/ms2fmlcn/4-estivant-eenoudervakantie-oostenrijk-flachau-wintersport-groep-kinderen-kikkerperspectief-2025.jpg?width=1440&amp;height=775&amp;v=1dcf3637ed9ff40</url>
+      <url>https://www.estivant.nl/media/0jtkarx2/estivant-eenoudervakantie-oostenrijk-flachau-wintersport-groep-kinderen-kikkerperspectief-2025-2.jpg?width=1440&amp;height=775&amp;v=1dd51a60b6062b0</url>
       <tag>Wintersport</tag>
     </image>
     <destination_id>363</destination_id>
@@ -661,6 +807,41 @@
     <product_tags>8-11 jaar</product_tags>
     <product_tags>12-14 jaar</product_tags>
     <product_tags>Oostenrijk</product_tags>
+    <product_tags>Eenoudervakantie</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/l1edqtn3/eog_bled_2021_midas_gopr4187.jpg?rxy=0.47869674185463656,0.5614035087719298&amp;width=1440&amp;height=775&amp;v=1dc9699e9aaf490</url>
+      <tag>Actief</tag>
+    </image>
+    <destination_id>420</destination_id>
+    <url>https://www.estivant.nl/eenoudervakanties/slovenie/bled/</url>
+    <name>Eenoudervakantie Bled</name>
+    <description>Vier vakantie met andere eenoudergezinnen in Bled. Kampeervakantie met veel outdoor activiteiten. Populair onder tieners. Bekijk deze eenoudervakantie!</description>
+    <price>332.00 EUR</price>
+    <address format="simple">
+      <component name="city">Bled</component>
+      <component name="region">Slovenië</component>
+      <component name="country">Slovenië</component>
+    </address>
+    <neighborhood>Bled</neighborhood>
+    <type>Actief</type>
+    <type>Eenoudervakantie</type>
+    <custom_number_0>332</custom_number_0>
+    <custom_label_0>Eenoudervakantie</custom_label_0>
+    <custom_label_1>Actief</custom_label_1>
+    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_3>Slovenië</custom_label_3>
+    <product_tags>Actief</product_tags>
+    <product_tags>Watersport</product_tags>
+    <product_tags>Kamperen</product_tags>
+    <product_tags>Zomervakantie</product_tags>
+    <product_tags>1000 plus km</product_tags>
+    <product_tags>Camping</product_tags>
+    <product_tags>8-11 jaar</product_tags>
+    <product_tags>12-14 jaar</product_tags>
+    <product_tags>15 plus</product_tags>
+    <product_tags>Slovenië</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
