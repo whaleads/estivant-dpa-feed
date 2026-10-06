@@ -367,7 +367,7 @@
     <url>https://www.estivant.nl/singlereizen/spanje/wandelen-andalusie/</url>
     <name>Singlereis Andalusië Herfstzon</name>
     <description>Ontsnap aan de herfst met onze singlevakantie naar Andalusië! Wandel over de beroemde Caminito del Rey en bezoek Malaga. Bekijk deze groepsreis!</description>
-    <price>999.00 EUR</price>
+    <price>1099.00 EUR</price>
     <address format="simple">
       <component name="city">Andalusië Herfstzon</component>
       <component name="region">Spanje</component>
@@ -376,7 +376,7 @@
     <neighborhood>Andalusië Herfstzon</neighborhood>
     <type>Wandelen</type>
     <type>Singlereis</type>
-    <custom_number_0>999</custom_number_0>
+    <custom_number_0>1099</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
     <custom_label_1>Wandelen</custom_label_1>
     <custom_label_2>Winter</custom_label_2>
