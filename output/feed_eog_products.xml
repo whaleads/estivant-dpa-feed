@@ -319,7 +319,7 @@
     <g:availability>in stock</g:availability>
     <g:condition>new</g:condition>
     <g:price>1659.00 EUR</g:price>
-    <g:link>https://www.estivant.nl/eenoudervakanties/italie/marilleva-ravelli-hotel/</g:link>
+    <g:link>https://www.estivant.nl/eenoudervakanties/italie/marilleva/</g:link>
     <g:image_link>https://www.estivant.nl/media/teeln5ye/csm_dp110324006_1458fec6e3.webp?width=1440&amp;height=775&amp;v=1dd30749c33e850</g:image_link>
     <g:additional_image_link>https://www.estivant.nl/media/rsinzkii/carindeben-photography_93.jpg</g:additional_image_link>
     <g:additional_image_link>https://www.estivant.nl/media/jgulrs4r/carindeben-photography_19.jpg</g:additional_image_link>
@@ -339,6 +339,34 @@
     <g:custom_label_3>Italië</g:custom_label_3>
     <g:custom_label_4>4-7 jaar, 8-11 jaar, 12-14 jaar, 15 plus</g:custom_label_4>
     <g:custom_number_0>1659</g:custom_number_0>
+  </item>
+  <item>
+    <g:id>411</g:id>
+    <g:title>Eenoudervakantie Val di Sole</g:title>
+    <g:description>Skiën met je kinderen in een zonnige en sneeuwzekere regio! In Val di Sole beleven jullie de ideale wintersportvakantie, inclusief het goede Italiaanse leven!</g:description>
+    <g:availability>in stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:price>897.00 EUR</g:price>
+    <g:link>https://www.estivant.nl/eenoudervakanties/italie/val-di-sole/</g:link>
+    <g:image_link>https://www.estivant.nl/media/svlni33v/piste-marilleva-estivant-eenoudervakanties.webp?rxy=0.46867167919799496,0.37337567438624014&amp;width=1440&amp;height=775&amp;v=1dd56faa486e6e0</g:image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/syfhv2vh/carindeben-photography_311.webp</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/raifauae/carindeben-photography_316.webp</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/nkjc1u44/588650825.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/nn5c25ut/carindeben-photography_312-1.webp</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/krznzype/carindeben-photography_340.webp</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/gx4b5fsa/carindeben-photography_170.webp</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/zwshfs55/02-apt-val-di-sole-folgarida-c.webp</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/qaepmyx4/estivant-eenouder-vakantie-reizen-itali%C3%AB-marilleva-winter-2024-5.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/ab4g34er/dsc09837.webp</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/b2bg0uqw/dsc00570-db136428.webp</g:additional_image_link>
+    <g:brand>Estivant</g:brand>
+    <g:product_type>Eenoudervakantie &gt; Italië &gt; Wintersport</g:product_type>
+    <g:custom_label_0>Eenoudervakantie</g:custom_label_0>
+    <g:custom_label_1>Wintersport</g:custom_label_1>
+    <g:custom_label_2>Wintersport</g:custom_label_2>
+    <g:custom_label_3>Italië</g:custom_label_3>
+    <g:custom_label_4>4-7 jaar, 8-11 jaar, 12-14 jaar, 15 plus</g:custom_label_4>
+    <g:custom_number_0>897</g:custom_number_0>
   </item>
   <item>
     <g:id>413</g:id>
@@ -486,7 +514,7 @@
     <g:description>Ga op wintersport met andere eenoudergezinnen in Jenig-Nassfeld. Hotel exclusief voor Estivant-gasten. Bekijk deze voorjaarsvakantie!</g:description>
     <g:availability>in stock</g:availability>
     <g:condition>new</g:condition>
-    <g:price>897.00 EUR</g:price>
+    <g:price>997.00 EUR</g:price>
     <g:link>https://www.estivant.nl/eenoudervakanties/oostenrijk/jenig/</g:link>
     <g:image_link>https://www.estivant.nl/media/xb1ijx3v/13-estivant-wintersport-eenouder-vakanties-jenig-oostenrijk-2023-voorjaarsvakantie-13.jpg?rxy=0.5,0.7034252297410192&amp;width=1440&amp;height=775&amp;v=1dcf29460e0d060</g:image_link>
     <g:additional_image_link>https://www.estivant.nl/media/3eshch54/32-estivant-wintersport-eenouder-vakanties-jenig-oostenrijk-2023-voorjaarsvakantie-62.jpg</g:additional_image_link>
@@ -506,7 +534,7 @@
     <g:custom_label_2>Wintersport</g:custom_label_2>
     <g:custom_label_3>Oostenrijk</g:custom_label_3>
     <g:custom_label_4>4-7 jaar, 8-11 jaar, 12-14 jaar, 15 plus</g:custom_label_4>
-    <g:custom_number_0>897</g:custom_number_0>
+    <g:custom_number_0>997</g:custom_number_0>
   </item>
   <item>
     <g:id>359</g:id>

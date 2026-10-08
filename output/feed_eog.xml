@@ -394,7 +394,7 @@
       <tag>Wintersport</tag>
     </image>
     <destination_id>440</destination_id>
-    <url>https://www.estivant.nl/eenoudervakanties/italie/marilleva-ravelli-hotel/</url>
+    <url>https://www.estivant.nl/eenoudervakanties/italie/marilleva/</url>
     <name>Eenoudervakantie Marilleva</name>
     <description>De meest luxe skivakantie met je kinderen beleef je in Marilleva. Een viersterrenhotel op toplocatie, met 2 spa's, 3 zwembaden, een speelkamer én heerlijk eten.</description>
     <price>1659.00 EUR</price>
@@ -407,6 +407,41 @@
     <type>Wintersport</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>1659</custom_number_0>
+    <custom_label_0>Eenoudervakantie</custom_label_0>
+    <custom_label_1>Wintersport</custom_label_1>
+    <custom_label_2>Wintersport</custom_label_2>
+    <custom_label_3>Italië</custom_label_3>
+    <product_tags>Actief</product_tags>
+    <product_tags>Wintersport</product_tags>
+    <product_tags>Voorjaarsvakantie</product_tags>
+    <product_tags>500 tot 1000 km</product_tags>
+    <product_tags>Hotel</product_tags>
+    <product_tags>4-7 jaar</product_tags>
+    <product_tags>8-11 jaar</product_tags>
+    <product_tags>12-14 jaar</product_tags>
+    <product_tags>15 plus</product_tags>
+    <product_tags>Italië</product_tags>
+    <product_tags>Eenoudervakantie</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/svlni33v/piste-marilleva-estivant-eenoudervakanties.webp?rxy=0.46867167919799496,0.37337567438624014&amp;width=1440&amp;height=775&amp;v=1dd56faa486e6e0</url>
+      <tag>Wintersport</tag>
+    </image>
+    <destination_id>411</destination_id>
+    <url>https://www.estivant.nl/eenoudervakanties/italie/val-di-sole/</url>
+    <name>Eenoudervakantie Val di Sole</name>
+    <description>Skiën met je kinderen in een zonnige en sneeuwzekere regio! In Val di Sole beleven jullie de ideale wintersportvakantie, inclusief het goede Italiaanse leven!</description>
+    <price>897.00 EUR</price>
+    <address format="simple">
+      <component name="city">Val di Sole</component>
+      <component name="region">Italië</component>
+      <component name="country">Italië</component>
+    </address>
+    <neighborhood>Val di Sole</neighborhood>
+    <type>Wintersport</type>
+    <type>Eenoudervakantie</type>
+    <custom_number_0>897</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
     <custom_label_1>Wintersport</custom_label_1>
     <custom_label_2>Wintersport</custom_label_2>
@@ -609,7 +644,7 @@
     <url>https://www.estivant.nl/eenoudervakanties/oostenrijk/jenig/</url>
     <name>Eenoudervakantie Jenig-Nassfeld</name>
     <description>Ga op wintersport met andere eenoudergezinnen in Jenig-Nassfeld. Hotel exclusief voor Estivant-gasten. Bekijk deze voorjaarsvakantie!</description>
-    <price>897.00 EUR</price>
+    <price>997.00 EUR</price>
     <address format="simple">
       <component name="city">Jenig-Nassfeld</component>
       <component name="region">Oostenrijk</component>
@@ -618,7 +653,7 @@
     <neighborhood>Jenig-Nassfeld</neighborhood>
     <type>Wintersport</type>
     <type>Eenoudervakantie</type>
-    <custom_number_0>897</custom_number_0>
+    <custom_number_0>997</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
     <custom_label_1>Wintersport</custom_label_1>
     <custom_label_2>Wintersport</custom_label_2>
