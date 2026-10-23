@@ -504,7 +504,7 @@
     <destination_id>417</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/nederland/kuierpad/</url>
     <name>Eenoudervakantie Kuierpad</name>
-    <description>Vier vakantie met andere eenoudergezinnen op het Kuierpad in Drenthe. Populaire camping met binnen- en buitenzwembad en zwemvijver. Bekijk deze eenoudervakantie!</description>
+    <description>Vier vakantie met andere eenoudergezinnen op het Kuierpad in Drenthe. Populaire camping met binnen- en buitenzwembad en zwemvijver. Bekijk de vakantie!</description>
     <price>99.00 EUR</price>
     <address format="simple">
       <component name="city">Kuierpad</component>
@@ -680,7 +680,7 @@
     <destination_id>366</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/oostenrijk/niederau/</url>
     <name>Eenoudervakantie Niederau Winter</name>
-    <description>Ga met je kind(eren) op wintersport in Niederau. Ontdek het skigebied in Tirol en geniet van sneeuwpret met andere eenoudergezinnen. In de kerst- en voorjaarsvakantie!</description>
+    <description>Ga met je kind(eren) op wintersport in Niederau. Ontdek het skigebied in Tirol en geniet van sneeuwpret met andere eenoudergezinnen. Bekijk de reis!</description>
     <price>1097.00 EUR</price>
     <address format="simple">
       <component name="city">Niederau</component>
