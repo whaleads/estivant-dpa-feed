@@ -10,7 +10,7 @@
     <url>https://www.estivant.nl/singlereizen/belgie/antwerpen-feestdagen/</url>
     <name>Singlereis Antwerpen</name>
     <description>Ga mee op singlereis naar Antwerpen en vier de feestdagen bij onze zuiderburen! Te boeken voor zowel een gezellige kerst als een feestelijk oud &amp; nieuw!</description>
-    <price>679.00 EUR</price>
+    <price>729.00 EUR</price>
     <address format="simple">
       <component name="city">Antwerpen</component>
       <component name="region">België</component>
@@ -19,7 +19,7 @@
     <neighborhood>Antwerpen</neighborhood>
     <type>Stedentrips</type>
     <type>Singlereis</type>
-    <custom_number_0>679</custom_number_0>
+    <custom_number_0>729</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
     <custom_label_1>Stedentrips</custom_label_1>
     <custom_label_3>België</custom_label_3>
