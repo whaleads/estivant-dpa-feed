@@ -216,7 +216,7 @@
     <url>https://www.estivant.nl/singlereizen/oostenrijk/kaprun-zell-am-see/</url>
     <name>Singlereis Kaprun - Zell am See</name>
     <description>Ga mee op single wintersport naar Kaprun. Geschikt voor alle skiniveau's. Gegarandeerd: bruisende après-ski en sneeuw (gletsjer). Bekijk deze groepsreis!</description>
-    <price>1479.00 EUR</price>
+    <price>1469.00 EUR</price>
     <address format="simple">
       <component name="city">Kaprun - Zell am See</component>
       <component name="region">Oostenrijk</component>
@@ -225,7 +225,7 @@
     <neighborhood>Kaprun - Zell am See</neighborhood>
     <type>Wintersport</type>
     <type>Singlereis</type>
-    <custom_number_0>1479</custom_number_0>
+    <custom_number_0>1469</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
     <custom_label_1>Wintersport</custom_label_1>
     <custom_label_2>Wintersport</custom_label_2>
@@ -367,7 +367,7 @@
     <url>https://www.estivant.nl/singlereizen/spanje/wandelen-andalusie/</url>
     <name>Singlereis Andalusië Herfstzon</name>
     <description>Ontsnap aan de herfst met onze singlevakantie naar Andalusië! Wandel over de beroemde Caminito del Rey en bezoek Malaga. Bekijk deze groepsreis!</description>
-    <price>1299.00 EUR</price>
+    <price>899.00 EUR</price>
     <address format="simple">
       <component name="city">Andalusië Herfstzon</component>
       <component name="region">Spanje</component>
@@ -376,7 +376,7 @@
     <neighborhood>Andalusië Herfstzon</neighborhood>
     <type>Wandelen</type>
     <type>Singlereis</type>
-    <custom_number_0>1299</custom_number_0>
+    <custom_number_0>899</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
     <custom_label_1>Wandelen</custom_label_1>
     <custom_label_2>Winter</custom_label_2>
