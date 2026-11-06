@@ -291,7 +291,7 @@
     <url>https://www.estivant.nl/eenoudervakanties/griekenland/flottielje-zeilen/</url>
     <name>Eenoudervakantie Flottieljezeilen</name>
     <description>Zeil met je kinderen langs de Griekse kust tijdens een flottielje reis. Beleef vrijheid, avontuur en vakantie met eenoudergezinnen. Bekijk de zeilvakanties!</description>
-    <price>2061.00 EUR</price>
+    <price>1646.00 EUR</price>
     <address format="simple">
       <component name="city">Flottieljezeilen</component>
       <component name="region">Griekenland</component>
@@ -300,7 +300,7 @@
     <neighborhood>Flottieljezeilen</neighborhood>
     <type>Watersport</type>
     <type>Eenoudervakantie</type>
-    <custom_number_0>2061</custom_number_0>
+    <custom_number_0>1646</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
     <custom_label_1>Watersport</custom_label_1>
     <custom_label_2>Zomervakantie</custom_label_2>
@@ -747,41 +747,6 @@
   </listing>
   <listing>
     <image>
-      <url>https://www.estivant.nl/media/jm3mumyl/140-carindeben-photography_139.jpg?rxy=0.5150375939849624,0.38721804511278196&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd2e4c99d75080</url>
-      <tag>Wintersport</tag>
-    </image>
-    <destination_id>361</destination_id>
-    <url>https://www.estivant.nl/eenoudervakanties/oostenrijk/mittersill/</url>
-    <name>Eenoudervakantie Mittersill</name>
-    <description>Ga op wintersport met andere eenoudergezinnen in Mittersill. Leuk voor jong &amp; oud: het populaire gebied Kitzbühel-Kirchberg. Bekijk deze voorjaarsvakantie!</description>
-    <price>1147.00 EUR</price>
-    <address format="simple">
-      <component name="city">Mittersill</component>
-      <component name="region">Oostenrijk</component>
-      <component name="country">Oostenrijk</component>
-    </address>
-    <neighborhood>Mittersill</neighborhood>
-    <type>Wintersport</type>
-    <type>Eenoudervakantie</type>
-    <custom_number_0>1147</custom_number_0>
-    <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Wintersport</custom_label_1>
-    <custom_label_2>Wintersport</custom_label_2>
-    <custom_label_3>Oostenrijk</custom_label_3>
-    <product_tags>Actief</product_tags>
-    <product_tags>Wintersport</product_tags>
-    <product_tags>Voorjaarsvakantie</product_tags>
-    <product_tags>500 tot 1000 km</product_tags>
-    <product_tags>Hotel</product_tags>
-    <product_tags>4-7 jaar</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>15 plus</product_tags>
-    <product_tags>Oostenrijk</product_tags>
-    <product_tags>Eenoudervakantie</product_tags>
-  </listing>
-  <listing>
-    <image>
       <url>https://www.estivant.nl/media/2dgepcnb/337-carindeben-photography_336.jpg?rxy=0.24812030075187969,0.46616541353383456&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd4b5a63008060</url>
       <tag>Wintersport</tag>
     </image>
@@ -998,7 +963,7 @@
     <url>https://www.estivant.nl/eenoudervakanties/zweden/zuid-zweden/</url>
     <name>Eenoudervakantie Zweden</name>
     <description>Vier vakantie met andere eenoudergezinnen in het zuiden van Zweden, middenin de natuur. Kanoën, wandelen, zwemmen, kampvuur... Bekijk deze eenoudervakantie!</description>
-    <price>1602.00 EUR</price>
+    <price>234.00 EUR</price>
     <address format="simple">
       <component name="city">Zweden</component>
       <component name="region">Zweden</component>
@@ -1007,7 +972,7 @@
     <neighborhood>Zweden</neighborhood>
     <type>Actief</type>
     <type>Eenoudervakantie</type>
-    <custom_number_0>1602</custom_number_0>
+    <custom_number_0>234</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
     <custom_label_1>Actief</custom_label_1>
     <custom_label_2>Zomervakantie</custom_label_2>

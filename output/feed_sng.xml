@@ -340,7 +340,7 @@
     <url>https://www.estivant.nl/singlereizen/zweden/lapland/</url>
     <name>Singlereis Lapland</name>
     <description>Ga mee op singlereis naar Lapland. Maak een sneeuwscooter- en huskysledetocht, wandel door de sneeuw én spot het noorderlicht. Bekijk deze groepsreis!</description>
-    <price>2074.00 EUR</price>
+    <price>2124.00 EUR</price>
     <address format="simple">
       <component name="city">Lapland</component>
       <component name="region">Zweden</component>
@@ -349,7 +349,7 @@
     <neighborhood>Lapland</neighborhood>
     <type>Actief</type>
     <type>Singlereis</type>
-    <custom_number_0>2074</custom_number_0>
+    <custom_number_0>2124</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
     <custom_label_1>Actief</custom_label_1>
     <custom_label_2>Winter</custom_label_2>
