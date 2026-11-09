@@ -3,6 +3,38 @@
   <title>Estivant Singlereizen</title>
   <listing>
     <image>
+      <url>https://www.estivant.nl/media/3ziedf0w/estivant-single-solo-vakantie-reizen-albanie-berat-zomer-huizen.jpg?rxy=0.5012531328320802,0.5167578788870996&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dcb5f3ea890180</url>
+      <tag>Rondreizen</tag>
+    </image>
+    <destination_id>426</destination_id>
+    <url>https://www.estivant.nl/singlereizen/albanie/rondreis-albanie/</url>
+    <name>Singlereis Albanië</name>
+    <description>Ga mee op singlereis naar Albanië en ontdek een authentiek stukje Europa. Maak een rondreis langs de plekken Tirana, Berat en Serandë. Bekijk deze groepsreis!</description>
+    <price>1724.00 EUR</price>
+    <address format="simple">
+      <component name="city">Albanië</component>
+      <component name="region">Albanië</component>
+      <component name="country">Albanië</component>
+    </address>
+    <neighborhood>Albanië</neighborhood>
+    <type>Rondreizen</type>
+    <type>Singlereis</type>
+    <custom_number_0>1724</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Rondreizen</custom_label_1>
+    <custom_label_2>Zomer</custom_label_2>
+    <custom_label_3>Albanië</custom_label_3>
+    <product_tags>Cultuur</product_tags>
+    <product_tags>Rondreizen</product_tags>
+    <product_tags>30-49 jaar</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>Hotel</product_tags>
+    <product_tags>Zomer</product_tags>
+    <product_tags>Albanië</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
       <url>https://www.estivant.nl/media/sohhuaje/istock-2222337572-2.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd410ab25a6590</url>
       <tag>Stedentrips</tag>
     </image>
@@ -38,7 +70,7 @@
     <destination_id>370</destination_id>
     <url>https://www.estivant.nl/singlereizen/belgie/gent-feestdagen/</url>
     <name>Singlereis Gent</name>
-    <description>Vier de feestdagen in Gent tijdens een singlereis. Ontdek de kerstmarkt, het biercafé en de ijsbaan. Kies voor een gezellige kerst of knallend oud &amp; nieuw!</description>
+    <description>Vier de feestdagen in Gent tijdens een singlereis. Ontdek de kerstmarkt, het biercafé en de ijsbaan. Ga voor een knallend oud &amp; nieuw in deze gezellige stad!</description>
     <price>669.00 EUR</price>
     <address format="simple">
       <component name="city">Gent</component>
@@ -340,7 +372,7 @@
     <url>https://www.estivant.nl/singlereizen/zweden/lapland/</url>
     <name>Singlereis Lapland</name>
     <description>Ga mee op singlereis naar Lapland. Maak een sneeuwscooter- en huskysledetocht, wandel door de sneeuw én spot het noorderlicht. Bekijk deze groepsreis!</description>
-    <price>2124.00 EUR</price>
+    <price>2074.00 EUR</price>
     <address format="simple">
       <component name="city">Lapland</component>
       <component name="region">Zweden</component>
@@ -349,7 +381,7 @@
     <neighborhood>Lapland</neighborhood>
     <type>Actief</type>
     <type>Singlereis</type>
-    <custom_number_0>2124</custom_number_0>
+    <custom_number_0>2074</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
     <custom_label_1>Actief</custom_label_1>
     <custom_label_2>Winter</custom_label_2>
