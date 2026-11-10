@@ -3,38 +3,6 @@
   <title>Estivant Singlereizen</title>
   <listing>
     <image>
-      <url>https://www.estivant.nl/media/3ziedf0w/estivant-single-solo-vakantie-reizen-albanie-berat-zomer-huizen.jpg?rxy=0.5012531328320802,0.5167578788870996&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dcb5f3ea890180</url>
-      <tag>Rondreizen</tag>
-    </image>
-    <destination_id>426</destination_id>
-    <url>https://www.estivant.nl/singlereizen/albanie/rondreis-albanie/</url>
-    <name>Singlereis Albanië</name>
-    <description>Ga mee op singlereis naar Albanië en ontdek een authentiek stukje Europa. Maak een rondreis langs de plekken Tirana, Berat en Serandë. Bekijk deze groepsreis!</description>
-    <price>1724.00 EUR</price>
-    <address format="simple">
-      <component name="city">Albanië</component>
-      <component name="region">Albanië</component>
-      <component name="country">Albanië</component>
-    </address>
-    <neighborhood>Albanië</neighborhood>
-    <type>Rondreizen</type>
-    <type>Singlereis</type>
-    <custom_number_0>1724</custom_number_0>
-    <custom_label_0>Singlereis</custom_label_0>
-    <custom_label_1>Rondreizen</custom_label_1>
-    <custom_label_2>Zomer</custom_label_2>
-    <custom_label_3>Albanië</custom_label_3>
-    <product_tags>Cultuur</product_tags>
-    <product_tags>Rondreizen</product_tags>
-    <product_tags>30-49 jaar</product_tags>
-    <product_tags>40-59 jaar</product_tags>
-    <product_tags>Hotel</product_tags>
-    <product_tags>Zomer</product_tags>
-    <product_tags>Albanië</product_tags>
-    <product_tags>Singlereis</product_tags>
-  </listing>
-  <listing>
-    <image>
       <url>https://www.estivant.nl/media/sohhuaje/istock-2222337572-2.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd410ab25a6590</url>
       <tag>Stedentrips</tag>
     </image>
@@ -158,7 +126,7 @@
     <url>https://www.estivant.nl/singlereizen/egypte/el-gouna/</url>
     <name>Singlereis El Gouna</name>
     <description>Ga mee op singlereis naar El Gouna in Egypte. Ontsnap aan de winterkou in Nederland en geniet van deze winterzon vakantie!</description>
-    <price>1319.00 EUR</price>
+    <price>1369.00 EUR</price>
     <address format="simple">
       <component name="city">El Gouna</component>
       <component name="region">Egypte</component>
@@ -167,7 +135,7 @@
     <neighborhood>El Gouna</neighborhood>
     <type>Winterzon</type>
     <type>Singlereis</type>
-    <custom_number_0>1319</custom_number_0>
+    <custom_number_0>1369</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
     <custom_label_1>Winterzon</custom_label_1>
     <custom_label_2>Winter</custom_label_2>
