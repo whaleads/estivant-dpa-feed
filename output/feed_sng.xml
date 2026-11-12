@@ -3,6 +3,38 @@
   <title>Estivant Singlereizen</title>
   <listing>
     <image>
+      <url>https://www.estivant.nl/media/ax0hcyjm/estivant-single-solo-vakantie-reizen-albanie-tirana-zomer-kruja-kasteel.jpg?rxy=0.4849624060150376,0.5322015329185577&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd7289696fbf00</url>
+      <tag>Rondreizen</tag>
+    </image>
+    <destination_id>426</destination_id>
+    <url>https://www.estivant.nl/singlereizen/albanie/rondreis-albanie/</url>
+    <name>Singlereis Albanië</name>
+    <description>Ga mee op singlereis naar Albanië en ontdek een authentiek stukje Europa. Maak een rondreis langs de plekken Tirana, Berat en Serandë. Bekijk deze groepsreis!</description>
+    <price>1716.00 EUR</price>
+    <address format="simple">
+      <component name="city">Albanië</component>
+      <component name="region">Albanië</component>
+      <component name="country">Albanië</component>
+    </address>
+    <neighborhood>Albanië</neighborhood>
+    <type>Rondreizen</type>
+    <type>Singlereis</type>
+    <custom_number_0>1716</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Rondreizen</custom_label_1>
+    <custom_label_2>Zomer</custom_label_2>
+    <custom_label_3>Albanië</custom_label_3>
+    <product_tags>Cultuur</product_tags>
+    <product_tags>Rondreizen</product_tags>
+    <product_tags>30-49 jaar</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>Hotel</product_tags>
+    <product_tags>Zomer</product_tags>
+    <product_tags>Albanië</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
       <url>https://www.estivant.nl/media/sohhuaje/istock-2222337572-2.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd410ab25a6590</url>
       <tag>Stedentrips</tag>
     </image>
@@ -152,6 +184,71 @@
   </listing>
   <listing>
     <image>
+      <url>https://www.estivant.nl/media/ufnnztbs/istock-1419953437.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd704b499df650</url>
+      <tag>Strand</tag>
+    </image>
+    <destination_id>430</destination_id>
+    <url>https://www.estivant.nl/singlereizen/griekenland/samos/</url>
+    <name>Singlereis Samos</name>
+    <description>Ga mee op singlereis naar Samos. Een Grieks eiland zonder massatoerisme. Verken het eiland en strijk neer op de mooiste bounty-stranden. Bekijk deze groepsreis!</description>
+    <price>1559.00 EUR</price>
+    <address format="simple">
+      <component name="city">Samos</component>
+      <component name="region">Griekenland</component>
+      <component name="country">Griekenland</component>
+    </address>
+    <neighborhood>Samos</neighborhood>
+    <type>Strand</type>
+    <type>Singlereis</type>
+    <custom_number_0>1559</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Strand</custom_label_1>
+    <custom_label_2>Zomer</custom_label_2>
+    <custom_label_3>Griekenland</custom_label_3>
+    <product_tags>Strand</product_tags>
+    <product_tags>25-39 jaar</product_tags>
+    <product_tags>30-49 jaar</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>50-69 jaar</product_tags>
+    <product_tags>Hotel</product_tags>
+    <product_tags>Zomer</product_tags>
+    <product_tags>Griekenland</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/qmrbbvbi/istock-692310004-2.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd71d9ce4abf70</url>
+      <tag>Cultuur</tag>
+    </image>
+    <destination_id>444</destination_id>
+    <url>https://www.estivant.nl/singlereizen/italie/glamping-gardameer/</url>
+    <name>Singlereis Gardameer</name>
+    <description>Ga mee op singlereis naar onze glamping aan het Gardameer. Verken de omgeving per e-bike, breng een bezoek aan Verona en geniet. Bekijk deze groepsreis!</description>
+    <price>859.00 EUR</price>
+    <address format="simple">
+      <component name="city">Gardameer</component>
+      <component name="region">Italië</component>
+      <component name="country">Italië</component>
+    </address>
+    <neighborhood>Gardameer</neighborhood>
+    <type>Cultuur</type>
+    <type>Singlereis</type>
+    <custom_number_0>859</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Cultuur</custom_label_1>
+    <custom_label_2>Zomer</custom_label_2>
+    <custom_label_3>Italië</custom_label_3>
+    <product_tags>Cultuur</product_tags>
+    <product_tags>25-39 jaar</product_tags>
+    <product_tags>30-49 jaar</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>Glamping</product_tags>
+    <product_tags>Zomer</product_tags>
+    <product_tags>Italië</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
       <url>https://www.estivant.nl/media/whwpgee0/marilleva-424-1.jpg?rxy=0.5012531328320802,0.5797830502983111&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd4b5449e826b0</url>
       <tag>Wintersport</tag>
     </image>
@@ -177,6 +274,39 @@
     <product_tags>40-59 jaar</product_tags>
     <product_tags>50-69 jaar</product_tags>
     <product_tags>Wintersport</product_tags>
+    <product_tags>Italië</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/eabbl42k/pinzolo-hiken-door-de-bergen.jpg?rxy=0.47869674185463656,0.6275435240890285&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd71058179c800</url>
+      <tag>Actief</tag>
+    </image>
+    <destination_id>437</destination_id>
+    <url>https://www.estivant.nl/singlereizen/italie/wandelen-dolomieten/</url>
+    <name>Singlereis Pinzolo</name>
+    <description>Wandelen door de Dolomieten met andere singles vanuit Pinzolo. Geniet van bergen, natuur en prachtige routes tijdens een georganiseerde wandelreis.</description>
+    <price>1169.00 EUR</price>
+    <address format="simple">
+      <component name="city">Pinzolo</component>
+      <component name="region">Italië</component>
+      <component name="country">Italië</component>
+    </address>
+    <neighborhood>Pinzolo</neighborhood>
+    <type>Actief</type>
+    <type>Singlereis</type>
+    <custom_number_0>1169</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Actief</custom_label_1>
+    <custom_label_2>Zomer</custom_label_2>
+    <custom_label_3>Italië</custom_label_3>
+    <product_tags>Wandelen</product_tags>
+    <product_tags>Actief</product_tags>
+    <product_tags>30-49 jaar</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>50-69 jaar</product_tags>
+    <product_tags>Hotel</product_tags>
+    <product_tags>Zomer</product_tags>
     <product_tags>Italië</product_tags>
     <product_tags>Singlereis</product_tags>
   </listing>
