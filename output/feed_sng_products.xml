@@ -176,7 +176,7 @@
     <g:condition>new</g:condition>
     <g:price>1559.00 EUR</g:price>
     <g:link>https://www.estivant.nl/singlereizen/griekenland/samos/</g:link>
-    <g:image_link>https://www.estivant.nl/media/ufnnztbs/istock-1419953437.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd704b499df650</g:image_link>
+    <g:image_link>https://www.estivant.nl/media/ufnnztbs/istock-1419953437.jpg?rxy=0.48872180451127817,0.6575091299839192&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd736d575a0610</g:image_link>
     <g:additional_image_link>https://www.estivant.nl/media/2f0d4jbx/estivant-single-vakantie-reizen-griekenland-samos-zomer-2021-2.jpg</g:additional_image_link>
     <g:additional_image_link>https://www.estivant.nl/media/dijjqohi/samos_estivant_by_joyce_goverde-69-1.jpg</g:additional_image_link>
     <g:additional_image_link>https://www.estivant.nl/media/h32c5ecp/bootje-bij-samos.jpg</g:additional_image_link>
@@ -420,9 +420,37 @@
     <g:custom_number_0>1769</g:custom_number_0>
   </item>
   <item>
+    <g:id>442</g:id>
+    <g:title>Singlereis Andalusië Herfstzon</g:title>
+    <g:description>Ontsnap aan de herfst met onze singlevakantie naar Andalusië! Wandel over de beroemde Caminito del Rey en bezoek Malaga. Bekijk deze groepsreis!</g:description>
+    <g:availability>in stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:price>699.00 EUR</g:price>
+    <g:link>https://www.estivant.nl/singlereizen/spanje/wandelen-andalusie/</g:link>
+    <g:image_link>https://www.estivant.nl/media/e00jmiof/estivant-singlevakantie-winterzon-wandelvakantie-andalusi%C3%AB-nerja-zonsondergang-2.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dcc6847a025c30</g:image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/52qn5pau/caminito-del-rey_900x600.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/vgwlfvvg/20190110134716-3.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/bouhld2l/istock-2120368242.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/qlqaqdxi/estivant-singlereizen-spanje-andalusie-nerja-2024-caminito-del-rey-2.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/mlmfxxg3/romeinse-brug-sedella.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/30cebuf5/4-estivant-singlevakantie-winterzon-wandelvakantie-andalusi%C3%AB-nerja-wandelen.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/dqjfdwl3/2-estivant-singlevakantie-winterzon-wandelvakantie-andalusi%C3%AB-frigiliana-straten.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/id2fqm5l/estivant-single-vakanties-reizen-spanje-malaga-zomer-2024.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/xfvlydhj/istock-2192676041.jpg</g:additional_image_link>
+    <g:additional_image_link>https://www.estivant.nl/media/wnic4xpg/estivant-single-vakantie-reizen-spanje-andalusi%C3%AB-wandel-cultuur-nerja-zomer-alcazar.jpg</g:additional_image_link>
+    <g:brand>Estivant</g:brand>
+    <g:product_type>Singlereis &gt; Spanje &gt; Wandelen</g:product_type>
+    <g:custom_label_0>Singlereis</g:custom_label_0>
+    <g:custom_label_1>Wandelen</g:custom_label_1>
+    <g:custom_label_2>Winter</g:custom_label_2>
+    <g:custom_label_3>Spanje</g:custom_label_3>
+    <g:custom_label_4>40-59 jaar, 50-69 jaar</g:custom_label_4>
+    <g:custom_number_0>699</g:custom_number_0>
+  </item>
+  <item>
     <g:id>378</g:id>
     <g:title>Singlereis Lapland</g:title>
-    <g:description>Ga mee op singlereis naar Lapland. Maak een sneeuwscooter- en huskysledetocht, wandel door de sneeuw én spot het noorderlicht. Bekijk deze groepsreis!</g:description>
+    <g:description>Ga mee op singlereis naar Lapland: husky's, sneeuwscooters en misschien het noorderlicht. Met een groep singles en een Nederlandse reisbegeleider.</g:description>
     <g:availability>in stock</g:availability>
     <g:condition>new</g:condition>
     <g:price>2074.00 EUR</g:price>

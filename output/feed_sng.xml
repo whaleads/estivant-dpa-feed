@@ -184,7 +184,7 @@
   </listing>
   <listing>
     <image>
-      <url>https://www.estivant.nl/media/ufnnztbs/istock-1419953437.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd704b499df650</url>
+      <url>https://www.estivant.nl/media/ufnnztbs/istock-1419953437.jpg?rxy=0.48872180451127817,0.6575091299839192&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd736d575a0610</url>
       <tag>Strand</tag>
     </image>
     <destination_id>430</destination_id>
@@ -463,13 +463,47 @@
   </listing>
   <listing>
     <image>
+      <url>https://www.estivant.nl/media/e00jmiof/estivant-singlevakantie-winterzon-wandelvakantie-andalusi%C3%AB-nerja-zonsondergang-2.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dcc6847a025c30</url>
+      <tag>Wandelen</tag>
+    </image>
+    <destination_id>442</destination_id>
+    <url>https://www.estivant.nl/singlereizen/spanje/wandelen-andalusie/</url>
+    <name>Singlereis Andalusië Herfstzon</name>
+    <description>Ontsnap aan de herfst met onze singlevakantie naar Andalusië! Wandel over de beroemde Caminito del Rey en bezoek Malaga. Bekijk deze groepsreis!</description>
+    <price>699.00 EUR</price>
+    <address format="simple">
+      <component name="city">Andalusië Herfstzon</component>
+      <component name="region">Spanje</component>
+      <component name="country">Spanje</component>
+    </address>
+    <neighborhood>Andalusië Herfstzon</neighborhood>
+    <type>Wandelen</type>
+    <type>Singlereis</type>
+    <custom_number_0>699</custom_number_0>
+    <custom_label_0>Singlereis</custom_label_0>
+    <custom_label_1>Wandelen</custom_label_1>
+    <custom_label_2>Winter</custom_label_2>
+    <custom_label_3>Spanje</custom_label_3>
+    <product_tags>Wandelen</product_tags>
+    <product_tags>Cultuur</product_tags>
+    <product_tags>Winterzon</product_tags>
+    <product_tags>Strand</product_tags>
+    <product_tags>40-59 jaar</product_tags>
+    <product_tags>50-69 jaar</product_tags>
+    <product_tags>Hotel</product_tags>
+    <product_tags>Winter</product_tags>
+    <product_tags>Spanje</product_tags>
+    <product_tags>Singlereis</product_tags>
+  </listing>
+  <listing>
+    <image>
       <url>https://www.estivant.nl/media/rhxbyxuw/istock-1124834050-2.jpg?rxy=0.4912343137557996,0.5457646284756823&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dad78ecadf2340</url>
       <tag>Actief</tag>
     </image>
     <destination_id>378</destination_id>
     <url>https://www.estivant.nl/singlereizen/zweden/lapland/</url>
     <name>Singlereis Lapland</name>
-    <description>Ga mee op singlereis naar Lapland. Maak een sneeuwscooter- en huskysledetocht, wandel door de sneeuw én spot het noorderlicht. Bekijk deze groepsreis!</description>
+    <description>Ga mee op singlereis naar Lapland: husky's, sneeuwscooters en misschien het noorderlicht. Met een groep singles en een Nederlandse reisbegeleider.</description>
     <price>2074.00 EUR</price>
     <address format="simple">
       <component name="city">Lapland</component>
