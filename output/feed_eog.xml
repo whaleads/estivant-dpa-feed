@@ -350,6 +350,7 @@
     <product_tags>4-7 jaar</product_tags>
     <product_tags>8-11 jaar</product_tags>
     <product_tags>12-14 jaar</product_tags>
+    <product_tags>11-daagse eenoudervakanties</product_tags>
     <product_tags>Italië</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
@@ -385,6 +386,7 @@
     <product_tags>8-11 jaar</product_tags>
     <product_tags>12-14 jaar</product_tags>
     <product_tags>15 plus</product_tags>
+    <product_tags>11-daagse eenoudervakanties</product_tags>
     <product_tags>Italië</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
@@ -423,6 +425,7 @@
     <product_tags>4-7 jaar</product_tags>
     <product_tags>8-11 jaar</product_tags>
     <product_tags>12-14 jaar</product_tags>
+    <product_tags>11-daagse eenoudervakanties</product_tags>
     <product_tags>Italië</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
@@ -456,10 +459,10 @@
     <product_tags>Zomervakantie</product_tags>
     <product_tags>1000 plus km</product_tags>
     <product_tags>Camping</product_tags>
-    <product_tags>4-7 jaar</product_tags>
     <product_tags>8-11 jaar</product_tags>
     <product_tags>12-14 jaar</product_tags>
     <product_tags>15 plus</product_tags>
+    <product_tags>11-daagse eenoudervakanties</product_tags>
     <product_tags>Italië</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
@@ -837,7 +840,7 @@
     <custom_number_0>662</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
     <custom_label_1>Actief</custom_label_1>
-    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_2>Meivakantie</custom_label_2>
     <custom_label_3>Oostenrijk</custom_label_3>
     <product_tags>Actief</product_tags>
     <product_tags>Cultuur</product_tags>
@@ -846,6 +849,7 @@
     <product_tags>Hotel</product_tags>
     <product_tags>8-11 jaar</product_tags>
     <product_tags>12-14 jaar</product_tags>
+    <product_tags>Meivakantie</product_tags>
     <product_tags>Oostenrijk</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
