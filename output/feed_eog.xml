@@ -574,6 +574,42 @@
   </listing>
   <listing>
     <image>
+      <url>https://www.estivant.nl/media/r1gn1k2t/552052821_1198168488998674_7629821640051101080_n-smaller.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dc9454861921f0</url>
+      <tag>Glamping</tag>
+    </image>
+    <destination_id>415</destination_id>
+    <url>https://www.estivant.nl/eenoudervakanties/nederland/boerderij-appelscha/</url>
+    <name>Eenoudervakantie Boerderij Appelscha</name>
+    <description>Vier vakantie met andere eenoudergezinnen in Appelscha. Boerderij exclusief voor Estivant gasten. Avontuur gegarandeerd. Bekijk deze eenoudervakantie!</description>
+    <price>266.00 EUR</price>
+    <address format="simple">
+      <component name="city">Boerderij Appelscha</component>
+      <component name="region">Nederland</component>
+      <component name="country">Nederland</component>
+    </address>
+    <neighborhood>Boerderij Appelscha</neighborhood>
+    <type>Glamping</type>
+    <type>Eenoudervakantie</type>
+    <custom_number_0>266</custom_number_0>
+    <custom_label_0>Eenoudervakantie</custom_label_0>
+    <custom_label_1>Glamping</custom_label_1>
+    <custom_label_2>Meivakantie</custom_label_2>
+    <custom_label_3>Nederland</custom_label_3>
+    <product_tags>Glamping</product_tags>
+    <product_tags>Ontspanning</product_tags>
+    <product_tags>Zomervakantie</product_tags>
+    <product_tags>tot-200-km</product_tags>
+    <product_tags>Boerderij</product_tags>
+    <product_tags>Glamping (1)</product_tags>
+    <product_tags>4-7 jaar</product_tags>
+    <product_tags>8-11 jaar</product_tags>
+    <product_tags>Meivakantie</product_tags>
+    <product_tags>Hemelvaart</product_tags>
+    <product_tags>Nederland</product_tags>
+    <product_tags>Eenoudervakantie</product_tags>
+  </listing>
+  <listing>
+    <image>
       <url>https://www.estivant.nl/media/torplnb1/carindeben-estivantzomer2026_374.jpg?rxy=0.3508771929824561,0.4849624060150376&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd444df8c7d800</url>
       <tag>Watersport</tag>
     </image>
