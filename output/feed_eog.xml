@@ -211,6 +211,40 @@
   </listing>
   <listing>
     <image>
+      <url>https://www.estivant.nl/media/1r5lexeo/55-75.jpg?rxy=0.334669315743303,0.4732748500405668&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1db084efb405450</url>
+      <tag>Actief</tag>
+    </image>
+    <destination_id>402</destination_id>
+    <url>https://www.estivant.nl/eenoudervakanties/frankrijk/presle/</url>
+    <name>Eenoudervakantie Presle</name>
+    <description>Vier vakantie met andere eenoudergezinnen in de Franse Alpen. Outdoor camping met veel buitensportactiviteiten voor tieners. Bekijk deze eenoudervakantie!</description>
+    <price>40.00 EUR</price>
+    <address format="simple">
+      <component name="city">Presle</component>
+      <component name="region">Frankrijk</component>
+      <component name="country">Frankrijk</component>
+    </address>
+    <neighborhood>Presle</neighborhood>
+    <type>Actief</type>
+    <type>Eenoudervakantie</type>
+    <custom_number_0>40</custom_number_0>
+    <custom_label_0>Eenoudervakantie</custom_label_0>
+    <custom_label_1>Actief</custom_label_1>
+    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_3>Frankrijk</custom_label_3>
+    <product_tags>Actief</product_tags>
+    <product_tags>Zomervakantie</product_tags>
+    <product_tags>1000 plus km</product_tags>
+    <product_tags>Camping</product_tags>
+    <product_tags>8-11 jaar</product_tags>
+    <product_tags>12-14 jaar</product_tags>
+    <product_tags>15 plus</product_tags>
+    <product_tags>Kamperen</product_tags>
+    <product_tags>Frankrijk</product_tags>
+    <product_tags>Eenoudervakantie</product_tags>
+  </listing>
+  <listing>
+    <image>
       <url>https://www.estivant.nl/media/3dnmga3h/20120812_2737.jpg?rxy=0.48872180451127817,0.4192958837553869&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd450865260bb0</url>
       <tag>Watersport</tag>
     </image>
