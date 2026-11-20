@@ -100,7 +100,7 @@
     <url>https://www.estivant.nl/singlereizen/duitsland/berlijn-feestdagen/</url>
     <name>Singlereis Berlijn</name>
     <description>Ga mee op singlereis naar Berlijn en vier de feestdagen in deze bruisende stad. Kies je voor een gezellige kerst of knallend oud &amp; nieuw?</description>
-    <price>639.00 EUR</price>
+    <price>699.00 EUR</price>
     <address format="simple">
       <component name="city">Berlijn</component>
       <component name="region">Duitsland</component>
@@ -109,7 +109,7 @@
     <neighborhood>Berlijn</neighborhood>
     <type>Stedentrips</type>
     <type>Singlereis</type>
-    <custom_number_0>639</custom_number_0>
+    <custom_number_0>699</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
     <custom_label_1>Stedentrips</custom_label_1>
     <custom_label_3>Duitsland</custom_label_3>

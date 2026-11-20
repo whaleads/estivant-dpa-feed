@@ -175,6 +175,40 @@
   </listing>
   <listing>
     <image>
+      <url>https://www.estivant.nl/media/nzkjqggm/estivant-eenouder-oostenrijk-wildschoenau-mountainbiken.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd77720f5f64f0</url>
+      <tag>Actief</tag>
+    </image>
+    <destination_id>446</destination_id>
+    <url>https://www.estivant.nl/eenoudervakanties/duitsland/hennesee-sauerland/</url>
+    <name>Eenoudervakantie Hennesee</name>
+    <description>Vakantie met andere eenoudergezinnen in het Sauerland.  Buiten, actief en dichtbij. Op onze 4-sterrencamping aan het meer zullen jullie je geen moment vervelen!</description>
+    <price>198.00 EUR</price>
+    <address format="simple">
+      <component name="city">Hennesee</component>
+      <component name="region">Duitsland</component>
+      <component name="country">Duitsland</component>
+    </address>
+    <neighborhood>Hennesee</neighborhood>
+    <type>Actief</type>
+    <type>Eenoudervakantie</type>
+    <custom_number_0>198</custom_number_0>
+    <custom_label_0>Eenoudervakantie</custom_label_0>
+    <custom_label_1>Actief</custom_label_1>
+    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_3>Duitsland</custom_label_3>
+    <product_tags>Actief</product_tags>
+    <product_tags>Zomervakantie</product_tags>
+    <product_tags>200 tot 500 km</product_tags>
+    <product_tags>Camping</product_tags>
+    <product_tags>4-7 jaar</product_tags>
+    <product_tags>8-11 jaar</product_tags>
+    <product_tags>12-14 jaar</product_tags>
+    <product_tags>Kamperen</product_tags>
+    <product_tags>Duitsland</product_tags>
+    <product_tags>Eenoudervakantie</product_tags>
+  </listing>
+  <listing>
+    <image>
       <url>https://www.estivant.nl/media/jc3iqut2/istock-468425064.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dcab16e88c95f0</url>
       <tag>Glamping</tag>
     </image>
@@ -218,7 +252,7 @@
     <url>https://www.estivant.nl/eenoudervakanties/frankrijk/presle/</url>
     <name>Eenoudervakantie Presle</name>
     <description>Vier vakantie met andere eenoudergezinnen in de Franse Alpen. Outdoor camping met veel buitensportactiviteiten voor tieners. Bekijk deze eenoudervakantie!</description>
-    <price>40.00 EUR</price>
+    <price>266.00 EUR</price>
     <address format="simple">
       <component name="city">Presle</component>
       <component name="region">Frankrijk</component>
@@ -227,7 +261,7 @@
     <neighborhood>Presle</neighborhood>
     <type>Actief</type>
     <type>Eenoudervakantie</type>
-    <custom_number_0>40</custom_number_0>
+    <custom_number_0>266</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
     <custom_label_1>Actief</custom_label_1>
     <custom_label_2>Zomervakantie</custom_label_2>
@@ -827,7 +861,7 @@
     <url>https://www.estivant.nl/eenoudervakanties/oostenrijk/niederau/</url>
     <name>Eenoudervakantie Niederau Winter</name>
     <description>Ga met je kind(eren) op wintersport in Niederau. Ontdek het skigebied in Tirol en geniet van sneeuwpret met andere eenoudergezinnen. Bekijk de reis!</description>
-    <price>1097.00 EUR</price>
+    <price>1196.00 EUR</price>
     <address format="simple">
       <component name="city">Niederau</component>
       <component name="region">Oostenrijk</component>
@@ -836,7 +870,7 @@
     <neighborhood>Niederau</neighborhood>
     <type>Wintersport</type>
     <type>Eenoudervakantie</type>
-    <custom_number_0>1097</custom_number_0>
+    <custom_number_0>1196</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
     <custom_label_1>Wintersport</custom_label_1>
     <custom_label_2>Wintersport</custom_label_2>
@@ -987,6 +1021,42 @@
     <product_tags>Zomervakantie</product_tags>
     <product_tags>1000 plus km</product_tags>
     <product_tags>Camping</product_tags>
+    <product_tags>12-14 jaar</product_tags>
+    <product_tags>15 plus</product_tags>
+    <product_tags>Spanje</product_tags>
+    <product_tags>Eenoudervakantie</product_tags>
+  </listing>
+  <listing>
+    <image>
+      <url>https://www.estivant.nl/media/pzmnnzjp/tossa-226.jpg?rxy=0.5100250626566416,0.7951127819548872&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dc9b39662b57f0</url>
+      <tag>Strand</tag>
+    </image>
+    <destination_id>422</destination_id>
+    <url>https://www.estivant.nl/eenoudervakanties/spanje/appartementen-lestartit/</url>
+    <name>Eenoudervakantie L'Estartit - Appartementen</name>
+    <description>Ga mee op eenoudervakantie naar de Costa Brava in een appartement in L’Estartit. Geniet van strand, activiteiten en gezelligheid met eenoudergezinnen.</description>
+    <price>534.00 EUR</price>
+    <address format="simple">
+      <component name="city">L'Estartit - Appartementen</component>
+      <component name="region">Spanje</component>
+      <component name="country">Spanje</component>
+    </address>
+    <neighborhood>L'Estartit - Appartementen</neighborhood>
+    <type>Strand</type>
+    <type>Eenoudervakantie</type>
+    <custom_number_0>534</custom_number_0>
+    <custom_label_0>Eenoudervakantie</custom_label_0>
+    <custom_label_1>Strand</custom_label_1>
+    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_3>Spanje</custom_label_3>
+    <product_tags>Strand</product_tags>
+    <product_tags>Actief</product_tags>
+    <product_tags>Watersport</product_tags>
+    <product_tags>Zomervakantie</product_tags>
+    <product_tags>1000 plus km</product_tags>
+    <product_tags>Hotel</product_tags>
+    <product_tags>4-7 jaar</product_tags>
+    <product_tags>8-11 jaar</product_tags>
     <product_tags>12-14 jaar</product_tags>
     <product_tags>15 plus</product_tags>
     <product_tags>Spanje</product_tags>
