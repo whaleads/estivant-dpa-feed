@@ -71,7 +71,7 @@
     <url>https://www.estivant.nl/singlereizen/belgie/gent-feestdagen/</url>
     <name>Singlereis Gent</name>
     <description>Vier de feestdagen in Gent tijdens een singlereis. Ontdek de kerstmarkt, het biercafé en de ijsbaan. Ga voor een knallend oud &amp; nieuw in deze gezellige stad!</description>
-    <price>669.00 EUR</price>
+    <price>799.00 EUR</price>
     <address format="simple">
       <component name="city">Gent</component>
       <component name="region">België</component>
@@ -80,7 +80,7 @@
     <neighborhood>Gent</neighborhood>
     <type>Stedentrips</type>
     <type>Singlereis</type>
-    <custom_number_0>669</custom_number_0>
+    <custom_number_0>799</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
     <custom_label_1>Stedentrips</custom_label_1>
     <custom_label_3>België</custom_label_3>
@@ -100,7 +100,7 @@
     <url>https://www.estivant.nl/singlereizen/duitsland/berlijn-feestdagen/</url>
     <name>Singlereis Berlijn</name>
     <description>Ga mee op singlereis naar Berlijn en vier de feestdagen in deze bruisende stad. Kies je voor een gezellige kerst of knallend oud &amp; nieuw?</description>
-    <price>699.00 EUR</price>
+    <price>939.00 EUR</price>
     <address format="simple">
       <component name="city">Berlijn</component>
       <component name="region">Duitsland</component>
@@ -109,42 +109,13 @@
     <neighborhood>Berlijn</neighborhood>
     <type>Stedentrips</type>
     <type>Singlereis</type>
-    <custom_number_0>699</custom_number_0>
+    <custom_number_0>939</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
     <custom_label_1>Stedentrips</custom_label_1>
     <custom_label_3>Duitsland</custom_label_3>
     <product_tags>Stedentrips</product_tags>
     <product_tags>30-49 jaar</product_tags>
     <product_tags>40-59 jaar</product_tags>
-    <product_tags>Feestdagen</product_tags>
-    <product_tags>Duitsland</product_tags>
-    <product_tags>Singlereis</product_tags>
-  </listing>
-  <listing>
-    <image>
-      <url>https://www.estivant.nl/media/h3kpbdp3/pexels-darku-1176844802-31311805.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd24c0da22fdf0</url>
-      <tag>Stedentrips</tag>
-    </image>
-    <destination_id>432</destination_id>
-    <url>https://www.estivant.nl/singlereizen/duitsland/keulen-feestdagen/</url>
-    <name>Singlereis Keulen</name>
-    <description>Ga mee op singlereis naar Keulen en vier de feestdagen op echt Duitse wijze. De kerstmarkten van Keulen behoren tot de bekendste ter wereld!</description>
-    <price>599.00 EUR</price>
-    <address format="simple">
-      <component name="city">Keulen</component>
-      <component name="region">Duitsland</component>
-      <component name="country">Duitsland</component>
-    </address>
-    <neighborhood>Keulen</neighborhood>
-    <type>Stedentrips</type>
-    <type>Singlereis</type>
-    <custom_number_0>599</custom_number_0>
-    <custom_label_0>Singlereis</custom_label_0>
-    <custom_label_1>Stedentrips</custom_label_1>
-    <custom_label_3>Duitsland</custom_label_3>
-    <product_tags>Stedentrips</product_tags>
-    <product_tags>40-59 jaar</product_tags>
-    <product_tags>50-69 jaar</product_tags>
     <product_tags>Feestdagen</product_tags>
     <product_tags>Duitsland</product_tags>
     <product_tags>Singlereis</product_tags>

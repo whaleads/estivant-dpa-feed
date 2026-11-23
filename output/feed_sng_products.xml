@@ -65,7 +65,7 @@
     <g:description>Vier de feestdagen in Gent tijdens een singlereis. Ontdek de kerstmarkt, het biercafé en de ijsbaan. Ga voor een knallend oud &amp; nieuw in deze gezellige stad!</g:description>
     <g:availability>in stock</g:availability>
     <g:condition>new</g:condition>
-    <g:price>669.00 EUR</g:price>
+    <g:price>799.00 EUR</g:price>
     <g:link>https://www.estivant.nl/singlereizen/belgie/gent-feestdagen/</g:link>
     <g:image_link>https://www.estivant.nl/media/2r5hsu0a/pexels-dylan-chan-2880813-30427221-1.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd2503ced75110</g:image_link>
     <g:additional_image_link>https://www.estivant.nl/media/tp3d55h2/istock-629806278.jpg</g:additional_image_link>
@@ -84,7 +84,7 @@
     <g:custom_label_1>Stedentrips</g:custom_label_1>
     <g:custom_label_3>België</g:custom_label_3>
     <g:custom_label_4>30-49 jaar, 40-59 jaar</g:custom_label_4>
-    <g:custom_number_0>669</g:custom_number_0>
+    <g:custom_number_0>799</g:custom_number_0>
   </item>
   <item>
     <g:id>372</g:id>
@@ -92,7 +92,7 @@
     <g:description>Ga mee op singlereis naar Berlijn en vier de feestdagen in deze bruisende stad. Kies je voor een gezellige kerst of knallend oud &amp; nieuw?</g:description>
     <g:availability>in stock</g:availability>
     <g:condition>new</g:condition>
-    <g:price>699.00 EUR</g:price>
+    <g:price>939.00 EUR</g:price>
     <g:link>https://www.estivant.nl/singlereizen/duitsland/berlijn-feestdagen/</g:link>
     <g:image_link>https://www.estivant.nl/media/fgfnzjm4/berliner_weihnachtszeit18_c_visitberlin_foto_dagmar_schwelle.jpg?rxy=0.4824561403508772,0.5163562895951391&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd24bba3180e90</g:image_link>
     <g:additional_image_link>https://www.estivant.nl/media/o1ka15vl/istock-1454026145.jpg</g:additional_image_link>
@@ -111,34 +111,7 @@
     <g:custom_label_1>Stedentrips</g:custom_label_1>
     <g:custom_label_3>Duitsland</g:custom_label_3>
     <g:custom_label_4>30-49 jaar, 40-59 jaar</g:custom_label_4>
-    <g:custom_number_0>699</g:custom_number_0>
-  </item>
-  <item>
-    <g:id>432</g:id>
-    <g:title>Singlereis Keulen</g:title>
-    <g:description>Ga mee op singlereis naar Keulen en vier de feestdagen op echt Duitse wijze. De kerstmarkten van Keulen behoren tot de bekendste ter wereld!</g:description>
-    <g:availability>in stock</g:availability>
-    <g:condition>new</g:condition>
-    <g:price>599.00 EUR</g:price>
-    <g:link>https://www.estivant.nl/singlereizen/duitsland/keulen-feestdagen/</g:link>
-    <g:image_link>https://www.estivant.nl/media/h3kpbdp3/pexels-darku-1176844802-31311805.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd24c0da22fdf0</g:image_link>
-    <g:additional_image_link>https://www.estivant.nl/media/pajjwmxx/carindeben-photography_223-1.jpg</g:additional_image_link>
-    <g:additional_image_link>https://www.estivant.nl/media/ze0lgqfj/webp-3.jpg</g:additional_image_link>
-    <g:additional_image_link>https://www.estivant.nl/media/vciigd23/webp-2.jpg</g:additional_image_link>
-    <g:additional_image_link>https://www.estivant.nl/media/qahlrvzk/pexels-pixabay-415580.jpg</g:additional_image_link>
-    <g:additional_image_link>https://www.estivant.nl/media/h3xn1cto/carindeben-photography_336-1.jpg</g:additional_image_link>
-    <g:additional_image_link>https://www.estivant.nl/media/ydrp4w3b/600955262_1290553306433670_2321838914339790052_n.jpg</g:additional_image_link>
-    <g:additional_image_link>https://www.estivant.nl/media/kyyb5vcm/webp-4.jpg</g:additional_image_link>
-    <g:additional_image_link>https://www.estivant.nl/media/uavbryy2/595590321_1279685187520482_2847096276830023252_n.jpg</g:additional_image_link>
-    <g:additional_image_link>https://www.estivant.nl/media/uhrdsoux/1af5f012953afe4de4c8012d5073ab74.jpg</g:additional_image_link>
-    <g:additional_image_link>https://www.estivant.nl/media/qdti3ded/pexels-rawnato-18883682.jpg</g:additional_image_link>
-    <g:brand>Estivant</g:brand>
-    <g:product_type>Singlereis &gt; Duitsland &gt; Stedentrips</g:product_type>
-    <g:custom_label_0>Singlereis</g:custom_label_0>
-    <g:custom_label_1>Stedentrips</g:custom_label_1>
-    <g:custom_label_3>Duitsland</g:custom_label_3>
-    <g:custom_label_4>40-59 jaar, 50-69 jaar</g:custom_label_4>
-    <g:custom_number_0>599</g:custom_number_0>
+    <g:custom_number_0>939</g:custom_number_0>
   </item>
   <item>
     <g:id>380</g:id>
