@@ -4,7 +4,7 @@
   <listing>
     <image>
       <url>https://www.estivant.nl/media/kfrjrzn1/carindeben-estivantzomer2026_298.jpg?rxy=0.2756892230576441,0.618421052631579&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd3eb6421930a0</url>
-      <tag>Actief</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>386</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/belgie/la-roche-en-ardenne/</url>
@@ -17,28 +17,20 @@
       <component name="country">België</component>
     </address>
     <neighborhood>La Roche-en-Ardenne</neighborhood>
-    <type>Actief</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>232</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Actief</custom_label_1>
-    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>België</custom_label_3>
     <product_tags>Actief</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>200 tot 500 km</product_tags>
-    <product_tags>Camping</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>15 plus</product_tags>
-    <product_tags>Kamperen</product_tags>
     <product_tags>België</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/awtfgnea/7-dsc02997.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd2e58dcfe3570</url>
-      <tag>Ontspanning</tag>
+      <tag>Kerstvakantie</tag>
     </image>
     <destination_id>357</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/belgie/vielsalm-kerst/</url>
@@ -51,27 +43,20 @@
       <component name="country">België</component>
     </address>
     <neighborhood>Vielsalm</neighborhood>
-    <type>Ontspanning</type>
+    <type>Kerstvakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>696</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Ontspanning</custom_label_1>
-    <custom_label_2>Kerstvakantie</custom_label_2>
+    <custom_label_1>Kerstvakantie</custom_label_1>
     <custom_label_3>België</custom_label_3>
     <product_tags>Ontspanning</product_tags>
-    <product_tags>Kerstvakantie</product_tags>
-    <product_tags>200 tot 500 km</product_tags>
-    <product_tags>4-7 jaar</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>Vakantiehuis</product_tags>
     <product_tags>België</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/gmyk4npf/istock-1877268735.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd4f1e5b5197b0</url>
-      <tag>Watersport</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>394</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/denemarken/deense-westkust/</url>
@@ -84,31 +69,20 @@
       <component name="country">Denemarken</component>
     </address>
     <neighborhood>Deense Westkust</neighborhood>
-    <type>Watersport</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>199</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Watersport</custom_label_1>
-    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Denemarken</custom_label_3>
-    <product_tags>Actief</product_tags>
     <product_tags>Watersport</product_tags>
-    <product_tags>Strand</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>Camping</product_tags>
-    <product_tags>4-7 jaar</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>Kamperen</product_tags>
-    <product_tags>Cultuur</product_tags>
-    <product_tags>500 tot 1000 km</product_tags>
     <product_tags>Denemarken</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/bizho1c4/estivant-eenoudervakantie-oostenrijk-flachau-wintersport-groep-skiers-3-2025-1.jpg?rxy=0.5463659147869674,0.6552129912920687&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dcf349b091a750</url>
-      <tag>Wintersport</tag>
+      <tag>Voorjaarsvakantie</tag>
     </image>
     <destination_id>356</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/duitsland/winterberg/</url>
@@ -121,28 +95,21 @@
       <component name="country">Duitsland</component>
     </address>
     <neighborhood>Altastenberg-Winterberg</neighborhood>
-    <type>Wintersport</type>
+    <type>Voorjaarsvakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>657</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Wintersport</custom_label_1>
+    <custom_label_1>Voorjaarsvakantie</custom_label_1>
     <custom_label_2>Wintersport</custom_label_2>
     <custom_label_3>Duitsland</custom_label_3>
-    <product_tags>Actief</product_tags>
     <product_tags>Wintersport</product_tags>
-    <product_tags>Voorjaarsvakantie</product_tags>
-    <product_tags>200 tot 500 km</product_tags>
-    <product_tags>Hotel</product_tags>
-    <product_tags>4-7 jaar</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
     <product_tags>Duitsland</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/rbvgo0cc/istock-1124253037.jpg?rxy=0.5025062656641605,0.6151487055131588&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd44e7f17936d0</url>
-      <tag>Actief</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>395</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/duitsland/prum-eifel/</url>
@@ -155,28 +122,20 @@
       <component name="country">Duitsland</component>
     </address>
     <neighborhood>Eifel</neighborhood>
-    <type>Actief</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>265</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Actief</custom_label_1>
-    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Duitsland</custom_label_3>
     <product_tags>Actief</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>200 tot 500 km</product_tags>
-    <product_tags>Camping</product_tags>
-    <product_tags>0-4 jaar</product_tags>
-    <product_tags>4-7 jaar</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>Kamperen</product_tags>
     <product_tags>Duitsland</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/nzkjqggm/estivant-eenouder-oostenrijk-wildschoenau-mountainbiken.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd77720f5f64f0</url>
-      <tag>Actief</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>446</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/duitsland/hennesee-sauerland/</url>
@@ -189,28 +148,20 @@
       <component name="country">Duitsland</component>
     </address>
     <neighborhood>Hennesee</neighborhood>
-    <type>Actief</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>198</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Actief</custom_label_1>
-    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Duitsland</custom_label_3>
     <product_tags>Actief</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>200 tot 500 km</product_tags>
-    <product_tags>Camping</product_tags>
-    <product_tags>4-7 jaar</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>Kamperen</product_tags>
     <product_tags>Duitsland</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/jc3iqut2/istock-468425064.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dcab16e88c95f0</url>
-      <tag>Glamping</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>403</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/frankrijk/ardeche/</url>
@@ -223,30 +174,20 @@
       <component name="country">Frankrijk</component>
     </address>
     <neighborhood>Ardèche</neighborhood>
-    <type>Glamping</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>232</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Glamping</custom_label_1>
-    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Frankrijk</custom_label_3>
     <product_tags>Glamping</product_tags>
-    <product_tags>Kamperen</product_tags>
-    <product_tags>Cultuur</product_tags>
-    <product_tags>Ontspanning</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>1000 plus km</product_tags>
-    <product_tags>Camping</product_tags>
-    <product_tags>Glamping (1)</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
     <product_tags>Frankrijk</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/1r5lexeo/55-75.jpg?rxy=0.334669315743303,0.4732748500405668&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1db084efb405450</url>
-      <tag>Actief</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>402</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/frankrijk/presle/</url>
@@ -259,28 +200,20 @@
       <component name="country">Frankrijk</component>
     </address>
     <neighborhood>Presle</neighborhood>
-    <type>Actief</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>266</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Actief</custom_label_1>
-    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Frankrijk</custom_label_3>
     <product_tags>Actief</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>1000 plus km</product_tags>
-    <product_tags>Camping</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>15 plus</product_tags>
-    <product_tags>Kamperen</product_tags>
     <product_tags>Frankrijk</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/3dnmga3h/20120812_2737.jpg?rxy=0.48872180451127817,0.4192958837553869&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd450865260bb0</url>
-      <tag>Watersport</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>400</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/frankrijk/lacanau/</url>
@@ -293,29 +226,20 @@
       <component name="country">Frankrijk</component>
     </address>
     <neighborhood>Lacanau Océan</neighborhood>
-    <type>Watersport</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>498</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Watersport</custom_label_1>
-    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Frankrijk</custom_label_3>
-    <product_tags>Strand</product_tags>
     <product_tags>Watersport</product_tags>
-    <product_tags>Actief</product_tags>
-    <product_tags>Kamperen</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>1000 plus km</product_tags>
-    <product_tags>Camping</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>15 plus</product_tags>
     <product_tags>Frankrijk</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/bizd3mk1/istock-1361397795-1.jpg?rxy=0.4849624060150376,0.413643465655371&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd4500bbabd4e0</url>
-      <tag>Actief</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>401</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/frankrijk/st-gilles-croix-de-vie/</url>
@@ -328,32 +252,20 @@
       <component name="country">Frankrijk</component>
     </address>
     <neighborhood>St Gilles Croix de Vie</neighborhood>
-    <type>Actief</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>232</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Actief</custom_label_1>
-    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Frankrijk</custom_label_3>
     <product_tags>Actief</product_tags>
-    <product_tags>Strand</product_tags>
-    <product_tags>Cultuur</product_tags>
-    <product_tags>Watersport</product_tags>
-    <product_tags>Kamperen</product_tags>
-    <product_tags>Glamping</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>500 tot 1000 km</product_tags>
-    <product_tags>Camping</product_tags>
-    <product_tags>4-7 jaar</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
     <product_tags>Frankrijk</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/zecfnxls/dji_0147.jpg?rxy=0.4774436090225564,0.4199787460148778&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd50db429e8d90</url>
-      <tag>Watersport</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>404</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/griekenland/flottielje-zeilen/</url>
@@ -366,29 +278,20 @@
       <component name="country">Griekenland</component>
     </address>
     <neighborhood>Flottieljezeilen</neighborhood>
-    <type>Watersport</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>1646</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Watersport</custom_label_1>
-    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Griekenland</custom_label_3>
-    <product_tags>Strand</product_tags>
     <product_tags>Watersport</product_tags>
-    <product_tags>Actief</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>1000 plus km</product_tags>
-    <product_tags>Zeilboot</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>15 plus</product_tags>
     <product_tags>Griekenland</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/t4eeeqzr/zonnige-windsurfdag-aan-zee.png?rxy=0.5200501253132832,0.6618072853952001&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd6ab812269cb0</url>
-      <tag>Strand</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>406</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/italie/cecina-mare/</url>
@@ -401,31 +304,20 @@
       <component name="country">Italië</component>
     </address>
     <neighborhood>Cecina Mare</neighborhood>
-    <type>Strand</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>199</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Strand</custom_label_1>
-    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Italië</custom_label_3>
     <product_tags>Strand</product_tags>
-    <product_tags>Watersport</product_tags>
-    <product_tags>Ontspanning</product_tags>
-    <product_tags>Kamperen</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>1000 plus km</product_tags>
-    <product_tags>Camping</product_tags>
-    <product_tags>4-7 jaar</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>11-daagse eenoudervakanties</product_tags>
     <product_tags>Italië</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/oirl0ufu/19-dsc00070-e621821a.jpg?rxy=0.46867167919799496,0.5618568711900843&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dafde52cbf65d0</url>
-      <tag>Ontspanning</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>410</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/italie/gardameer-pacengo-di-lazise/</url>
@@ -438,30 +330,20 @@
       <component name="country">Italië</component>
     </address>
     <neighborhood>Gardameer - Pacengo di Lazise</neighborhood>
-    <type>Ontspanning</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>199</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Ontspanning</custom_label_1>
-    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Italië</custom_label_3>
     <product_tags>Ontspanning</product_tags>
-    <product_tags>Watersport</product_tags>
-    <product_tags>Kamperen</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>1000 plus km</product_tags>
-    <product_tags>Camping</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>15 plus</product_tags>
-    <product_tags>11-daagse eenoudervakanties</product_tags>
     <product_tags>Italië</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/0fgh2zyo/istock-1809258852-2.jpg?rxy=0.49373433583959897,0.8176691729323309&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd4f34bb121100</url>
-      <tag>Glamping</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>412</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/italie/glamping-gardameer/</url>
@@ -474,33 +356,20 @@
       <component name="country">Italië</component>
     </address>
     <neighborhood>Glamping Gardameer</neighborhood>
-    <type>Glamping</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>299</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Glamping</custom_label_1>
-    <custom_label_2>Meivakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Italië</custom_label_3>
     <product_tags>Glamping</product_tags>
-    <product_tags>Cultuur</product_tags>
-    <product_tags>Watersport</product_tags>
-    <product_tags>Kamperen</product_tags>
-    <product_tags>Meivakantie</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>1000 plus km</product_tags>
-    <product_tags>Camping</product_tags>
-    <product_tags>Glamping (1)</product_tags>
-    <product_tags>4-7 jaar</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>11-daagse eenoudervakanties</product_tags>
     <product_tags>Italië</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/cdeb0vw1/estivant-eenoudervakanties-italie-lagodiseo-2024-monte-isola.jpg?rxy=0.5037593984962406,0.8590225563909775&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd65fa01eb2540</url>
-      <tag>Watersport</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>407</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/italie/iseomeer/</url>
@@ -513,31 +382,20 @@
       <component name="country">Italië</component>
     </address>
     <neighborhood>Iseomeer</neighborhood>
-    <type>Watersport</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>199</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Watersport</custom_label_1>
-    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Italië</custom_label_3>
-    <product_tags>Actief</product_tags>
     <product_tags>Watersport</product_tags>
-    <product_tags>Cultuur</product_tags>
-    <product_tags>Kamperen</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>1000 plus km</product_tags>
-    <product_tags>Camping</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>15 plus</product_tags>
-    <product_tags>11-daagse eenoudervakanties</product_tags>
     <product_tags>Italië</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/svlni33v/piste-marilleva-estivant-eenoudervakanties.webp?rxy=0.46867167919799496,0.37337567438624014&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd56faa486e6e0</url>
-      <tag>Wintersport</tag>
+      <tag>Voorjaarsvakantie</tag>
     </image>
     <destination_id>411</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/italie/val-di-sole/</url>
@@ -550,29 +408,21 @@
       <component name="country">Italië</component>
     </address>
     <neighborhood>Val di Sole</neighborhood>
-    <type>Wintersport</type>
+    <type>Voorjaarsvakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>897</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Wintersport</custom_label_1>
+    <custom_label_1>Voorjaarsvakantie</custom_label_1>
     <custom_label_2>Wintersport</custom_label_2>
     <custom_label_3>Italië</custom_label_3>
-    <product_tags>Actief</product_tags>
     <product_tags>Wintersport</product_tags>
-    <product_tags>Voorjaarsvakantie</product_tags>
-    <product_tags>500 tot 1000 km</product_tags>
-    <product_tags>Hotel</product_tags>
-    <product_tags>4-7 jaar</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>15 plus</product_tags>
     <product_tags>Italië</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/4oodwl01/estivant-eenoudervakantie-kroatie-medulin-2024-strand.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dc9a895fab4850</url>
-      <tag>Strand</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>413</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/kroatie/medulin/</url>
@@ -585,30 +435,20 @@
       <component name="country">Kroatië</component>
     </address>
     <neighborhood>Medulin</neighborhood>
-    <type>Strand</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>332</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Strand</custom_label_1>
-    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Kroatië</custom_label_3>
     <product_tags>Strand</product_tags>
-    <product_tags>Watersport</product_tags>
-    <product_tags>Ontspanning</product_tags>
-    <product_tags>Kamperen</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>1000 plus km</product_tags>
-    <product_tags>Camping</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>15 plus</product_tags>
     <product_tags>Kroatië</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/vwko5wh4/estivant-eenouder-vakantie-reizen-nederland-ameland-zomer-duinen-zee.jpg?rxy=0.5025062656641605,0.8954166694509226&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1db198cc8fe0c90</url>
-      <tag>Strand</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>414</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/nederland/ameland/</url>
@@ -621,29 +461,20 @@
       <component name="country">Nederland</component>
     </address>
     <neighborhood>Ameland</neighborhood>
-    <type>Strand</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>299</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Strand</custom_label_1>
-    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Nederland</custom_label_3>
     <product_tags>Strand</product_tags>
-    <product_tags>Watersport</product_tags>
-    <product_tags>Actief</product_tags>
-    <product_tags>Kamperen</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>200 tot 500 km</product_tags>
-    <product_tags>Camping</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
     <product_tags>Nederland</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/r1gn1k2t/552052821_1198168488998674_7629821640051101080_n-smaller.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dc9454861921f0</url>
-      <tag>Glamping</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>415</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/nederland/boerderij-appelscha/</url>
@@ -656,30 +487,20 @@
       <component name="country">Nederland</component>
     </address>
     <neighborhood>Boerderij Appelscha</neighborhood>
-    <type>Glamping</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>266</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Glamping</custom_label_1>
-    <custom_label_2>Meivakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Nederland</custom_label_3>
     <product_tags>Glamping</product_tags>
-    <product_tags>Ontspanning</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>tot-200-km</product_tags>
-    <product_tags>Boerderij</product_tags>
-    <product_tags>Glamping (1)</product_tags>
-    <product_tags>4-7 jaar</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>Meivakantie</product_tags>
-    <product_tags>Hemelvaart</product_tags>
     <product_tags>Nederland</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/torplnb1/carindeben-estivantzomer2026_374.jpg?rxy=0.3508771929824561,0.4849624060150376&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd444df8c7d800</url>
-      <tag>Watersport</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>416</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/nederland/burgh-haamstede/</url>
@@ -692,29 +513,20 @@
       <component name="country">Nederland</component>
     </address>
     <neighborhood>Burgh-Haamstede</neighborhood>
-    <type>Watersport</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>199</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Watersport</custom_label_1>
-    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Nederland</custom_label_3>
-    <product_tags>Strand</product_tags>
-    <product_tags>Actief</product_tags>
     <product_tags>Watersport</product_tags>
-    <product_tags>Kamperen</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>tot-200-km</product_tags>
-    <product_tags>Camping</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
     <product_tags>Nederland</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/w3pjd5xk/drenthe1-1.jpg?rxy=0.6641604010025063,0.5626323186678289&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dc9513161f2790</url>
-      <tag>Ontspanning</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>417</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/nederland/kuierpad/</url>
@@ -727,31 +539,20 @@
       <component name="country">Nederland</component>
     </address>
     <neighborhood>Kuierpad</neighborhood>
-    <type>Ontspanning</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>99</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Ontspanning</custom_label_1>
-    <custom_label_2>Meivakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Nederland</custom_label_3>
     <product_tags>Ontspanning</product_tags>
-    <product_tags>Meivakantie</product_tags>
-    <product_tags>Hemelvaart</product_tags>
-    <product_tags>Pinksteren</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>tot-200-km</product_tags>
-    <product_tags>Camping</product_tags>
-    <product_tags>Kamperen</product_tags>
-    <product_tags>4-7 jaar</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
     <product_tags>Nederland</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/0jtkarx2/estivant-eenoudervakantie-oostenrijk-flachau-wintersport-groep-kinderen-kikkerperspectief-2025-2.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd51a60b6062b0</url>
-      <tag>Wintersport</tag>
+      <tag>Voorjaarsvakantie</tag>
     </image>
     <destination_id>363</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/oostenrijk/flachau/</url>
@@ -764,28 +565,21 @@
       <component name="country">Oostenrijk</component>
     </address>
     <neighborhood>Flachau</neighborhood>
-    <type>Wintersport</type>
+    <type>Voorjaarsvakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>1196</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Wintersport</custom_label_1>
+    <custom_label_1>Voorjaarsvakantie</custom_label_1>
     <custom_label_2>Wintersport</custom_label_2>
     <custom_label_3>Oostenrijk</custom_label_3>
-    <product_tags>Actief</product_tags>
     <product_tags>Wintersport</product_tags>
-    <product_tags>Voorjaarsvakantie</product_tags>
-    <product_tags>500 tot 1000 km</product_tags>
-    <product_tags>Vakantiehuis</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>15 plus</product_tags>
     <product_tags>Oostenrijk</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/xb1ijx3v/13-estivant-wintersport-eenouder-vakanties-jenig-oostenrijk-2023-voorjaarsvakantie-13.jpg?rxy=0.5,0.7034252297410192&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dcf29460e0d060</url>
-      <tag>Wintersport</tag>
+      <tag>Voorjaarsvakantie</tag>
     </image>
     <destination_id>360</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/oostenrijk/jenig/</url>
@@ -798,29 +592,21 @@
       <component name="country">Oostenrijk</component>
     </address>
     <neighborhood>Jenig-Nassfeld</neighborhood>
-    <type>Wintersport</type>
+    <type>Voorjaarsvakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>997</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Wintersport</custom_label_1>
+    <custom_label_1>Voorjaarsvakantie</custom_label_1>
     <custom_label_2>Wintersport</custom_label_2>
     <custom_label_3>Oostenrijk</custom_label_3>
-    <product_tags>Actief</product_tags>
     <product_tags>Wintersport</product_tags>
-    <product_tags>Voorjaarsvakantie</product_tags>
-    <product_tags>1000 plus km</product_tags>
-    <product_tags>Hotel</product_tags>
-    <product_tags>4-7 jaar</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>15 plus</product_tags>
     <product_tags>Oostenrijk</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/xuubglrx/maria-alm-header.webp?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd5a4df66049b0</url>
-      <tag>Wintersport</tag>
+      <tag>Voorjaarsvakantie</tag>
     </image>
     <destination_id>359</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/oostenrijk/maria-alm/</url>
@@ -833,29 +619,21 @@
       <component name="country">Oostenrijk</component>
     </address>
     <neighborhood>Maria Alm</neighborhood>
-    <type>Wintersport</type>
+    <type>Voorjaarsvakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>1297</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Wintersport</custom_label_1>
+    <custom_label_1>Voorjaarsvakantie</custom_label_1>
     <custom_label_2>Wintersport</custom_label_2>
     <custom_label_3>Oostenrijk</custom_label_3>
-    <product_tags>Actief</product_tags>
     <product_tags>Wintersport</product_tags>
-    <product_tags>Voorjaarsvakantie</product_tags>
-    <product_tags>500 tot 1000 km</product_tags>
-    <product_tags>Hotel</product_tags>
-    <product_tags>4-7 jaar</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>15 plus</product_tags>
     <product_tags>Oostenrijk</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/2dgepcnb/337-carindeben-photography_336.jpg?rxy=0.24812030075187969,0.46616541353383456&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd4b5a63008060</url>
-      <tag>Wintersport</tag>
+      <tag>Voorjaarsvakantie</tag>
     </image>
     <destination_id>366</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/oostenrijk/niederau/</url>
@@ -868,30 +646,21 @@
       <component name="country">Oostenrijk</component>
     </address>
     <neighborhood>Niederau</neighborhood>
-    <type>Wintersport</type>
+    <type>Voorjaarsvakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>1196</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Wintersport</custom_label_1>
+    <custom_label_1>Voorjaarsvakantie</custom_label_1>
     <custom_label_2>Wintersport</custom_label_2>
     <custom_label_3>Oostenrijk</custom_label_3>
-    <product_tags>Actief</product_tags>
     <product_tags>Wintersport</product_tags>
-    <product_tags>Kerstvakantie</product_tags>
-    <product_tags>500 tot 1000 km</product_tags>
-    <product_tags>Hotel</product_tags>
-    <product_tags>4-7 jaar</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>15 plus</product_tags>
-    <product_tags>Voorjaarsvakantie</product_tags>
     <product_tags>Oostenrijk</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/jnmehtg5/dsc07252-2.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dcf811a4cd6950</url>
-      <tag>Wintersport</tag>
+      <tag>Voorjaarsvakantie</tag>
     </image>
     <destination_id>419</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/oostenrijk/scheffau/</url>
@@ -904,29 +673,21 @@
       <component name="country">Oostenrijk</component>
     </address>
     <neighborhood>Scheffau</neighborhood>
-    <type>Wintersport</type>
+    <type>Voorjaarsvakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>997</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Wintersport</custom_label_1>
+    <custom_label_1>Voorjaarsvakantie</custom_label_1>
     <custom_label_2>Wintersport</custom_label_2>
     <custom_label_3>Oostenrijk</custom_label_3>
-    <product_tags>Actief</product_tags>
     <product_tags>Wintersport</product_tags>
-    <product_tags>Voorjaarsvakantie</product_tags>
-    <product_tags>500 tot 1000 km</product_tags>
-    <product_tags>Vakantiehuis</product_tags>
-    <product_tags>4-7 jaar</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>15 plus</product_tags>
     <product_tags>Oostenrijk</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/ul3hw432/istock-1424973892.jpg?rxy=0.4949874686716792,0.35509628933771725&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd45267a6a17f0</url>
-      <tag>Actief</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>418</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/oostenrijk/wildschonau/</url>
@@ -939,28 +700,20 @@
       <component name="country">Oostenrijk</component>
     </address>
     <neighborhood>Wildschönau</neighborhood>
-    <type>Actief</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>662</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Actief</custom_label_1>
-    <custom_label_2>Meivakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Oostenrijk</custom_label_3>
     <product_tags>Actief</product_tags>
-    <product_tags>Cultuur</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>500 tot 1000 km</product_tags>
-    <product_tags>Hotel</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>Meivakantie</product_tags>
     <product_tags>Oostenrijk</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/l1edqtn3/eog_bled_2021_midas_gopr4187.jpg?rxy=0.47869674185463656,0.5614035087719298&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dc9699e9aaf490</url>
-      <tag>Actief</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>420</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/slovenie/bled/</url>
@@ -973,29 +726,20 @@
       <component name="country">Slovenië</component>
     </address>
     <neighborhood>Bled</neighborhood>
-    <type>Actief</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>332</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Actief</custom_label_1>
-    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Slovenië</custom_label_3>
     <product_tags>Actief</product_tags>
-    <product_tags>Watersport</product_tags>
-    <product_tags>Kamperen</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>1000 plus km</product_tags>
-    <product_tags>Camping</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>15 plus</product_tags>
     <product_tags>Slovenië</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/44wpbxwo/estivant-eenouder-vakantie-reizen-spanje-cambrils-zomer-torre-del-sol-strand-boulevard-luchtfoto-1.jpg?rxy=0.5,0.6437077566784679&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd4512e2f9c310</url>
-      <tag>Strand</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>391</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/spanje/cambrils/</url>
@@ -1008,28 +752,20 @@
       <component name="country">Spanje</component>
     </address>
     <neighborhood>Cambrils</neighborhood>
-    <type>Strand</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>298</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Strand</custom_label_1>
-    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Spanje</custom_label_3>
     <product_tags>Strand</product_tags>
-    <product_tags>Ontspanning</product_tags>
-    <product_tags>Kamperen</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>1000 plus km</product_tags>
-    <product_tags>Camping</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>15 plus</product_tags>
     <product_tags>Spanje</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/pzmnnzjp/tossa-226.jpg?rxy=0.5100250626566416,0.7951127819548872&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dc9b39662b57f0</url>
-      <tag>Strand</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>422</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/spanje/appartementen-lestartit/</url>
@@ -1042,30 +778,20 @@
       <component name="country">Spanje</component>
     </address>
     <neighborhood>L'Estartit - Appartementen</neighborhood>
-    <type>Strand</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>534</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Strand</custom_label_1>
-    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Spanje</custom_label_3>
     <product_tags>Strand</product_tags>
-    <product_tags>Actief</product_tags>
-    <product_tags>Watersport</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>1000 plus km</product_tags>
-    <product_tags>Hotel</product_tags>
-    <product_tags>4-7 jaar</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>15 plus</product_tags>
     <product_tags>Spanje</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/gc3n2y32/estivant-eenouder-vakantie-reizen-zomer-spanje-estartit-girona-2024-kust-girona-bootjes.jpg?rxy=0.5225563909774437,0.38169087175938804&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1daff8a3dc8f200</url>
-      <tag>Strand</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>421</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/spanje/camping-lestartit/</url>
@@ -1078,30 +804,20 @@
       <component name="country">Spanje</component>
     </address>
     <neighborhood>L'Estartit - Camping</neighborhood>
-    <type>Strand</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>265</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Strand</custom_label_1>
-    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Spanje</custom_label_3>
     <product_tags>Strand</product_tags>
-    <product_tags>Actief</product_tags>
-    <product_tags>Watersport</product_tags>
-    <product_tags>Kamperen</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>1000 plus km</product_tags>
-    <product_tags>Camping</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>15 plus</product_tags>
     <product_tags>Spanje</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/uszhsyzo/kinderen-met-vader-in-kano-zweden.jpg?rxy=0.5162907268170426,0.3764153216092508&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd6c70da266830</url>
-      <tag>Actief</tag>
+      <tag>Zomervakantie</tag>
     </image>
     <destination_id>445</destination_id>
     <url>https://www.estivant.nl/eenoudervakanties/zweden/zuid-zweden/</url>
@@ -1114,22 +830,13 @@
       <component name="country">Zweden</component>
     </address>
     <neighborhood>Zweden</neighborhood>
-    <type>Actief</type>
+    <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
     <custom_number_0>234</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
-    <custom_label_1>Actief</custom_label_1>
-    <custom_label_2>Zomervakantie</custom_label_2>
+    <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Zweden</custom_label_3>
     <product_tags>Actief</product_tags>
-    <product_tags>Watersport</product_tags>
-    <product_tags>Zomervakantie</product_tags>
-    <product_tags>Camping</product_tags>
-    <product_tags>8-11 jaar</product_tags>
-    <product_tags>12-14 jaar</product_tags>
-    <product_tags>15 plus</product_tags>
-    <product_tags>Kamperen</product_tags>
-    <product_tags>500 tot 1000 km</product_tags>
     <product_tags>Zweden</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>

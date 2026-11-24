@@ -4,7 +4,7 @@
   <listing>
     <image>
       <url>https://www.estivant.nl/media/ax0hcyjm/estivant-single-solo-vakantie-reizen-albanie-tirana-zomer-kruja-kasteel.jpg?rxy=0.4849624060150376,0.5322015329185577&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd7289696fbf00</url>
-      <tag>Rondreizen</tag>
+      <tag>Zomer</tag>
     </image>
     <destination_id>426</destination_id>
     <url>https://www.estivant.nl/singlereizen/albanie/rondreis-albanie/</url>
@@ -17,26 +17,20 @@
       <component name="country">Albanië</component>
     </address>
     <neighborhood>Albanië</neighborhood>
-    <type>Rondreizen</type>
+    <type>Zomer</type>
     <type>Singlereis</type>
     <custom_number_0>1716</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
-    <custom_label_1>Rondreizen</custom_label_1>
-    <custom_label_2>Zomer</custom_label_2>
+    <custom_label_1>Zomer</custom_label_1>
     <custom_label_3>Albanië</custom_label_3>
-    <product_tags>Cultuur</product_tags>
     <product_tags>Rondreizen</product_tags>
-    <product_tags>30-49 jaar</product_tags>
-    <product_tags>40-59 jaar</product_tags>
-    <product_tags>Hotel</product_tags>
-    <product_tags>Zomer</product_tags>
     <product_tags>Albanië</product_tags>
     <product_tags>Singlereis</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/sohhuaje/istock-2222337572-2.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd410ab25a6590</url>
-      <tag>Stedentrips</tag>
+      <tag>Winter</tag>
     </image>
     <destination_id>371</destination_id>
     <url>https://www.estivant.nl/singlereizen/belgie/antwerpen-feestdagen/</url>
@@ -49,52 +43,20 @@
       <component name="country">België</component>
     </address>
     <neighborhood>Antwerpen</neighborhood>
-    <type>Stedentrips</type>
+    <type>Winter</type>
     <type>Singlereis</type>
     <custom_number_0>699</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
-    <custom_label_1>Stedentrips</custom_label_1>
+    <custom_label_1>Winter</custom_label_1>
     <custom_label_3>België</custom_label_3>
     <product_tags>Stedentrips</product_tags>
-    <product_tags>40-59 jaar</product_tags>
-    <product_tags>50-69 jaar</product_tags>
-    <product_tags>Feestdagen</product_tags>
-    <product_tags>België</product_tags>
-    <product_tags>Singlereis</product_tags>
-  </listing>
-  <listing>
-    <image>
-      <url>https://www.estivant.nl/media/2r5hsu0a/pexels-dylan-chan-2880813-30427221-1.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd2503ced75110</url>
-      <tag>Stedentrips</tag>
-    </image>
-    <destination_id>370</destination_id>
-    <url>https://www.estivant.nl/singlereizen/belgie/gent-feestdagen/</url>
-    <name>Singlereis Gent</name>
-    <description>Vier de feestdagen in Gent tijdens een singlereis. Ontdek de kerstmarkt, het biercafé en de ijsbaan. Ga voor een knallend oud &amp; nieuw in deze gezellige stad!</description>
-    <price>799.00 EUR</price>
-    <address format="simple">
-      <component name="city">Gent</component>
-      <component name="region">België</component>
-      <component name="country">België</component>
-    </address>
-    <neighborhood>Gent</neighborhood>
-    <type>Stedentrips</type>
-    <type>Singlereis</type>
-    <custom_number_0>799</custom_number_0>
-    <custom_label_0>Singlereis</custom_label_0>
-    <custom_label_1>Stedentrips</custom_label_1>
-    <custom_label_3>België</custom_label_3>
-    <product_tags>Stedentrips</product_tags>
-    <product_tags>30-49 jaar</product_tags>
-    <product_tags>40-59 jaar</product_tags>
-    <product_tags>Feestdagen</product_tags>
     <product_tags>België</product_tags>
     <product_tags>Singlereis</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/fgfnzjm4/berliner_weihnachtszeit18_c_visitberlin_foto_dagmar_schwelle.jpg?rxy=0.4824561403508772,0.5163562895951391&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd24bba3180e90</url>
-      <tag>Stedentrips</tag>
+      <tag>Winter</tag>
     </image>
     <destination_id>372</destination_id>
     <url>https://www.estivant.nl/singlereizen/duitsland/berlijn-feestdagen/</url>
@@ -107,23 +69,20 @@
       <component name="country">Duitsland</component>
     </address>
     <neighborhood>Berlijn</neighborhood>
-    <type>Stedentrips</type>
+    <type>Winter</type>
     <type>Singlereis</type>
     <custom_number_0>939</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
-    <custom_label_1>Stedentrips</custom_label_1>
+    <custom_label_1>Winter</custom_label_1>
     <custom_label_3>Duitsland</custom_label_3>
     <product_tags>Stedentrips</product_tags>
-    <product_tags>30-49 jaar</product_tags>
-    <product_tags>40-59 jaar</product_tags>
-    <product_tags>Feestdagen</product_tags>
     <product_tags>Duitsland</product_tags>
     <product_tags>Singlereis</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/1ikgzv0u/istock-1320488659-1.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd1e89fda4c610</url>
-      <tag>Winterzon</tag>
+      <tag>Winter</tag>
     </image>
     <destination_id>380</destination_id>
     <url>https://www.estivant.nl/singlereizen/egypte/el-gouna/</url>
@@ -136,19 +95,13 @@
       <component name="country">Egypte</component>
     </address>
     <neighborhood>El Gouna</neighborhood>
-    <type>Winterzon</type>
+    <type>Winter</type>
     <type>Singlereis</type>
     <custom_number_0>1369</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
-    <custom_label_1>Winterzon</custom_label_1>
+    <custom_label_1>Winter</custom_label_1>
     <custom_label_2>Winter</custom_label_2>
     <custom_label_3>Egypte</custom_label_3>
-    <product_tags>30-49 jaar</product_tags>
-    <product_tags>40-59 jaar</product_tags>
-    <product_tags>Hotel</product_tags>
-    <product_tags>Winter</product_tags>
-    <product_tags>Strand</product_tags>
-    <product_tags>50-69 jaar</product_tags>
     <product_tags>Winterzon</product_tags>
     <product_tags>Egypte</product_tags>
     <product_tags>Singlereis</product_tags>
@@ -156,7 +109,7 @@
   <listing>
     <image>
       <url>https://www.estivant.nl/media/ufnnztbs/istock-1419953437.jpg?rxy=0.48872180451127817,0.6575091299839192&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd736d575a0610</url>
-      <tag>Strand</tag>
+      <tag>Zomer</tag>
     </image>
     <destination_id>430</destination_id>
     <url>https://www.estivant.nl/singlereizen/griekenland/samos/</url>
@@ -169,27 +122,20 @@
       <component name="country">Griekenland</component>
     </address>
     <neighborhood>Samos</neighborhood>
-    <type>Strand</type>
+    <type>Zomer</type>
     <type>Singlereis</type>
     <custom_number_0>1559</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
-    <custom_label_1>Strand</custom_label_1>
-    <custom_label_2>Zomer</custom_label_2>
+    <custom_label_1>Zomer</custom_label_1>
     <custom_label_3>Griekenland</custom_label_3>
     <product_tags>Strand</product_tags>
-    <product_tags>25-39 jaar</product_tags>
-    <product_tags>30-49 jaar</product_tags>
-    <product_tags>40-59 jaar</product_tags>
-    <product_tags>50-69 jaar</product_tags>
-    <product_tags>Hotel</product_tags>
-    <product_tags>Zomer</product_tags>
     <product_tags>Griekenland</product_tags>
     <product_tags>Singlereis</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/qmrbbvbi/istock-692310004-2.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd71d9ce4abf70</url>
-      <tag>Cultuur</tag>
+      <tag>Zomer</tag>
     </image>
     <destination_id>444</destination_id>
     <url>https://www.estivant.nl/singlereizen/italie/glamping-gardameer/</url>
@@ -202,26 +148,20 @@
       <component name="country">Italië</component>
     </address>
     <neighborhood>Gardameer</neighborhood>
-    <type>Cultuur</type>
+    <type>Zomer</type>
     <type>Singlereis</type>
     <custom_number_0>859</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
-    <custom_label_1>Cultuur</custom_label_1>
-    <custom_label_2>Zomer</custom_label_2>
+    <custom_label_1>Zomer</custom_label_1>
     <custom_label_3>Italië</custom_label_3>
     <product_tags>Cultuur</product_tags>
-    <product_tags>25-39 jaar</product_tags>
-    <product_tags>30-49 jaar</product_tags>
-    <product_tags>40-59 jaar</product_tags>
-    <product_tags>Glamping</product_tags>
-    <product_tags>Zomer</product_tags>
     <product_tags>Italië</product_tags>
     <product_tags>Singlereis</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/whwpgee0/marilleva-424-1.jpg?rxy=0.5012531328320802,0.5797830502983111&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd4b5449e826b0</url>
-      <tag>Wintersport</tag>
+      <tag>Winter</tag>
     </image>
     <destination_id>376</destination_id>
     <url>https://www.estivant.nl/singlereizen/italie/marilleva/</url>
@@ -234,16 +174,13 @@
       <component name="country">Italië</component>
     </address>
     <neighborhood>Marilleva</neighborhood>
-    <type>Wintersport</type>
+    <type>Winter</type>
     <type>Singlereis</type>
     <custom_number_0>1199</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
-    <custom_label_1>Wintersport</custom_label_1>
+    <custom_label_1>Winter</custom_label_1>
     <custom_label_2>Wintersport</custom_label_2>
     <custom_label_3>Italië</custom_label_3>
-    <product_tags>Winter</product_tags>
-    <product_tags>40-59 jaar</product_tags>
-    <product_tags>50-69 jaar</product_tags>
     <product_tags>Wintersport</product_tags>
     <product_tags>Italië</product_tags>
     <product_tags>Singlereis</product_tags>
@@ -251,7 +188,7 @@
   <listing>
     <image>
       <url>https://www.estivant.nl/media/eabbl42k/pinzolo-hiken-door-de-bergen.jpg?rxy=0.47869674185463656,0.6275435240890285&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd71058179c800</url>
-      <tag>Actief</tag>
+      <tag>Zomer</tag>
     </image>
     <destination_id>437</destination_id>
     <url>https://www.estivant.nl/singlereizen/italie/wandelen-dolomieten/</url>
@@ -264,27 +201,20 @@
       <component name="country">Italië</component>
     </address>
     <neighborhood>Pinzolo</neighborhood>
-    <type>Actief</type>
+    <type>Zomer</type>
     <type>Singlereis</type>
     <custom_number_0>1169</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
-    <custom_label_1>Actief</custom_label_1>
-    <custom_label_2>Zomer</custom_label_2>
+    <custom_label_1>Zomer</custom_label_1>
     <custom_label_3>Italië</custom_label_3>
-    <product_tags>Wandelen</product_tags>
     <product_tags>Actief</product_tags>
-    <product_tags>30-49 jaar</product_tags>
-    <product_tags>40-59 jaar</product_tags>
-    <product_tags>50-69 jaar</product_tags>
-    <product_tags>Hotel</product_tags>
-    <product_tags>Zomer</product_tags>
     <product_tags>Italië</product_tags>
     <product_tags>Singlereis</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/wwilhhgi/img-20191206-wa0002.jpg?rxy=0.6227454680479122,0.4916499564069546&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1db31e9a89a7f40</url>
-      <tag>Wintersport</tag>
+      <tag>Winter</tag>
     </image>
     <destination_id>379</destination_id>
     <url>https://www.estivant.nl/singlereizen/oostenrijk/kaprun-zell-am-see/</url>
@@ -297,14 +227,13 @@
       <component name="country">Oostenrijk</component>
     </address>
     <neighborhood>Kaprun - Zell am See</neighborhood>
-    <type>Wintersport</type>
+    <type>Winter</type>
     <type>Singlereis</type>
     <custom_number_0>1469</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
-    <custom_label_1>Wintersport</custom_label_1>
+    <custom_label_1>Winter</custom_label_1>
     <custom_label_2>Wintersport</custom_label_2>
     <custom_label_3>Oostenrijk</custom_label_3>
-    <product_tags>Winter</product_tags>
     <product_tags>Wintersport</product_tags>
     <product_tags>Oostenrijk</product_tags>
     <product_tags>Singlereis</product_tags>
@@ -312,7 +241,7 @@
   <listing>
     <image>
       <url>https://www.estivant.nl/media/2pbhzatw/estivant-singles-vakantie-reizen-oostenrijk-flachau-winter-2023-groep-stilstaan-overleg-2-1.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd65fc7f539150</url>
-      <tag>Wintersport</tag>
+      <tag>Winter</tag>
     </image>
     <destination_id>381</destination_id>
     <url>https://www.estivant.nl/singlereizen/oostenrijk/mittersill/</url>
@@ -325,16 +254,13 @@
       <component name="country">Oostenrijk</component>
     </address>
     <neighborhood>Mittersill</neighborhood>
-    <type>Wintersport</type>
+    <type>Winter</type>
     <type>Singlereis</type>
     <custom_number_0>1499</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
-    <custom_label_1>Wintersport</custom_label_1>
+    <custom_label_1>Winter</custom_label_1>
     <custom_label_2>Wintersport</custom_label_2>
     <custom_label_3>Oostenrijk</custom_label_3>
-    <product_tags>Winter</product_tags>
-    <product_tags>40-59 jaar</product_tags>
-    <product_tags>50-69 jaar</product_tags>
     <product_tags>Wintersport</product_tags>
     <product_tags>Oostenrijk</product_tags>
     <product_tags>Singlereis</product_tags>
@@ -342,7 +268,7 @@
   <listing>
     <image>
       <url>https://www.estivant.nl/media/zaxmgeef/2-skifahrer_blick_auf_alpbach_-ski_juwel_alpbachtal_wildschoenau.jpg?width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd35f47a274830</url>
-      <tag>Wintersport</tag>
+      <tag>Winter</tag>
     </image>
     <destination_id>377</destination_id>
     <url>https://www.estivant.nl/singlereizen/oostenrijk/niederau/</url>
@@ -355,24 +281,21 @@
       <component name="country">Oostenrijk</component>
     </address>
     <neighborhood>Niederau</neighborhood>
-    <type>Wintersport</type>
+    <type>Winter</type>
     <type>Singlereis</type>
     <custom_number_0>1099</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
-    <custom_label_1>Wintersport</custom_label_1>
+    <custom_label_1>Winter</custom_label_1>
     <custom_label_2>Wintersport</custom_label_2>
     <custom_label_3>Oostenrijk</custom_label_3>
-    <product_tags>40-59 jaar</product_tags>
-    <product_tags>Winter</product_tags>
     <product_tags>Wintersport</product_tags>
-    <product_tags>55-75 jaar</product_tags>
     <product_tags>Oostenrijk</product_tags>
     <product_tags>Singlereis</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/1ycpsgb2/marilleva-292.jpg?rxy=0.47619047619047616,0.37941684909227713&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd2ee365fe4740</url>
-      <tag>Wintersport</tag>
+      <tag>Winter</tag>
     </image>
     <destination_id>424</destination_id>
     <url>https://www.estivant.nl/singlereizen/oostenrijk/wagrain/</url>
@@ -385,17 +308,13 @@
       <component name="country">Oostenrijk</component>
     </address>
     <neighborhood>Wagrain</neighborhood>
-    <type>Wintersport</type>
+    <type>Winter</type>
     <type>Singlereis</type>
     <custom_number_0>1399</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
-    <custom_label_1>Wintersport</custom_label_1>
+    <custom_label_1>Winter</custom_label_1>
     <custom_label_2>Wintersport</custom_label_2>
     <custom_label_3>Oostenrijk</custom_label_3>
-    <product_tags>25-39 jaar</product_tags>
-    <product_tags>30-49 jaar</product_tags>
-    <product_tags>40-59 jaar</product_tags>
-    <product_tags>Winter</product_tags>
     <product_tags>Wintersport</product_tags>
     <product_tags>Oostenrijk</product_tags>
     <product_tags>Singlereis</product_tags>
@@ -403,7 +322,7 @@
   <listing>
     <image>
       <url>https://www.estivant.nl/media/5bxph15i/mick-waanders-mwjzbdl1er8-unsplash.jpg?rxy=0.4824561403508772,0.6917293233082706&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dd34a1fcb96390</url>
-      <tag>Wandelen</tag>
+      <tag>Winter</tag>
     </image>
     <destination_id>443</destination_id>
     <url>https://www.estivant.nl/singlereizen/portugal/madeira/</url>
@@ -416,26 +335,20 @@
       <component name="country">Portugal</component>
     </address>
     <neighborhood>Madeira</neighborhood>
-    <type>Wandelen</type>
+    <type>Winter</type>
     <type>Singlereis</type>
     <custom_number_0>1769</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
-    <custom_label_1>Wandelen</custom_label_1>
-    <custom_label_2>Winter</custom_label_2>
+    <custom_label_1>Winter</custom_label_1>
     <custom_label_3>Portugal</custom_label_3>
     <product_tags>Wandelen</product_tags>
-    <product_tags>40-59 jaar</product_tags>
-    <product_tags>Hotel</product_tags>
-    <product_tags>30-49 jaar</product_tags>
-    <product_tags>Winter</product_tags>
-    <product_tags>Winterzon</product_tags>
     <product_tags>Portugal</product_tags>
     <product_tags>Singlereis</product_tags>
   </listing>
   <listing>
     <image>
       <url>https://www.estivant.nl/media/rhxbyxuw/istock-1124834050-2.jpg?rxy=0.4912343137557996,0.5457646284756823&amp;width=1440&amp;height=775&amp;format=webp&amp;quality=80&amp;v=1dad78ecadf2340</url>
-      <tag>Actief</tag>
+      <tag>Winter</tag>
     </image>
     <destination_id>378</destination_id>
     <url>https://www.estivant.nl/singlereizen/zweden/lapland/</url>
@@ -448,17 +361,13 @@
       <component name="country">Zweden</component>
     </address>
     <neighborhood>Lapland</neighborhood>
-    <type>Actief</type>
+    <type>Winter</type>
     <type>Singlereis</type>
     <custom_number_0>2074</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
-    <custom_label_1>Actief</custom_label_1>
-    <custom_label_2>Winter</custom_label_2>
+    <custom_label_1>Winter</custom_label_1>
     <custom_label_3>Zweden</custom_label_3>
     <product_tags>Actief</product_tags>
-    <product_tags>40-59 jaar</product_tags>
-    <product_tags>50-69 jaar</product_tags>
-    <product_tags>Winter</product_tags>
     <product_tags>Zweden</product_tags>
     <product_tags>Singlereis</product_tags>
   </listing>
