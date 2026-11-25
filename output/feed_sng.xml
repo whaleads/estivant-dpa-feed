@@ -10,7 +10,7 @@
     <url>https://www.estivant.nl/singlereizen/albanie/rondreis-albanie/</url>
     <name>Singlereis Albanië</name>
     <description>Ga mee op singlereis naar Albanië en ontdek een authentiek stukje Europa. Maak een rondreis langs de plekken Tirana, Berat en Serandë. Bekijk deze groepsreis!</description>
-    <price>1716.00 EUR</price>
+    <price>1698.00 EUR</price>
     <address format="simple">
       <component name="city">Albanië</component>
       <component name="region">Albanië</component>
@@ -19,7 +19,7 @@
     <neighborhood>Albanië</neighborhood>
     <type>Zomer</type>
     <type>Singlereis</type>
-    <custom_number_0>1716</custom_number_0>
+    <custom_number_0>1698</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
     <custom_label_1>Zomer</custom_label_1>
     <custom_label_3>Albanië</custom_label_3>
@@ -354,7 +354,7 @@
     <url>https://www.estivant.nl/singlereizen/zweden/lapland/</url>
     <name>Singlereis Lapland</name>
     <description>Ga mee op singlereis naar Lapland: husky's, sneeuwscooters en misschien het noorderlicht. Met een groep singles en een Nederlandse reisbegeleider.</description>
-    <price>2074.00 EUR</price>
+    <price>2174.00 EUR</price>
     <address format="simple">
       <component name="city">Lapland</component>
       <component name="region">Zweden</component>
@@ -363,7 +363,7 @@
     <neighborhood>Lapland</neighborhood>
     <type>Winter</type>
     <type>Singlereis</type>
-    <custom_number_0>2074</custom_number_0>
+    <custom_number_0>2174</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
     <custom_label_1>Winter</custom_label_1>
     <custom_label_3>Zweden</custom_label_3>
