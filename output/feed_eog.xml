@@ -128,7 +128,7 @@
     <custom_label_0>Eenoudervakantie</custom_label_0>
     <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Duitsland</custom_label_3>
-    <product_tags>Actief</product_tags>
+    <product_tags>Ontspanning</product_tags>
     <product_tags>Duitsland</product_tags>
     <product_tags>Eenoudervakantie</product_tags>
   </listing>
@@ -141,7 +141,7 @@
     <url>https://www.estivant.nl/eenoudervakanties/duitsland/hennesee-sauerland/</url>
     <name>Eenoudervakantie Hennesee</name>
     <description>Vakantie met andere eenoudergezinnen in het Sauerland.  Buiten, actief en dichtbij. Op onze 4-sterrencamping aan het meer zullen jullie je geen moment vervelen!</description>
-    <price>198.00 EUR</price>
+    <price>199.00 EUR</price>
     <address format="simple">
       <component name="city">Hennesee</component>
       <component name="region">Duitsland</component>
@@ -150,7 +150,7 @@
     <neighborhood>Hennesee</neighborhood>
     <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
-    <custom_number_0>198</custom_number_0>
+    <custom_number_0>199</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
     <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Duitsland</custom_label_3>
@@ -193,7 +193,7 @@
     <url>https://www.estivant.nl/eenoudervakanties/frankrijk/presle/</url>
     <name>Eenoudervakantie Presle</name>
     <description>Vier vakantie met andere eenoudergezinnen in de Franse Alpen. Outdoor camping met veel buitensportactiviteiten voor tieners. Bekijk deze eenoudervakantie!</description>
-    <price>266.00 EUR</price>
+    <price>265.00 EUR</price>
     <address format="simple">
       <component name="city">Presle</component>
       <component name="region">Frankrijk</component>
@@ -202,7 +202,7 @@
     <neighborhood>Presle</neighborhood>
     <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
-    <custom_number_0>266</custom_number_0>
+    <custom_number_0>265</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
     <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Frankrijk</custom_label_3>
@@ -271,7 +271,7 @@
     <url>https://www.estivant.nl/eenoudervakanties/griekenland/flottielje-zeilen/</url>
     <name>Eenoudervakantie Flottieljezeilen</name>
     <description>Zeil met je kinderen langs de Griekse kust tijdens een flottielje reis. Beleef vrijheid, avontuur en vakantie met eenoudergezinnen. Bekijk de zeilvakanties!</description>
-    <price>1646.00 EUR</price>
+    <price>1644.00 EUR</price>
     <address format="simple">
       <component name="city">Flottieljezeilen</component>
       <component name="region">Griekenland</component>
@@ -280,7 +280,7 @@
     <neighborhood>Flottieljezeilen</neighborhood>
     <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
-    <custom_number_0>1646</custom_number_0>
+    <custom_number_0>1644</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
     <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Griekenland</custom_label_3>
@@ -297,7 +297,7 @@
     <url>https://www.estivant.nl/eenoudervakanties/italie/cecina-mare/</url>
     <name>Eenoudervakantie Cecina Mare</name>
     <description>Vier vakantie in Cecina Mare aan de Toscaanse kust. Geniet met je kind(eren) van strand, cultuur en het goede Italiaanse leven tijdens deze eenoudervakantie!</description>
-    <price>199.00 EUR</price>
+    <price>212.00 EUR</price>
     <address format="simple">
       <component name="city">Cecina Mare</component>
       <component name="region">Italië</component>
@@ -306,7 +306,7 @@
     <neighborhood>Cecina Mare</neighborhood>
     <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
-    <custom_number_0>199</custom_number_0>
+    <custom_number_0>212</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
     <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Italië</custom_label_3>
@@ -375,7 +375,7 @@
     <url>https://www.estivant.nl/eenoudervakanties/italie/iseomeer/</url>
     <name>Eenoudervakantie Iseomeer</name>
     <description>Ontdek het Iseomeer met je kinderen vanaf een camping in Noord-Italië. Geniet van water, natuur en gezelligheid met eenoudergezinnen. Bekijk deze eenoudervakantie!</description>
-    <price>199.00 EUR</price>
+    <price>232.00 EUR</price>
     <address format="simple">
       <component name="city">Iseomeer</component>
       <component name="region">Italië</component>
@@ -384,7 +384,7 @@
     <neighborhood>Iseomeer</neighborhood>
     <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
-    <custom_number_0>199</custom_number_0>
+    <custom_number_0>232</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
     <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Italië</custom_label_3>
@@ -480,7 +480,7 @@
     <url>https://www.estivant.nl/eenoudervakanties/nederland/boerderij-appelscha/</url>
     <name>Eenoudervakantie Boerderij Appelscha</name>
     <description>Vier vakantie met andere eenoudergezinnen in Appelscha. Boerderij exclusief voor Estivant gasten. Avontuur gegarandeerd. Bekijk deze eenoudervakantie!</description>
-    <price>266.00 EUR</price>
+    <price>264.00 EUR</price>
     <address format="simple">
       <component name="city">Boerderij Appelscha</component>
       <component name="region">Nederland</component>
@@ -489,7 +489,7 @@
     <neighborhood>Boerderij Appelscha</neighborhood>
     <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
-    <custom_number_0>266</custom_number_0>
+    <custom_number_0>264</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
     <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Nederland</custom_label_3>
