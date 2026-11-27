@@ -771,7 +771,7 @@
     <url>https://www.estivant.nl/eenoudervakanties/spanje/appartementen-lestartit/</url>
     <name>Eenoudervakantie L'Estartit - Appartementen</name>
     <description>Ga mee op eenoudervakantie naar de Costa Brava in een appartement in L’Estartit. Geniet van strand, activiteiten en gezelligheid met eenoudergezinnen.</description>
-    <price>534.00 EUR</price>
+    <price>532.00 EUR</price>
     <address format="simple">
       <component name="city">L'Estartit - Appartementen</component>
       <component name="region">Spanje</component>
@@ -780,7 +780,7 @@
     <neighborhood>L'Estartit - Appartementen</neighborhood>
     <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
-    <custom_number_0>534</custom_number_0>
+    <custom_number_0>532</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
     <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Spanje</custom_label_3>
@@ -823,7 +823,7 @@
     <url>https://www.estivant.nl/eenoudervakanties/zweden/zuid-zweden/</url>
     <name>Eenoudervakantie Zweden</name>
     <description>Vier vakantie met andere eenoudergezinnen in het zuiden van Zweden, middenin de natuur. Kanoën, wandelen, zwemmen, kampvuur... Bekijk deze eenoudervakantie!</description>
-    <price>234.00 EUR</price>
+    <price>232.00 EUR</price>
     <address format="simple">
       <component name="city">Zweden</component>
       <component name="region">Zweden</component>
@@ -832,7 +832,7 @@
     <neighborhood>Zweden</neighborhood>
     <type>Zomervakantie</type>
     <type>Eenoudervakantie</type>
-    <custom_number_0>234</custom_number_0>
+    <custom_number_0>232</custom_number_0>
     <custom_label_0>Eenoudervakantie</custom_label_0>
     <custom_label_1>Zomervakantie</custom_label_1>
     <custom_label_3>Zweden</custom_label_3>

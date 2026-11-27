@@ -10,7 +10,7 @@
     <url>https://www.estivant.nl/singlereizen/albanie/rondreis-albanie/</url>
     <name>Singlereis Albanië</name>
     <description>Ga mee op singlereis naar Albanië en ontdek een authentiek stukje Europa. Maak een rondreis langs de plekken Tirana, Berat en Serandë. Bekijk deze groepsreis!</description>
-    <price>1786.00 EUR</price>
+    <price>1697.00 EUR</price>
     <address format="simple">
       <component name="city">Albanië</component>
       <component name="region">Albanië</component>
@@ -19,7 +19,7 @@
     <neighborhood>Albanië</neighborhood>
     <type>Zomer</type>
     <type>Singlereis</type>
-    <custom_number_0>1786</custom_number_0>
+    <custom_number_0>1697</custom_number_0>
     <custom_label_0>Singlereis</custom_label_0>
     <custom_label_1>Zomer</custom_label_1>
     <custom_label_3>Albanië</custom_label_3>
