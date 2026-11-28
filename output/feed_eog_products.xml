@@ -55,6 +55,7 @@
     <g:custom_label_1>Kerstvakantie</g:custom_label_1>
     <g:custom_label_3>België</g:custom_label_3>
     <g:custom_number_0>696</g:custom_number_0>
+    <g:custom_number_2>1</g:custom_number_2>
   </item>
   <item>
     <g:id>394</g:id>
@@ -108,7 +109,6 @@
     <g:custom_label_2>Wintersport</g:custom_label_2>
     <g:custom_label_3>Duitsland</g:custom_label_3>
     <g:custom_number_0>657</g:custom_number_0>
-    <g:custom_number_1>5</g:custom_number_1>
     <g:custom_number_2>1</g:custom_number_2>
   </item>
   <item>
@@ -580,6 +580,7 @@
     <g:custom_label_2>Wintersport</g:custom_label_2>
     <g:custom_label_3>Oostenrijk</g:custom_label_3>
     <g:custom_number_0>1196</g:custom_number_0>
+    <g:custom_number_2>1</g:custom_number_2>
   </item>
   <item>
     <g:id>360</g:id>
@@ -688,6 +689,7 @@
     <g:custom_label_2>Wintersport</g:custom_label_2>
     <g:custom_label_3>Oostenrijk</g:custom_label_3>
     <g:custom_number_0>997</g:custom_number_0>
+    <g:custom_number_2>1</g:custom_number_2>
   </item>
   <item>
     <g:id>418</g:id>
